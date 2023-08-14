@@ -1,0 +1,12 @@
+{
+    "plugins": ["stylelint-prettier", "stylelint-scss"],
+    "extends": ["stylelint-config-standard-scss", "stylelint-config-standard", "stylelint-config-recess-order", "stylelint-config-html"],
+    "rules": {
+        "color-hex-length": "long",
+        "font-family-name-quotes": "always-unless-keyword",
+        "media-feature-range-notation": "prefix",
+        "no-descending-specificity": null,
+        "no-duplicate-selectors": null,
+        "keyframes-name-pattern": "(-global-=?)([a-z]+-?)+(?<!-)"
+    }
+}

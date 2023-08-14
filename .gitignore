@@ -1,0 +1,8 @@
+.svelte-kit
+node_modules
+build
+
+static/asset/image/student/
+static/asset/image/item/
+
+!.gitkeep

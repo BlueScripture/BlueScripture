@@ -1,0 +1,8 @@
+export const siteName = "BlueScripture"
+export const siteVersion = "2.0.0"
+export const siteCodename = "Sirius"
+export const siteRepo = "BlueScripture/BlueScripture"
+export const siteDomain = "bluescripture.net"
+export const authorName = "BlueScripture Dev. Dept."
+export const authorURL = "//github.com/BlueScripture"
+export const statusPageURL = "//stats.uptimerobot.com/oWxX7ulrQk"

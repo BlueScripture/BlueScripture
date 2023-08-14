@@ -1,0 +1,1773 @@
+[
+    {
+        "areaID": 1,
+        "stages": [
+            {
+                "stageID": "1-1N",
+                "difficulty": "NORMAL",
+                "name": "アオバ中心区35番街",
+                "terrain": "town",
+                "recommendedLevel": 1,
+                "dropItems": ["無地のキャップ", "ピンクスニーカー", "スポーツグローブ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-2N",
+                "difficulty": "NORMAL",
+                "name": "D.U.ウェストパーク",
+                "terrain": "town",
+                "recommendedLevel": 2,
+                "dropItems": ["防水スポーツバッグ", "無地のキャップ", "スポーツグローブ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-3N",
+                "difficulty": "NORMAL",
+                "name": "クロネコ市場",
+                "terrain": "town",
+                "recommendedLevel": 3,
+                "dropItems": ["無地のキャップ", "ピンクスニーカー", "スポーツグローブ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-4N",
+                "difficulty": "NORMAL",
+                "name": "中央区1番街",
+                "terrain": "town",
+                "recommendedLevel": 5,
+                "dropItems": ["防水スポーツバッグ", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-5N",
+                "difficulty": "NORMAL",
+                "name": "D.U.577区域",
+                "terrain": "town",
+                "recommendedLevel": 7,
+                "dropItems": ["防水スポーツバッグ", "無地のキャップ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-1H",
+                "difficulty": "HARD",
+                "name": "アオバ中心区99番街",
+                "terrain": "town",
+                "recommendedLevel": 3,
+                "dropItems": ["ユウカの神名文字", "防水スポーツバッグ", "無地のキャップ", "交通安全のお守り"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-2H",
+                "difficulty": "HARD",
+                "name": "D.U.ウェストパーク中心部",
+                "terrain": "town",
+                "recommendedLevel": 5,
+                "dropItems": ["スズミの神名文字", "デジタルウォッチ", "スポーツグローブ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "1-3H",
+                "difficulty": "HARD",
+                "name": "クロネコ市場外郭",
+                "terrain": "town",
+                "recommendedLevel": 10,
+                "dropItems": ["セリカの神名文字", "ブルートゥースのネックレス", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 2
+            }
+        ]
+    },
+    {
+        "areaID": 2,
+        "stages": [
+            {
+                "stageID": "2-1N",
+                "difficulty": "NORMAL",
+                "name": "双葉公園",
+                "terrain": "town",
+                "recommendedLevel": 7,
+                "dropItems": ["デジタルウォッチ", "テニス用ヘアバンド", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "2-2N",
+                "difficulty": "NORMAL",
+                "name": "北区3丁目",
+                "terrain": "town",
+                "recommendedLevel": 8,
+                "dropItems": ["ブルートゥースのネックレス", "デジタルウォッチ", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "2-3N",
+                "difficulty": "NORMAL",
+                "name": "白門市場86",
+                "terrain": "town",
+                "recommendedLevel": 10,
+                "dropItems": ["交通安全のお守り", "デジタルウォッチ", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "2-4N",
+                "difficulty": "NORMAL",
+                "name": "北区芝タウン",
+                "terrain": "town",
+                "recommendedLevel": 12,
+                "dropItems": ["交通安全のお守り", "ブルートゥースのネックレス", "デジタルウォッチ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "2-5N",
+                "difficulty": "NORMAL",
+                "name": "第7業務地区第1区域",
+                "terrain": "town",
+                "recommendedLevel": 14,
+                "dropItems": ["交通安全のお守り", "ブルートゥースのネックレス", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "2-1H",
+                "difficulty": "HARD",
+                "name": "双葉公園スポーツセンター",
+                "terrain": "town",
+                "recommendedLevel": 8,
+                "dropItems": ["コトリの神名文字", "防水スポーツバッグ", "無地のキャップ", "交通安全のお守り"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "2-2H",
+                "difficulty": "HARD",
+                "name": "近隣公園サービスセンター",
+                "terrain": "town",
+                "recommendedLevel": 14,
+                "dropItems": ["アカリの神名文字", "デジタルウォッチ", "スポーツグローブ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "2-3H",
+                "difficulty": "HARD",
+                "name": "北区5丁目",
+                "terrain": "town",
+                "recommendedLevel": 20,
+                "dropItems": ["ジュンコの神名文字", "ブルートゥースのネックレス", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 3
+            }
+        ]
+    },
+    {
+        "areaID": 3,
+        "stages": [
+            {
+                "stageID": "3-1N",
+                "difficulty": "NORMAL",
+                "name": "ブラックマーケット1番地",
+                "terrain": "town",
+                "recommendedLevel": 17,
+                "dropItems": ["初級戦術教育BD（トリニティ）", "初級戦術教育BD（山海経）", "ネブラディスクの欠片", "ニムルドレンズの欠片"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-2N",
+                "difficulty": "NORMAL",
+                "name": "ブラックマーケット南区",
+                "terrain": "town",
+                "recommendedLevel": 18,
+                "dropItems": ["初級戦術教育BD（ゲヘナ）", "初級戦術教育BD（トリニティ）", "ファイストス円盤の欠片", "マンドレイクの種"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-3N",
+                "difficulty": "NORMAL",
+                "name": "KVハイウェイ第7区域",
+                "terrain": "town",
+                "recommendedLevel": 20,
+                "dropItems": ["初級戦術教育BD（ミレニアム）", "初級戦術教育BD（ゲヘナ）", "ヴォルフスエックの鉄鉱石", "黄金の糸"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-4N",
+                "difficulty": "NORMAL",
+                "name": "ブラックマーケット北区",
+                "terrain": "town",
+                "recommendedLevel": 21,
+                "dropItems": ["初級戦術教育BD（アビドス）", "初級戦術教育BD（ミレニアム）", "トーテムポールの破片"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-5N",
+                "difficulty": "NORMAL",
+                "name": "第三幹線道路 3-51",
+                "terrain": "town",
+                "recommendedLevel": 23,
+                "dropItems": ["初級戦術教育BD（百鬼夜行）", "初級戦術教育BD（アビドス）", "古代の電池の破片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "3-1H",
+                "difficulty": "HARD",
+                "name": "ブラックマーケット中心部",
+                "terrain": "town",
+                "recommendedLevel": 18,
+                "dropItems": ["スズミの神名文字", "初級戦術教育BD（ミレニアム）", "初級戦術教育BD（百鬼夜行）", "ネブラディスクの欠片", "ニムルドレンズの欠片", "古代の電池の破片"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-2H",
+                "difficulty": "HARD",
+                "name": "ブラックマーケット外郭",
+                "terrain": "town",
+                "recommendedLevel": 23,
+                "dropItems": ["ハスミの神名文字", "初級戦術教育BD（ゲヘナ）", "初級戦術教育BD（山海経）", "ファイストス円盤の欠片", "マンドレイクの種", "髪伸び人形の破片"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "3-3H",
+                "difficulty": "HARD",
+                "name": "KVハイウェイ第9区域",
+                "terrain": "town",
+                "recommendedLevel": 28,
+                "dropItems": ["シロコの神名文字", "初級戦術教育BD（トリニティ）", "初級戦術教育BD（アビドス）", "ヴォルフスエックの鉄鉱石", "トーテムポールの破片", "黄金の糸"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 4,
+        "stages": [
+            {
+                "stageID": "4-1N",
+                "difficulty": "NORMAL",
+                "name": "北区多磨川",
+                "terrain": "outdoor",
+                "recommendedLevel": 25,
+                "dropItems": ["ムートンブーツの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "4-2N",
+                "difficulty": "NORMAL",
+                "name": "南区西川",
+                "terrain": "outdoor",
+                "recommendedLevel": 26,
+                "dropItems": ["寒冷地用バッグの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "4-3N",
+                "difficulty": "NORMAL",
+                "name": "アビドス本町3番街",
+                "terrain": "outdoor",
+                "recommendedLevel": 28,
+                "dropItems": ["ムートンブーツの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "4-4N",
+                "difficulty": "NORMAL",
+                "name": "砂尾町2丁目",
+                "terrain": "outdoor",
+                "recommendedLevel": 29,
+                "dropItems": ["寒冷地用バッグの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "4-5N",
+                "difficulty": "NORMAL",
+                "name": "砂尾町3丁目",
+                "terrain": "outdoor",
+                "recommendedLevel": 30,
+                "dropItems": ["寒冷地用バッグの設計図", "マナスルのフェルトバッジの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "4-1H",
+                "difficulty": "HARD",
+                "name": "多磨川北部緑地帯",
+                "terrain": "outdoor",
+                "recommendedLevel": 26,
+                "dropItems": ["アスナの神名文字", "発熱カイロの設計図", "寒冷地用バッグの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "4-2H",
+                "difficulty": "HARD",
+                "name": "アビドス本町1番街",
+                "terrain": "outdoor",
+                "recommendedLevel": 30,
+                "dropItems": ["フィーナの神名文字", "レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "4-3H",
+                "difficulty": "HARD",
+                "name": "砂尾町5丁目",
+                "terrain": "outdoor",
+                "recommendedLevel": 34,
+                "dropItems": ["ユウカの神名文字", "雪花のペンダントの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 3
+            }
+        ]
+    },
+    {
+        "areaID": 5,
+        "stages": [
+            {
+                "stageID": "5-1N",
+                "difficulty": "NORMAL",
+                "name": "アビドス本線 城森駅",
+                "terrain": "outdoor",
+                "recommendedLevel": 32,
+                "dropItems": ["レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "5-2N",
+                "difficulty": "NORMAL",
+                "name": "アビドス本線 四ツ葉駅",
+                "terrain": "outdoor",
+                "recommendedLevel": 33,
+                "dropItems": ["雪花のペンダントの設計図", "レザーの腕時計の設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "5-3N",
+                "difficulty": "NORMAL",
+                "name": "西部遺跡地帯",
+                "terrain": "outdoor",
+                "recommendedLevel": 34,
+                "dropItems": ["発熱カイロの設計図", "レザーの腕時計の設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "5-4N",
+                "difficulty": "NORMAL",
+                "name": "カイザーPMC駐屯地",
+                "terrain": "outdoor",
+                "recommendedLevel": 35,
+                "dropItems": ["雪花のペンダントの設計図", "発熱カイロの設計図", "レザーの腕時計の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "5-5N",
+                "difficulty": "NORMAL",
+                "name": "東部遺跡地帯",
+                "terrain": "outdoor",
+                "recommendedLevel": 36,
+                "dropItems": ["雪花のペンダントの設計図", "発熱カイロの設計図", "マナスルのフェルトバッジの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "5-1H",
+                "difficulty": "HARD",
+                "name": "東区新木呂尾駅",
+                "terrain": "outdoor",
+                "recommendedLevel": 32,
+                "dropItems": ["アカリの神名文字", "発熱カイロの設計図", "寒冷地用バッグの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "5-2H",
+                "difficulty": "HARD",
+                "name": "東部遺跡の中心部",
+                "terrain": "outdoor",
+                "recommendedLevel": 36,
+                "dropItems": ["ジュンコの神名文字", "レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "5-3H",
+                "difficulty": "HARD",
+                "name": "東部遺跡地帯の外郭",
+                "terrain": "outdoor",
+                "recommendedLevel": 40,
+                "dropItems": ["ヒフミの神名文字", "雪花のペンダントの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 6,
+        "stages": [
+            {
+                "stageID": "6-1N",
+                "difficulty": "NORMAL",
+                "name": "北山区2丁目",
+                "terrain": "outdoor",
+                "recommendedLevel": 38,
+                "dropItems": ["中級戦術教育BD（トリニティ）", "中級戦術教育BD（山海経）", "初級戦術教育BD（トリニティ）", "初級戦術教育BD（山海経）", "レヒニッツ写本のページ", "断片的なヴォイニッチ手稿のコピー"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-2N",
+                "difficulty": "NORMAL",
+                "name": "八山稜線区間",
+                "terrain": "outdoor",
+                "recommendedLevel": 39,
+                "dropItems": ["中級戦術教育BD（ゲヘナ）", "中級戦術教育BD（トリニティ）", "初級戦術教育BD（ゲヘナ）", "初級戦術教育BD（トリニティ）", "エーテルの粉", "水晶埴輪の破片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-3N",
+                "difficulty": "NORMAL",
+                "name": "紀州山桜並木峠",
+                "terrain": "outdoor",
+                "recommendedLevel": 40,
+                "dropItems": ["中級戦術教育BD（ミレニアム）", "中級戦術教育BD（ゲヘナ）", "初級戦術教育BD（ミレニアム）", "初級戦術教育BD（ゲヘナ）", "アンティキティラ装置の欠片", "中空十二面体の欠片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-4N",
+                "difficulty": "NORMAL",
+                "name": "紀州山君影草峠",
+                "terrain": "outdoor",
+                "recommendedLevel": 41,
+                "dropItems": ["中級戦術教育BD（アビドス）", "中級戦術教育BD（ミレニアム）", "初級戦術教育BD（アビドス）", "初級戦術教育BD（ミレニアム）", "円盤型ペンダントの欠片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-5N",
+                "difficulty": "NORMAL",
+                "name": "穐田山谷間エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 43,
+                "dropItems": ["中級戦術教育BD（百鬼夜行）", "中級戦術教育BD（アビドス）", "初級戦術教育BD（百鬼夜行）", "初級戦術教育BD（アビドス）", "ミステリーストーンの欠片"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "6-1H",
+                "difficulty": "HARD",
+                "name": "北山区中心部",
+                "terrain": "outdoor",
+                "recommendedLevel": 38,
+                "dropItems": ["スズミの神名文字", "中級戦術教育BD（ミレニアム）", "中級戦術教育BD（百鬼夜行）", "初級戦術教育BD（ミレニアム）", "初級戦術教育BD（百鬼夜行）", "レヒニッツ写本のページ", "断片的なヴォイニッチ手稿のコピー", "ミステリーストーンの欠片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-2H",
+                "difficulty": "HARD",
+                "name": "八山外郭登山道",
+                "terrain": "outdoor",
+                "recommendedLevel": 42,
+                "dropItems": ["フィーナの神名文字", "中級戦術教育BD（ゲヘナ）", "中級戦術教育BD（山海経）", "初級戦術教育BD（ゲヘナ）", "初級戦術教育BD（山海経）", "エーテルの粉", "水晶埴輪の破片", "古代文明のメダルの欠片"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "6-3H",
+                "difficulty": "HARD",
+                "name": "紀州山外登山道",
+                "terrain": "outdoor",
+                "recommendedLevel": 45,
+                "dropItems": ["ジュンコの神名文字", "中級戦術教育BD（トリニティ）", "中級戦術教育BD（アビドス）", "初級戦術教育BD（トリニティ）", "初級戦術教育BD（アビドス）", "アンティキティラ装置の欠片", "円盤型ペンダントの欠片", "中空十二面体の欠片"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 7,
+        "stages": [
+            {
+                "stageID": "7-1N",
+                "difficulty": "NORMAL",
+                "name": "南区第二公立高校",
+                "terrain": "indoor",
+                "recommendedLevel": 43,
+                "dropItems": ["ペロロの鍋掴みの設計図", "ピンキーパカのスリッパの設計図", "ビッグブラザーの中折れ帽の設計図", "無地のキャップ", "ピンクスニーカー", "スポーツグローブ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "7-2N",
+                "difficulty": "NORMAL",
+                "name": "アリウス分校東館",
+                "terrain": "indoor",
+                "recommendedLevel": 44,
+                "dropItems": ["ペロロの鍋掴みの設計図", "ペロロのバッグの設計図", "ビッグブラザーの中折れ帽の設計図", "防水スポーツバッグ", "無地のキャップ", "スポーツグローブ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "7-3N",
+                "difficulty": "NORMAL",
+                "name": "時計台駅",
+                "terrain": "indoor",
+                "recommendedLevel": 45,
+                "dropItems": ["ペロロの鍋掴みの設計図", "ピンキーパカのスリッパの設計図", "ビッグブラザーの中折れ帽の設計図", "無地のキャップ", "ピンクスニーカー", "スポーツグローブ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "7-4N",
+                "difficulty": "NORMAL",
+                "name": "中央区役所駅",
+                "terrain": "indoor",
+                "recommendedLevel": 46,
+                "dropItems": ["モモのヘアピンの設計図", "ペロロのバッグの設計図", "ピンキーパカのスリッパの設計図", "防水スポーツバッグ", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "7-5N",
+                "difficulty": "NORMAL",
+                "name": "湖水公園駅",
+                "terrain": "indoor",
+                "recommendedLevel": 47,
+                "dropItems": ["ペロロのバッグの設計図", "ビッグブラザーの中折れ帽の設計図", "アングリーアデリーのバッジの設計図", "防水スポーツバッグ", "無地のキャップ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "7-1H",
+                "difficulty": "HARD",
+                "name": "アリウス分校本館",
+                "terrain": "indoor",
+                "recommendedLevel": 43,
+                "dropItems": ["アスナの神名文字", "ペロロのバッグの設計図", "ペロロのお守りの設計図", "ビッグブラザーの中折れ帽の設計図", "防水スポーツバッグ", "無地のキャップ", "交通安全のお守り"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "7-2H",
+                "difficulty": "HARD",
+                "name": "黒柳駅（閉鎖済）",
+                "terrain": "indoor",
+                "recommendedLevel": 46,
+                "dropItems": ["セリカの神名文字", "ペロロの鍋掴みの設計図", "ウェーブキャットの時計の設計図", "アングリーアデリーのバッジの設計図", "デジタルウォッチ", "スポーツグローブ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 2
+            },
+            {
+                "stageID": "7-3H",
+                "difficulty": "HARD",
+                "name": "黒凪駅（閉鎖済）",
+                "terrain": "indoor",
+                "recommendedLevel": 49,
+                "dropItems": ["ホシノの神名文字", "モモのヘアピンの設計図", "ピンキーパカのスリッパの設計図", "ニコライのロケットペンダントの設計図", "ブルートゥースのネックレス", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 3
+            }
+        ]
+    },
+    {
+        "areaID": 8,
+        "stages": [
+            {
+                "stageID": "8-1N",
+                "difficulty": "NORMAL",
+                "name": "鈴木金属工場",
+                "terrain": "indoor",
+                "recommendedLevel": 47,
+                "dropItems": ["モモのヘアピンの設計図", "ウェーブキャットの時計の設計図", "アングリーアデリーのバッジの設計図", "デジタルウォッチ", "テニス用ヘアバンド", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "8-2N",
+                "difficulty": "NORMAL",
+                "name": "カイザーPMC軍需工場",
+                "terrain": "indoor",
+                "recommendedLevel": 48,
+                "dropItems": ["モモのヘアピンの設計図", "ニコライのロケットペンダントの設計図", "ウェーブキャットの時計の設計図", "ブルートゥースのネックレス", "デジタルウォッチ", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "8-3N",
+                "difficulty": "NORMAL",
+                "name": "北区第3管路",
+                "terrain": "indoor",
+                "recommendedLevel": 49,
+                "dropItems": ["モモのヘアピンの設計図", "ペロロのお守りの設計図", "ウェーブキャットの時計の設計図", "交通安全のお守り", "デジタルウォッチ", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "8-4N",
+                "difficulty": "NORMAL",
+                "name": "東区第1管路",
+                "terrain": "indoor",
+                "recommendedLevel": 50,
+                "dropItems": ["ペロロのお守りの設計図", "ニコライのロケットペンダントの設計図", "ウェーブキャットの時計の設計図", "交通安全のお守り", "ブルートゥースのネックレス", "デジタルウォッチ"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "8-5N",
+                "difficulty": "NORMAL",
+                "name": "東区第7管路",
+                "terrain": "indoor",
+                "recommendedLevel": 51,
+                "dropItems": ["ペロロのお守りの設計図", "ニコライのロケットペンダントの設計図", "アングリーアデリーのバッジの設計図", "交通安全のお守り", "ブルートゥースのネックレス", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "8-1H",
+                "difficulty": "HARD",
+                "name": "ミレニアム自治区内の廃工場",
+                "terrain": "indoor",
+                "recommendedLevel": 47,
+                "dropItems": ["コトリの神名文字", "ペロロのバッグの設計図", "ペロロのお守りの設計図", "ビッグブラザーの中折れ帽の設計図", "防水スポーツバッグ", "無地のキャップ", "交通安全のお守り"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "8-2H",
+                "difficulty": "HARD",
+                "name": "中央区第4下水道",
+                "terrain": "indoor",
+                "recommendedLevel": 50,
+                "dropItems": ["ハスミの神名文字", "ペロロの鍋掴みの設計図", "ウェーブキャットの時計の設計図", "アングリーアデリーのバッジの設計図", "デジタルウォッチ", "スポーツグローブ", "サーバルのメタルバッジ"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "8-3H",
+                "difficulty": "HARD",
+                "name": "中央区第7下水道",
+                "terrain": "indoor",
+                "recommendedLevel": 53,
+                "dropItems": ["ハルナの神名文字", "モモのヘアピンの設計図", "ピンキーパカのスリッパの設計図", "ニコライのロケットペンダントの設計図", "ブルートゥースのネックレス", "ピンクスニーカー", "テニス用ヘアバンド"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 9,
+        "stages": [
+            {
+                "stageID": "9-1N",
+                "difficulty": "NORMAL",
+                "name": "雨蛸マーケット",
+                "terrain": "town",
+                "recommendedLevel": 51,
+                "dropItems": ["中級戦術教育BD（トリニティ）", "中級戦術教育BD（山海経）", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（山海経）", "壊れたネブラディスク", "壊れたニムルドレンズ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-2N",
+                "difficulty": "NORMAL",
+                "name": "月天市場",
+                "terrain": "town",
+                "recommendedLevel": 52,
+                "dropItems": ["中級戦術教育BD（ゲヘナ）", "中級戦術教育BD（トリニティ）", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（トリニティ）", "壊れたファイストス円盤", "マンドレイクの芽"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-3N",
+                "difficulty": "NORMAL",
+                "name": "子ウサギ公園",
+                "terrain": "town",
+                "recommendedLevel": 53,
+                "dropItems": ["中級戦術教育BD（ミレニアム）", "中級戦術教育BD（ゲヘナ）", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（ゲヘナ）", "ヴォルフスエック鋼鉄の欠片", "黄金の巻糸"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-4N",
+                "difficulty": "NORMAL",
+                "name": "細波公園",
+                "terrain": "town",
+                "recommendedLevel": 54,
+                "dropItems": ["中級戦術教育BD（アビドス）", "中級戦術教育BD（ミレニアム）", "上級戦術教育BD（アビドス）", "上級戦術教育BD（ミレニアム）", "破損したトーテムポール"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "9-5N",
+                "difficulty": "NORMAL",
+                "name": "スモモ公園",
+                "terrain": "town",
+                "recommendedLevel": 55,
+                "dropItems": ["中級戦術教育BD（百鬼夜行）", "中級戦術教育BD（アビドス）", "上級戦術教育BD（百鬼夜行）", "上級戦術教育BD（アビドス）", "破損した古代の電池"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-1H",
+                "difficulty": "HARD",
+                "name": "雨蛸マーケット中心部",
+                "terrain": "town",
+                "recommendedLevel": 51,
+                "dropItems": ["アカリの神名文字", "中級戦術教育BD（ミレニアム）", "中級戦術教育BD（百鬼夜行）", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（百鬼夜行）", "壊れたネブラディスク", "壊れたニムルドレンズ", "破損した古代の電池"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-2H",
+                "difficulty": "HARD",
+                "name": "東区近隣公園",
+                "terrain": "town",
+                "recommendedLevel": 54,
+                "dropItems": ["セリカの神名文字", "中級戦術教育BD（ゲヘナ）", "中級戦術教育BD（山海経）", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（山海経）", "壊れたファイストス円盤", "マンドレイクの芽", "破損した髪伸び人形"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "9-3H",
+                "difficulty": "HARD",
+                "name": "北区体育公園",
+                "terrain": "town",
+                "recommendedLevel": 57,
+                "dropItems": ["シロコの神名文字", "中級戦術教育BD（トリニティ）", "中級戦術教育BD（アビドス）", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（アビドス）", "ヴォルフスエック鋼鉄の欠片", "破損したトーテムポール", "黄金の巻糸"],
+                "challengeRequiredTurns": 3
+            }
+        ]
+    },
+    {
+        "areaID": 10,
+        "stages": [
+            {
+                "stageID": "10-1N",
+                "difficulty": "NORMAL",
+                "name": "能楽町1丁目",
+                "terrain": "town",
+                "recommendedLevel": 55,
+                "dropItems": ["レザーグローブの設計図", "リボン付きベレー帽の設計図", "アンティークなエナメルローファーの設計図", "ムートンブーツの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "10-2N",
+                "difficulty": "NORMAL",
+                "name": "甲種閉鎖区域3番地",
+                "terrain": "town",
+                "recommendedLevel": 56,
+                "dropItems": ["紺色のスクールバッグの設計図", "レザーグローブの設計図", "リボン付きベレー帽の設計図", "寒冷地用バッグの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "10-3N",
+                "difficulty": "NORMAL",
+                "name": "乙種閉鎖区域1番地",
+                "terrain": "town",
+                "recommendedLevel": 57,
+                "dropItems": ["レザーグローブの設計図", "リボン付きベレー帽の設計図", "アンティークなエナメルローファーの設計図", "ムートンブーツの設計図", "ニット帽の設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "10-4N",
+                "difficulty": "NORMAL",
+                "name": "丙種閉鎖区域7番地",
+                "terrain": "town",
+                "recommendedLevel": 58,
+                "dropItems": ["翼のヘアピンの設計図", "紺色のスクールバッグの設計図", "アンティークなエナメルローファーの設計図", "寒冷地用バッグの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "10-5N",
+                "difficulty": "NORMAL",
+                "name": "丁種閉鎖区域5番地",
+                "terrain": "town",
+                "recommendedLevel": 59,
+                "dropItems": ["紺色のスクールバッグの設計図", "リボン付きベレー帽の設計図", "ベロニカの刺繍バッジの設計図", "寒冷地用バッグの設計図", "マナスルのフェルトバッジの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "10-1H",
+                "difficulty": "HARD",
+                "name": "甲種閉鎖区域中心部",
+                "terrain": "town",
+                "recommendedLevel": 55,
+                "dropItems": ["スズミの神名文字", "紺色のスクールバッグの設計図", "リボン付きベレー帽の設計図", "クルスの設計図", "発熱カイロの設計図", "寒冷地用バッグの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "10-2H",
+                "difficulty": "HARD",
+                "name": "乙種閉鎖区域中心部",
+                "terrain": "town",
+                "recommendedLevel": 58,
+                "dropItems": ["フィーナの神名文字", "レザーグローブの設計図", "ベロニカの刺繍バッジの設計図", "アンティークな懐中時計の設計図", "レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "10-3H",
+                "difficulty": "HARD",
+                "name": "丙種閉鎖区域中心部",
+                "terrain": "town",
+                "recommendedLevel": 60,
+                "dropItems": ["ヒフミの神名文字", "翼のヘアピンの設計図", "十字架のチョーカーの設計図", "アンティークなエナメルローファーの設計図", "雪花のペンダントの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 11,
+        "stages": [
+            {
+                "stageID": "11-1N",
+                "difficulty": "NORMAL",
+                "name": "KVハイウェイ第1区域",
+                "terrain": "town",
+                "recommendedLevel": 59,
+                "dropItems": ["翼のヘアピンの設計図", "ベロニカの刺繍バッジの設計図", "アンティークな懐中時計の設計図", "レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "11-2N",
+                "difficulty": "NORMAL",
+                "name": "第11外郭環状道路",
+                "terrain": "town",
+                "recommendedLevel": 59,
+                "dropItems": ["翼のヘアピンの設計図", "十字架のチョーカーの設計図", "アンティークな懐中時計の設計図", "雪花のペンダントの設計図", "レザーの腕時計の設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "11-3N",
+                "difficulty": "NORMAL",
+                "name": "青葉西区9番地",
+                "terrain": "town",
+                "recommendedLevel": 60,
+                "dropItems": ["翼のヘアピンの設計図", "クルスの設計図", "アンティークな懐中時計の設計図", "発熱カイロの設計図", "レザーの腕時計の設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "11-4N",
+                "difficulty": "NORMAL",
+                "name": "第3業務地区第1区域",
+                "terrain": "town",
+                "recommendedLevel": 61,
+                "dropItems": ["十字架のチョーカーの設計図", "クルスの設計図", "アンティークな懐中時計の設計図", "雪花のペンダントの設計図", "発熱カイロの設計図", "レザーの腕時計の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "11-5N",
+                "difficulty": "NORMAL",
+                "name": "中央区3番地",
+                "terrain": "town",
+                "recommendedLevel": 62,
+                "dropItems": ["十字架のチョーカーの設計図", "ベロニカの刺繍バッジの設計図", "クルスの設計図", "雪花のペンダントの設計図", "発熱カイロの設計図", "マナスルのフェルトバッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "11-1H",
+                "difficulty": "HARD",
+                "name": "KVハイウェイ第5区域",
+                "terrain": "town",
+                "recommendedLevel": 58,
+                "dropItems": ["アカリの神名文字", "紺色のスクールバッグの設計図", "リボン付きベレー帽の設計図", "クルスの設計図", "発熱カイロの設計図", "寒冷地用バッグの設計図", "ニット帽の設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "11-2H",
+                "difficulty": "HARD",
+                "name": "第4業務地区第4区域",
+                "terrain": "town",
+                "recommendedLevel": 61,
+                "dropItems": ["ハスミの神名文字", "レザーグローブの設計図", "ベロニカの刺繍バッジの設計図", "アンティークな懐中時計の設計図", "レザーの腕時計の設計図", "マナスルのフェルトバッジの設計図", "ニットのミトンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "11-3H",
+                "difficulty": "HARD",
+                "name": "中央区7番地",
+                "terrain": "town",
+                "recommendedLevel": 63,
+                "dropItems": ["ホシノの神名文字", "翼のヘアピンの設計図", "十字架のチョーカーの設計図", "アンティークなエナメルローファーの設計図", "雪花のペンダントの設計図", "ムートンブーツの設計図", "シュシュの設計図"],
+                "challengeRequiredTurns": 3
+            }
+        ]
+    },
+    {
+        "areaID": 12,
+        "stages": [
+            {
+                "stageID": "12-1N",
+                "difficulty": "NORMAL",
+                "name": "川三波駅",
+                "terrain": "indoor",
+                "recommendedLevel": 62,
+                "dropItems": ["上級戦術教育BD（トリニティ）", "上級戦術教育BD（山海経）", "傷んだレヒニッツ写本", "傷んだヴォイニッチ手稿のコピー"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "12-2N",
+                "difficulty": "NORMAL",
+                "name": "上森駅",
+                "terrain": "indoor",
+                "recommendedLevel": 62,
+                "dropItems": ["上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（トリニティ）", "エーテルの欠片", "壊れた水晶埴輪"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "12-3N",
+                "difficulty": "NORMAL",
+                "name": "中央区第6管路",
+                "terrain": "indoor",
+                "recommendedLevel": 63,
+                "dropItems": ["上級戦術教育BD（ミレニアム）", "上級戦術教育BD（ゲヘナ）", "壊れたアンティキティラ装置", "壊れた中空十二面体"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "12-4N",
+                "difficulty": "NORMAL",
+                "name": "仁志川駅",
+                "terrain": "indoor",
+                "recommendedLevel": 64,
+                "dropItems": ["上級戦術教育BD（アビドス）", "上級戦術教育BD（ミレニアム）", "壊れた円盤型ペンダント"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "12-5N",
+                "difficulty": "NORMAL",
+                "name": "西区第2管路",
+                "terrain": "indoor",
+                "recommendedLevel": 65,
+                "dropItems": ["上級戦術教育BD（百鬼夜行）", "上級戦術教育BD（アビドス）", "壊れたミステリーストーン"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "12-1H",
+                "difficulty": "HARD",
+                "name": "中央区第1下水道",
+                "terrain": "indoor",
+                "recommendedLevel": 61,
+                "dropItems": ["コトリの神名文字", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（百鬼夜行）", "傷んだレヒニッツ写本", "傷んだヴォイニッチ手稿のコピー", "壊れたミステリーストーン"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "12-2H",
+                "difficulty": "HARD",
+                "name": "ユートピアパーク駅（閉鎖済）",
+                "terrain": "indoor",
+                "recommendedLevel": 66,
+                "dropItems": ["ユウカの神名文字", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（山海経）", "エーテルの欠片", "壊れた水晶埴輪", "破損した古代文明のメダル"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "12-3H",
+                "difficulty": "HARD",
+                "name": "西区第1下水道",
+                "terrain": "indoor",
+                "recommendedLevel": 70,
+                "dropItems": ["ハルナの神名文字", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（アビドス）", "壊れたアンティキティラ装置", "壊れた円盤型ペンダント", "壊れた中空十二面体"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 13,
+        "stages": [
+            {
+                "stageID": "13-1N",
+                "difficulty": "NORMAL",
+                "name": "ドリームゾーン",
+                "terrain": "town",
+                "recommendedLevel": 65,
+                "dropItems": ["防弾ヘルメットの設計図", "戦闘用ブーツの設計図", "タクティカルグローブの設計図", "ペロロの鍋掴みの設計図", "ピンキーパカのスリッパの設計図", "ビッグブラザーの中折れ帽の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "13-2N",
+                "difficulty": "NORMAL",
+                "name": "ファンタジーゾーン",
+                "terrain": "town",
+                "recommendedLevel": 67,
+                "dropItems": ["防弾ヘルメットの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図", "ペロロの鍋掴みの設計図", "ビッグブラザーの中折れ帽の設計図", "アングリーアデリーのバッジの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "13-3N",
+                "difficulty": "NORMAL",
+                "name": "アドベンチャーゾーン",
+                "terrain": "town",
+                "recommendedLevel": 68,
+                "dropItems": ["防弾ヘルメットの設計図", "戦闘用ブーツの設計図", "多目的ヘアピンの設計図", "モモのヘアピンの設計図", "ピンキーパカのスリッパの設計図", "ビッグブラザーの中折れ帽の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "13-4N",
+                "difficulty": "NORMAL",
+                "name": "エキサイティングゾーン",
+                "terrain": "town",
+                "recommendedLevel": 69,
+                "dropItems": ["戦闘用ランドセルの設計図", "戦闘用ブーツの設計図", "多目的ヘアピンの設計図", "モモのヘアピンの設計図", "ペロロのバッグの設計図", "ピンキーパカのスリッパの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "13-5N",
+                "difficulty": "NORMAL",
+                "name": "ワイルドゾーン",
+                "terrain": "town",
+                "recommendedLevel": 70,
+                "dropItems": ["防弾ヘルメットの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図", "ペロロの鍋掴みの設計図", "ビッグブラザーの中折れ帽の設計図", "アングリーアデリーのバッジの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "13-1H",
+                "difficulty": "HARD",
+                "name": "管理棟第2区域",
+                "terrain": "town",
+                "recommendedLevel": 66,
+                "dropItems": ["ハルカの神名文字", "防弾ヘルメットの設計図", "多目的ヘアピンの設計図", "タクティカルグローブの設計図", "モモのヘアピンの設計図", "ペロロの鍋掴みの設計図", "ビッグブラザーの中折れ帽の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "13-2H",
+                "difficulty": "HARD",
+                "name": "管理棟第5区域",
+                "terrain": "town",
+                "recommendedLevel": 71,
+                "dropItems": ["ムツキの神名文字", "戦闘用ブーツの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図", "ペロロの鍋掴みの設計図", "ピンキーパカのスリッパの設計図", "アングリーアデリーのバッジの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "13-3H",
+                "difficulty": "HARD",
+                "name": "管理棟第7区域",
+                "terrain": "town",
+                "recommendedLevel": 75,
+                "dropItems": ["イズミの神名文字", "防弾ヘルメットの設計図", "戦闘用ランドセルの設計図", "戦闘用ブーツの設計図", "ペロロのバッグの設計図", "ピンキーパカのスリッパの設計図", "ビッグブラザーの中折れ帽の設計図"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 14,
+        "stages": [
+            {
+                "stageID": "14-1N",
+                "difficulty": "NORMAL",
+                "name": "アネモネ学院跡地",
+                "terrain": "indoor",
+                "recommendedLevel": 70,
+                "dropItems": ["防塵型の腕時計の設計図", "ドッグタグの設計図", "カモフラダルマの設計図", "ペロロのお守りの設計図", "ニコライのロケットペンダントの設計図", "ウェーブキャットの時計の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "14-2N",
+                "difficulty": "NORMAL",
+                "name": "旧私立ヒヤシンス学園",
+                "terrain": "indoor",
+                "recommendedLevel": 71,
+                "dropItems": ["防塵型の腕時計の設計図", "多目的ヘアピンの設計図", "カモフラダルマの設計図", "モモのヘアピンの設計図", "ペロロのお守りの設計図", "ウェーブキャットの時計の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "14-3N",
+                "difficulty": "NORMAL",
+                "name": "リナリア学園（閉鎖済）",
+                "terrain": "indoor",
+                "recommendedLevel": 72,
+                "dropItems": ["防塵型の腕時計の設計図", "戦闘用ランドセルの設計図", "ドッグタグの設計図", "ペロロのバッグの設計図", "ニコライのロケットペンダントの設計図", "ウェーブキャットの時計の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "14-4N",
+                "difficulty": "NORMAL",
+                "name": "公立ルピナス学院跡地",
+                "terrain": "indoor",
+                "recommendedLevel": 73,
+                "dropItems": ["防塵型の腕時計の設計図", "カモフラダルマの設計図", "カゼヤマのワッペンの設計図", "ペロロのお守りの設計図", "ウェーブキャットの時計の設計図", "アングリーアデリーのバッジの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "14-5N",
+                "difficulty": "NORMAL",
+                "name": "クロユリ学園（閉鎖済）",
+                "terrain": "indoor",
+                "recommendedLevel": 73,
+                "dropItems": ["戦闘用ランドセルの設計図", "多目的ヘアピンの設計図", "ドッグタグの設計図", "モモのヘアピンの設計図", "ペロロのバッグの設計図", "ニコライのロケットペンダントの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "14-1H",
+                "difficulty": "HARD",
+                "name": "アネモネ学院実習館跡地",
+                "terrain": "indoor",
+                "recommendedLevel": 75,
+                "dropItems": ["カヨコの神名文字", "防塵型の腕時計の設計図", "カモフラダルマの設計図", "カゼヤマのワッペンの設計図", "ペロロのお守りの設計図", "ウェーブキャットの時計の設計図", "アングリーアデリーのバッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "14-2H",
+                "difficulty": "HARD",
+                "name": "リナリア学園本館跡地",
+                "terrain": "indoor",
+                "recommendedLevel": 76,
+                "dropItems": ["チセの神名文字", "多目的ヘアピンの設計図", "ドッグタグの設計図", "カモフラダルマの設計図", "モモのヘアピンの設計図", "ペロロのお守りの設計図", "ニコライのロケットペンダントの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "14-3H",
+                "difficulty": "HARD",
+                "name": "公立ルピナス学院別館跡地",
+                "terrain": "indoor",
+                "recommendedLevel": 78,
+                "dropItems": ["イオリの神名文字", "防塵型の腕時計の設計図", "戦闘用ランドセルの設計図", "ドッグタグの設計図", "ペロロのバッグの設計図", "ニコライのロケットペンダントの設計図", "ウェーブキャットの時計の設計図"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 15,
+        "stages": [
+            {
+                "stageID": "15-1N",
+                "difficulty": "NORMAL",
+                "name": "赤星通り",
+                "terrain": "town",
+                "recommendedLevel": 72,
+                "dropItems": ["上級戦術教育BD（トリニティ）", "上級戦術教育BD（レッドウィンター）", "摩耗したネブラディスク", "摩耗したニムルドレンズ"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "15-2N",
+                "difficulty": "NORMAL",
+                "name": "黒ひげ革命広場",
+                "terrain": "town",
+                "recommendedLevel": 73,
+                "dropItems": ["上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（ヴァルキューレ）", "摩耗したファイストス円盤", "マンドレイクジュース"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "15-3N",
+                "difficulty": "NORMAL",
+                "name": "青星通り",
+                "terrain": "town",
+                "recommendedLevel": 74,
+                "dropItems": ["上級戦術教育BD（ミレニアム）", "上級戦術教育BD（山海経）", "低純度のヴォルフスエック鋼鉄", "大きな黄金の巻糸"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "15-4N",
+                "difficulty": "NORMAL",
+                "name": "紋白蝶商店街",
+                "terrain": "town",
+                "recommendedLevel": 75,
+                "dropItems": ["上級戦術教育BD（アビドス）", "上級戦術教育BD（ゲヘナ）", "修復済みのトーテムポール"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "15-5N",
+                "difficulty": "NORMAL",
+                "name": "オオフクロウ市場",
+                "terrain": "town",
+                "recommendedLevel": 75,
+                "dropItems": ["上級戦術教育BD（百鬼夜行）", "上級戦術教育BD（トリニティ）", "摩耗した古代の電池"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "15-1H",
+                "difficulty": "HARD",
+                "name": "黒星通り",
+                "terrain": "town",
+                "recommendedLevel": 77,
+                "dropItems": ["ハルカの神名文字", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（山海経）", "摩耗したネブラディスク", "摩耗したニムルドレンズ", "摩耗した古代の電池"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "15-2H",
+                "difficulty": "HARD",
+                "name": "黒イタチ商店街",
+                "terrain": "town",
+                "recommendedLevel": 78,
+                "dropItems": ["ツバキの神名文字", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（レッドウィンター）", "摩耗したファイストス円盤", "マンドレイクジュース", "修理済みの髪伸び人形"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "15-3H",
+                "difficulty": "HARD",
+                "name": "ワシミミズク市場",
+                "terrain": "town",
+                "recommendedLevel": 80,
+                "dropItems": ["ネルの神名文字", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（ヴァルキューレ）", "低純度のヴォルフスエック鋼鉄", "修復済みのトーテムポール", "大きな黄金の巻糸"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 16,
+        "stages": [
+            {
+                "stageID": "16-1N",
+                "difficulty": "NORMAL",
+                "name": "遺跡地帯北部",
+                "terrain": "outdoor",
+                "recommendedLevel": 78,
+                "dropItems": ["レースのグローブの設計図", "フリルのミニハットの設計図", "ヒールパンプスの設計図", "レザーグローブの設計図", "リボン付きベレー帽の設計図", "アンティークなエナメルローファーの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "16-2N",
+                "difficulty": "NORMAL",
+                "name": "ワジ西エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 78,
+                "dropItems": ["レースのグローブの設計図", "フリルのミニハットの設計図", "ココデビルのバッジの設計図", "レザーグローブの設計図", "リボン付きベレー帽の設計図", "ベロニカの刺繍バッジの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "16-3N",
+                "difficulty": "NORMAL",
+                "name": "遺跡地帯南部",
+                "terrain": "outdoor",
+                "recommendedLevel": 79,
+                "dropItems": ["フリルのミニハットの設計図", "ヒールパンプスの設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "リボン付きベレー帽の設計図", "アンティークなエナメルローファーの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "16-4N",
+                "difficulty": "NORMAL",
+                "name": "ワジ中央エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 79,
+                "dropItems": ["ヒールパンプスの設計図", "デビルウイングのトートバッグの設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "紺色のスクールバッグの設計図", "アンティークなエナメルローファーの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "16-5N",
+                "difficulty": "NORMAL",
+                "name": "PMC車両基地",
+                "terrain": "outdoor",
+                "recommendedLevel": 80,
+                "dropItems": ["レースのグローブの設計図", "フリルのミニハットの設計図", "ココデビルのバッジの設計図", "レザーグローブの設計図", "リボン付きベレー帽の設計図", "ベロニカの刺繍バッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "16-1H",
+                "difficulty": "HARD",
+                "name": "遺跡地帯北部外郭",
+                "terrain": "outdoor",
+                "recommendedLevel": 83,
+                "dropItems": ["アスナの神名文字", "レースのグローブの設計図", "フリルのミニハットの設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "レザーグローブの設計図", "リボン付きベレー帽の設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "16-2H",
+                "difficulty": "HARD",
+                "name": "ワジ下流",
+                "terrain": "outdoor",
+                "recommendedLevel": 84,
+                "dropItems": ["ムツキの神名文字", "レースのグローブの設計図", "ヒールパンプスの設計図", "ココデビルのバッジの設計図", "レザーグローブの設計図", "ベロニカの刺繍バッジの設計図", "アンティークなエナメルローファーの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "16-3H",
+                "difficulty": "HARD",
+                "name": "遺跡地帯南部中央エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 85,
+                "dropItems": ["ヒナの神名文字", "フリルのミニハットの設計図", "ヒールパンプスの設計図", "デビルウイングのトートバッグの設計図", "紺色のスクールバッグの設計図", "リボン付きベレー帽の設計図", "アンティークなエナメルローファーの設計図"],
+                "challengeRequiredTurns": 4
+            }
+        ]
+    },
+    {
+        "areaID": 17,
+        "stages": [
+            {
+                "stageID": "17-1N",
+                "difficulty": "NORMAL",
+                "name": "パラダイスロード",
+                "terrain": "indoor",
+                "recommendedLevel": 80,
+                "dropItems": ["呪いの人形の設計図", "パンクチョーカーの設計図", "ゴシック風の腕時計の設計図", "十字架のチョーカーの設計図", "クルスの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "17-2N",
+                "difficulty": "NORMAL",
+                "name": "パラダイスカフェ",
+                "terrain": "indoor",
+                "recommendedLevel": 80,
+                "dropItems": ["呪いの人形の設計図", "ゴシック風の腕時計の設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "クルスの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "17-3N",
+                "difficulty": "NORMAL",
+                "name": "パラダイスレストラン",
+                "terrain": "indoor",
+                "recommendedLevel": 81,
+                "dropItems": ["パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "ゴシック風の腕時計の設計図", "紺色のスクールバッグの設計図", "十字架のチョーカーの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "17-4N",
+                "difficulty": "NORMAL",
+                "name": "パラダイスホール中央",
+                "terrain": "indoor",
+                "recommendedLevel": 81,
+                "dropItems": ["呪いの人形の設計図", "ゴシック風の腕時計の設計図", "ココデビルのバッジの設計図", "ベロニカの刺繍バッジの設計図", "クルスの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "17-5N",
+                "difficulty": "NORMAL",
+                "name": "パラダイスホール最上階",
+                "terrain": "indoor",
+                "recommendedLevel": 82,
+                "dropItems": ["パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "紺色のスクールバッグの設計図", "十字架のチョーカーの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "17-1H",
+                "difficulty": "HARD",
+                "name": "パラダイスイベントホール「J」",
+                "terrain": "indoor",
+                "recommendedLevel": 85,
+                "dropItems": ["ヨシミの神名文字", "呪いの人形の設計図", "ゴシック風の腕時計の設計図", "ココデビルのバッジの設計図", "ベロニカの刺繍バッジの設計図", "クルスの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "17-2H",
+                "difficulty": "HARD",
+                "name": "パラダイスイベントホール「Q」",
+                "terrain": "indoor",
+                "recommendedLevel": 86,
+                "dropItems": ["チセの神名文字", "呪いの人形の設計図", "パンクチョーカーの設計図", "コウモリのヘアピンの設計図", "翼のヘアピンの設計図", "十字架のチョーカーの設計図", "クルスの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "17-3H",
+                "difficulty": "HARD",
+                "name": "パラダイスイベントホール「K」",
+                "terrain": "indoor",
+                "recommendedLevel": 87,
+                "dropItems": ["カリンの神名文字", "パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "ゴシック風の腕時計の設計図", "紺色のスクールバッグの設計図", "十字架のチョーカーの設計図", "アンティークな懐中時計の設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 18,
+        "stages": [
+            {
+                "stageID": "18-1N",
+                "difficulty": "NORMAL",
+                "name": "D.U.ロストハイウェイ西地区",
+                "terrain": "town",
+                "recommendedLevel": 82,
+                "dropItems": ["上級戦術教育BD（トリニティ）", "上級戦術教育BD（レッドウィンター）", "編集済みのレヒニッツ写本", "編集済みのヴォイニッチ手稿のコピー"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "18-2N",
+                "difficulty": "NORMAL",
+                "name": "D.U.ロストハイウェイ交差点",
+                "terrain": "town",
+                "recommendedLevel": 82,
+                "dropItems": ["上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（ヴァルキューレ）", "エーテルの結晶", "修復済みの水晶埴輪"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "18-3N",
+                "difficulty": "NORMAL",
+                "name": "捨てられた開発区域",
+                "terrain": "town",
+                "recommendedLevel": 83,
+                "dropItems": ["上級戦術教育BD（ミレニアム）", "上級戦術教育BD（山海経）", "摩耗したアンティキティラ装置", "修復途中の中空十二面体"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "18-4N",
+                "difficulty": "NORMAL",
+                "name": "D.U.ロストハイウェイ東地区",
+                "terrain": "town",
+                "recommendedLevel": 83,
+                "dropItems": ["上級戦術教育BD（アビドス）", "上級戦術教育BD（ゲヘナ）", "修復途中の円盤型ペンダント"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "18-5N",
+                "difficulty": "NORMAL",
+                "name": "旧第56業務地区",
+                "terrain": "town",
+                "recommendedLevel": 84,
+                "dropItems": ["上級戦術教育BD（百鬼夜行）", "上級戦術教育BD（トリニティ）", "不完全なミステリーストーン"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "18-1H",
+                "difficulty": "HARD",
+                "name": "ロストハイウェイ第1区域",
+                "terrain": "town",
+                "recommendedLevel": 87,
+                "dropItems": ["シミコの神名文字", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（山海経）", "編集済みのレヒニッツ写本", "編集済みのヴォイニッチ手稿のコピー", "不完全なミステリーストーン"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "18-2H",
+                "difficulty": "HARD",
+                "name": "ロストハイウェイ第2区域",
+                "terrain": "town",
+                "recommendedLevel": 88,
+                "dropItems": ["アヤネの神名文字", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（レッドウィンター）", "エーテルの結晶", "修復済みの水晶埴輪", "修復途中の古代文明のメダル"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "18-3H",
+                "difficulty": "HARD",
+                "name": "ロストハイウェイ第3区域",
+                "terrain": "town",
+                "recommendedLevel": 89,
+                "dropItems": ["アルの神名文字", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（アビドス）", "摩耗したアンティキティラ装置", "修復途中の円盤型ペンダント", "修復途中の中空十二面体"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 19,
+        "stages": [
+            {
+                "stageID": "19-1N",
+                "difficulty": "NORMAL",
+                "name": "雪原地区第1エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 84,
+                "dropItems": ["バケットハットの設計図", "カジュアルスニーカーの設計図", "アームカバーの設計図", "防弾ヘルメットの設計図", "戦闘用ブーツの設計図", "タクティカルグローブの設計図"],
+                "challengeRequiredTurns": 3
+            },
+            {
+                "stageID": "19-2N",
+                "difficulty": "NORMAL",
+                "name": "雪原鉄道・上り",
+                "terrain": "outdoor",
+                "recommendedLevel": 84,
+                "dropItems": ["バケットハットの設計図", "ストリートバッジの設計図", "アームカバーの設計図", "防弾ヘルメットの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "19-3N",
+                "difficulty": "NORMAL",
+                "name": "雪原地区第2エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 85,
+                "dropItems": ["バケットハットの設計図", "カリグラフィーヘアピンの設計図", "カジュアルスニーカーの設計図", "防弾ヘルメットの設計図", "戦闘用ブーツの設計図", "多目的ヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "19-4N",
+                "difficulty": "NORMAL",
+                "name": "北麓中央線",
+                "terrain": "outdoor",
+                "recommendedLevel": 85,
+                "dropItems": ["ストリートバッグの設計図", "カリグラフィーヘアピンの設計図", "カジュアルスニーカーの設計図", "戦闘用ランドセルの設計図", "戦闘用ブーツの設計図", "多目的ヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "19-5N",
+                "difficulty": "NORMAL",
+                "name": "雪原地区第3エリア",
+                "terrain": "outdoor",
+                "recommendedLevel": 86,
+                "dropItems": ["バケットハットの設計図", "ストリートバッジの設計図", "アームカバーの設計図", "防弾ヘルメットの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "19-1H",
+                "difficulty": "HARD",
+                "name": "新雪本線",
+                "terrain": "outdoor",
+                "recommendedLevel": 89,
+                "dropItems": ["ジュリの神名文字", "バケットハットの設計図", "カリグラフィーヘアピンの設計図", "アームカバーの設計図", "防弾ヘルメットの設計図", "多目的ヘアピンの設計図", "タクティカルグローブの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "19-2H",
+                "difficulty": "HARD",
+                "name": "陽依山",
+                "terrain": "outdoor",
+                "recommendedLevel": 90,
+                "dropItems": ["アイリの神名文字", "ストリートバッジの設計図", "カジュアルスニーカーの設計図", "アームカバーの設計図", "戦闘用ブーツの設計図", "タクティカルグローブの設計図", "カゼヤマのワッペンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "19-3H",
+                "difficulty": "HARD",
+                "name": "明霧山",
+                "terrain": "outdoor",
+                "recommendedLevel": 91,
+                "dropItems": ["イズナの神名文字", "バケットハットの設計図", "ストリートバッグの設計図", "カジュアルスニーカーの設計図", "防弾ヘルメットの設計図", "戦闘用ランドセルの設計図", "戦闘用ブーツの設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 20,
+        "stages": [
+            {
+                "stageID": "20-1N",
+                "difficulty": "NORMAL",
+                "name": "シャインタウン3階・廊下",
+                "terrain": "indoor",
+                "recommendedLevel": 86,
+                "dropItems": ["ポケット消臭剤の設計図", "チェーンネックレスの設計図", "ストリートファッションウォッチの設計図", "防塵型の腕時計の設計図", "ドッグタグの設計図", "カモフラダルマの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "20-2N",
+                "difficulty": "NORMAL",
+                "name": "トリプルブルースポーツセンター",
+                "terrain": "indoor",
+                "recommendedLevel": 86,
+                "dropItems": ["ポケット消臭剤の設計図", "ストリートファッションウォッチの設計図", "カリグラフィーヘアピンの設計図", "防塵型の腕時計の設計図", "多目的ヘアピンの設計図", "カモフラダルマの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-3N",
+                "difficulty": "NORMAL",
+                "name": "スクランブルシティ12階・廊下",
+                "terrain": "indoor",
+                "recommendedLevel": 87,
+                "dropItems": ["チェーンネックレスの設計図", "ストリートファッションウォッチの設計図", "ストリートバッグの設計図", "防塵型の腕時計の設計図", "戦闘用ランドセルの設計図", "ドッグタグの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-4N",
+                "difficulty": "NORMAL",
+                "name": "微睡みのギムナジウム",
+                "terrain": "indoor",
+                "recommendedLevel": 87,
+                "dropItems": ["ポケット消臭剤の設計図", "ストリートファッションウォッチの設計図", "ストリートバッジの設計図", "防塵型の腕時計の設計図", "カモフラダルマの設計図", "カゼヤマのワッペンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-5N",
+                "difficulty": "NORMAL",
+                "name": "コクーンビル32階・廊下",
+                "terrain": "indoor",
+                "recommendedLevel": 88,
+                "dropItems": ["チェーンネックレスの設計図", "ストリートバッグの設計図", "カリグラフィーヘアピンの設計図", "戦闘用ランドセルの設計図", "多目的ヘアピンの設計図", "ドッグタグの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-1H",
+                "difficulty": "HARD",
+                "name": "トリプルブルー第1総合運動区域",
+                "terrain": "indoor",
+                "recommendedLevel": 90,
+                "dropItems": ["セリナの神名文字", "ポケット消臭剤の設計図", "ストリートファッションウォッチの設計図", "ストリートバッジの設計図", "防塵型の腕時計の設計図", "カモフラダルマの設計図", "カゼヤマのワッペンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-2H",
+                "difficulty": "HARD",
+                "name": "トリプルブルー第2総合運動区域",
+                "terrain": "indoor",
+                "recommendedLevel": 91,
+                "dropItems": ["ハレの神名文字", "ポケット消臭剤の設計図", "チェーンネックレスの設計図", "カリグラフィーヘアピンの設計図", "多目的ヘアピンの設計図", "ドッグタグの設計図", "カモフラダルマの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "20-3H",
+                "difficulty": "HARD",
+                "name": "シャインタウン1階・回廊",
+                "terrain": "indoor",
+                "recommendedLevel": 92,
+                "dropItems": ["イオリの神名文字", "チェーンネックレスの設計図", "ストリートファッションウォッチの設計図", "ストリートバッグの設計図", "防塵型の腕時計の設計図", "戦闘用ランドセルの設計図", "ドッグタグの設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 21,
+        "stages": [
+            {
+                "stageID": "21-1N",
+                "difficulty": "NORMAL",
+                "name": "アリウス本館入口",
+                "terrain": "town",
+                "recommendedLevel": 88,
+                "dropItems": ["上級戦術教育BD（トリニティ）", "上級戦術教育BD（レッドウィンター）", "摩耗したネブラディスク", "摩耗したニムルドレンズ"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "21-2N",
+                "difficulty": "NORMAL",
+                "name": "旧市街地出口",
+                "terrain": "town",
+                "recommendedLevel": 88,
+                "dropItems": ["上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（ヴァルキューレ）", "摩耗したファイストス円盤", "マンドレイクジュース"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "21-3N",
+                "difficulty": "NORMAL",
+                "name": "ポルタパシス広場",
+                "terrain": "town",
+                "recommendedLevel": 89,
+                "dropItems": ["上級戦術教育BD（ミレニアム）", "上級戦術教育BD（山海経）", "低純度のヴォルフスエック鋼鉄", "大きな黄金の巻糸"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "21-4N",
+                "difficulty": "NORMAL",
+                "name": "影通り出口",
+                "terrain": "town",
+                "recommendedLevel": 89,
+                "dropItems": ["上級戦術教育BD（アビドス）", "上級戦術教育BD（アリウス）", "修復済みのトーテムポール"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "21-5N",
+                "difficulty": "NORMAL",
+                "name": "トレウ大聖堂・周辺",
+                "terrain": "town",
+                "recommendedLevel": 90,
+                "dropItems": ["上級戦術教育BD（百鬼夜行）", "上級戦術教育BD（トリニティ）", "摩耗した古代の電池"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "21-1H",
+                "difficulty": "HARD",
+                "name": "聖人への道",
+                "terrain": "town",
+                "recommendedLevel": 91,
+                "dropItems": ["ヨシミの神名文字", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（百鬼夜行）", "摩耗したネブラディスク", "摩耗したニムルドレンズ", "摩耗した古代の電池"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "21-2H",
+                "difficulty": "HARD",
+                "name": "堆積への道",
+                "terrain": "town",
+                "recommendedLevel": 92,
+                "dropItems": ["カヨコの神名文字", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（レッドウィンター）", "摩耗したファイストス円盤", "マンドレイクジュース", "修理済みの髪伸び人形"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "21-3H",
+                "difficulty": "HARD",
+                "name": "バシリカへの道",
+                "terrain": "town",
+                "recommendedLevel": 93,
+                "dropItems": ["ヒフミ（水着）の神名文字", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（アビドス）", "低純度のヴォルフスエック鋼鉄", "修復済みのトーテムポール", "大きな黄金の巻糸"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 22,
+        "stages": [
+            {
+                "stageID": "22-1N",
+                "difficulty": "NORMAL",
+                "name": "メリエハビーチ",
+                "terrain": "outdoor",
+                "recommendedLevel": 90,
+                "dropItems": ["防水登山ブーツの設計図", "リーフリボン付き中折れ帽の設計図", "パールヤーングローブの設計図", "レースのグローブの設計図", "フリルのミニハットの設計図", "ヒールパンプスの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "22-2N",
+                "difficulty": "NORMAL",
+                "name": "シーサイドビーチ",
+                "terrain": "outdoor",
+                "recommendedLevel": 90,
+                "dropItems": ["ローレライバッジの設計図", "リーフリボン付き中折れ帽の設計図", "パールヤーングローブの設計図", "レースのグローブの設計図", "フリルのミニハットの設計図", "ココデビルのバッジの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "22-3N",
+                "difficulty": "NORMAL",
+                "name": "オーシャンパレス",
+                "terrain": "outdoor",
+                "recommendedLevel": 91,
+                "dropItems": ["防水登山ブーツの設計図", "リーフリボン付き中折れ帽の設計図", "リーフヘアピンの設計図", "フリルのミニハットの設計図", "ヒールパンプスの設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "22-4N",
+                "difficulty": "NORMAL",
+                "name": "ザ・ベイ301路",
+                "terrain": "outdoor",
+                "recommendedLevel": 91,
+                "dropItems": ["防水登山ブーツの設計図", "蝶柄のショルダーバッグの設計図", "リーフヘアピンの設計図", "ヒールパンプスの設計図", "デビルウイングのトートバッグの設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "22-5N",
+                "difficulty": "NORMAL",
+                "name": "水辺公園北路",
+                "terrain": "outdoor",
+                "recommendedLevel": 92,
+                "dropItems": ["ローレライバッジの設計図", "リーフリボン付き中折れ帽の設計図", "パールヤーングローブの設計図", "レースのグローブの設計図", "フリルのミニハットの設計図", "ココデビルのバッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "22-1H",
+                "difficulty": "HARD",
+                "name": "メリエハビーチの月見通り",
+                "terrain": "outdoor",
+                "recommendedLevel": 92,
+                "dropItems": ["シミコの神名文字", "リーフリボン付き中折れ帽の設計図", "リーフヘアピンの設計図", "パールヤーングローブの設計図", "レースのグローブの設計図", "フリルのミニハットの設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "22-2H",
+                "difficulty": "HARD",
+                "name": "雲掛け通り",
+                "terrain": "outdoor",
+                "recommendedLevel": 93,
+                "dropItems": ["キリノの神名文字", "防水登山ブーツの設計図", "ローレライバッジの設計図", "パールヤーングローブの設計図", "レースのグローブの設計図", "ヒールパンプスの設計図", "ココデビルのバッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "22-3H",
+                "difficulty": "HARD",
+                "name": "展望台進入路",
+                "terrain": "outdoor",
+                "recommendedLevel": 94,
+                "dropItems": ["ヒビキの神名文字", "防水登山ブーツの設計図", "蝶柄のショルダーバッグの設計図", "リーフリボン付き中折れ帽の設計図", "フリルのミニハットの設計図", "ヒールパンプスの設計図", "デビルウイングのトートバッグの設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
+    },
+    {
+        "areaID": 23,
+        "stages": [
+            {
+                "stageID": "23-1N",
+                "difficulty": "NORMAL",
+                "name": "ルビーマンション東側の廊下",
+                "terrain": "indoor",
+                "recommendedLevel": 90,
+                "dropItems": ["ローレライの腕時計の設計図", "ドリームキャッチャーの設計図", "グリーンリーフネックレスの設計図", "呪いの人形の設計図", "パンクチョーカーの設計図", "ゴシック風の腕時計の設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "23-2N",
+                "difficulty": "NORMAL",
+                "name": "ルビーマンション中央ロビー",
+                "terrain": "indoor",
+                "recommendedLevel": 90,
+                "dropItems": ["ローレライの腕時計の設計図", "リーフヘアピンの設計図", "ドリームキャッチャーの設計図", "呪いの人形の設計図", "ゴシック風の腕時計の設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "23-3N",
+                "difficulty": "NORMAL",
+                "name": "旧廊下進入路",
+                "terrain": "indoor",
+                "recommendedLevel": 91,
+                "dropItems": ["蝶柄のショルダーバッグの設計図", "ローレライの腕時計の設計図", "グリーンリーフネックレスの設計図", "パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "ゴシック風の腕時計の設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "23-4N",
+                "difficulty": "NORMAL",
+                "name": "ゲストルーム出入口",
+                "terrain": "indoor",
+                "recommendedLevel": 91,
+                "dropItems": ["ローレライバッジの設計図", "ローレライの腕時計の設計図", "ドリームキャッチャーの設計図", "呪いの人形の設計図", "ゴシック風の腕時計の設計図", "ココデビルのバッジの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "23-5N",
+                "difficulty": "NORMAL",
+                "name": "セーフルーム連絡通路",
+                "terrain": "indoor",
+                "recommendedLevel": 92,
+                "dropItems": ["蝶柄のショルダーバッグの設計図", "リーフヘアピンの設計図", "グリーンリーフネックレスの設計図", "パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "23-1H",
+                "difficulty": "HARD",
+                "name": "ルビーマンション回廊出入口",
+                "terrain": "indoor",
+                "recommendedLevel": 92,
+                "dropItems": ["ジュリの神名文字", "ローレライバッジの設計図", "ローレライの腕時計の設計図", "ドリームキャッチャーの設計図", "呪いの人形の設計図", "ゴシック風の腕時計の設計図", "ココデビルのバッジの設計図"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "23-2H",
+                "difficulty": "HARD",
+                "name": "秘密の廊下・東側",
+                "terrain": "indoor",
+                "recommendedLevel": 93,
+                "dropItems": ["ツバキの神名文字", "リーフヘアピンの設計図", "ドリームキャッチャーの設計図", "グリーンリーフネックレスの設計図", "呪いの人形の設計図", "パンクチョーカーの設計図", "コウモリのヘアピンの設計図"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "23-3H",
+                "difficulty": "HARD",
+                "name": "マンション玄関進入路",
+                "terrain": "indoor",
+                "recommendedLevel": 94,
+                "dropItems": ["アリスの神名文字", "蝶柄のショルダーバッグの設計図", "ローレライの腕時計の設計図", "グリーンリーフネックレスの設計図", "パンクチョーカーの設計図", "デビルウイングのトートバッグの設計図", "ゴシック風の腕時計の設計図"],
+                "challengeRequiredTurns": 6
+            }
+        ]
+    }
+]

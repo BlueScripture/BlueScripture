@@ -1,0 +1,3587 @@
+[
+    {
+        "name": "初級技術ノート（アビドス）",
+        "description": "アビドス高等学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（アリウス）",
+        "description": "アリウス分校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（ゲヘナ）",
+        "description": "ゲヘナ学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（トリニティ）",
+        "description": "トリニティ総合学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（ミレニアム）",
+        "description": "ミレニアムサイエンススクールの戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（レッドウィンター）",
+        "description": "レッドウィンター連邦学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（ヴァルキューレ）",
+        "description": "ヴァルキューレ警察学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（山海経）",
+        "description": "山海経高級中学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級技術ノート（百鬼夜行）",
+        "description": "百鬼夜行連合学院の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（アビドス）",
+        "description": "アビドス高等学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（アリウス）",
+        "description": "アリウス分校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（ゲヘナ）",
+        "description": "ゲヘナ学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（トリニティ）",
+        "description": "トリニティ総合学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（ミレニアム）",
+        "description": "ミレニアムサイエンススクールの戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（レッドウィンター）",
+        "description": "レッドウィンター連邦学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（ヴァルキューレ）",
+        "description": "ヴァルキューレ警察学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（山海経）",
+        "description": "山海経高級中学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級技術ノート（百鬼夜行）",
+        "description": "百鬼夜行連合学院の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（アビドス）",
+        "description": "アビドス高等学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（アリウス）",
+        "description": "アリウス分校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（ゲヘナ）",
+        "description": "ゲヘナ学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（トリニティ）",
+        "description": "トリニティ総合学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（ミレニアム）",
+        "description": "ミレニアムサイエンススクールの戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（レッドウィンター）",
+        "description": "レッドウィンター連邦学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（ヴァルキューレ）",
+        "description": "ヴァルキューレ警察学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（山海経）",
+        "description": "山海経高級中学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "上級技術ノート（百鬼夜行）",
+        "description": "百鬼夜行連合学院の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 2,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（アビドス）",
+        "description": "アビドス高等学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（アリウス）",
+        "description": "アリウス分校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（ゲヘナ）",
+        "description": "ゲヘナ学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（トリニティ）",
+        "description": "トリニティ総合学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（ミレニアム）",
+        "description": "ミレニアムサイエンススクールの戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（レッドウィンター）",
+        "description": "レッドウィンター連邦学園の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（ヴァルキューレ）",
+        "description": "ヴァルキューレ警察学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（山海経）",
+        "description": "山海経高級中学校の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級技術ノート（百鬼夜行）",
+        "description": "百鬼夜行連合学院の戦術の極意がまとめられているノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "秘伝ノート",
+        "description": "戦術の奥義が記録されている技術ノート。",
+        "category": "技術ノート",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "初級戦術教育BD（アビドス）",
+        "description": "アビドスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-4N", "3-5N", "6-4N", "6-5N", "6-3H"],
+            "recommended": "3-3H"
+        }
+    },
+    {
+        "name": "初級戦術教育BD（アリウス）",
+        "description": "アリウスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級戦術教育BD（ゲヘナ）",
+        "description": "ゲヘナの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-2N", "3-3N", "6-2N", "6-3N", "6-2H"],
+            "recommended": "3-2H"
+        }
+    },
+    {
+        "name": "初級戦術教育BD（トリニティ）",
+        "description": "トリニティの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1N", "3-2N", "6-1N", "6-2N", "6-3H"],
+            "recommended": "3-3H"
+        }
+    },
+    {
+        "name": "初級戦術教育BD（ミレニアム）",
+        "description": "ミレニアムの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-3N", "3-4N", "6-3N", "6-4N", "6-1H"],
+            "recommended": "3-1H"
+        }
+    },
+    {
+        "name": "初級戦術教育BD（レッドウィンター）",
+        "description": "レッドウィンターの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級戦術教育BD（ヴァルキューレ）",
+        "description": "ヴァルキューレの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": null
+    },
+    {
+        "name": "初級戦術教育BD（山海経）",
+        "description": "山海経の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1N", "6-1N", "6-2H"],
+            "recommended": "3-2H"
+        }
+    },
+    {
+        "name": "初級戦術教育BD（百鬼夜行）",
+        "description": "百鬼夜行の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-5N", "6-5N", "6-1H"],
+            "recommended": "3-1H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（アビドス）",
+        "description": "アビドスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-4N", "6-5N", "9-4N", "9-5N", "9-3H"],
+            "recommended": "6-3H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（アリウス）",
+        "description": "アリウスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級戦術教育BD（ゲヘナ）",
+        "description": "ゲヘナの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-2N", "6-3N", "9-2N", "9-3N", "9-2H"],
+            "recommended": "6-2H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（トリニティ）",
+        "description": "トリニティの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-1N", "6-2N", "9-1N", "9-2N", "9-3H"],
+            "recommended": "6-3H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（ミレニアム）",
+        "description": "ミレニアムの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-3N", "6-4N", "9-3N", "9-4N", "9-1H"],
+            "recommended": "6-1H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（レッドウィンター）",
+        "description": "レッドウィンターの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級戦術教育BD（ヴァルキューレ）",
+        "description": "ヴァルキューレの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": null
+    },
+    {
+        "name": "中級戦術教育BD（山海経）",
+        "description": "山海経の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-1N", "9-1N", "9-2H"],
+            "recommended": "6-2H"
+        }
+    },
+    {
+        "name": "中級戦術教育BD（百鬼夜行）",
+        "description": "百鬼夜行の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["6-5N", "9-5N", "9-1H"],
+            "recommended": "6-1H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（アビドス）",
+        "description": "アビドスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-4N", "9-5N", "9-3H", "12-4N", "12-5N", "12-3H", "15-4N", "18-4N", "18-3H", "21-4N"],
+            "recommended": "21-3H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（アリウス）",
+        "description": "アリウスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": [],
+            "recommended": "21-4N"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（ゲヘナ）",
+        "description": "ゲヘナの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-2N", "9-3N", "9-2H", "12-2N", "12-3N", "12-2H", "15-2N", "15-4N", "15-2H", "18-2N", "18-4N", "18-2H", "21-2N"],
+            "recommended": "21-2H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（トリニティ）",
+        "description": "トリニティの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-1N", "9-2N", "9-3H", "12-1N", "12-2N", "12-3H", "15-1N", "15-5N", "15-3H", "18-1N", "18-5N", "18-3H", "21-1N", "21-5N"],
+            "recommended": "21-3H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（ミレニアム）",
+        "description": "ミレニアムの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-3N", "9-4N", "9-1H", "12-3N", "12-4N", "12-1H", "15-3N", "15-1H", "18-3N", "18-1H", "21-3N"],
+            "recommended": "21-1H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（レッドウィンター）",
+        "description": "レッドウィンターの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-1N", "15-2H", "18-1N", "18-2H", "21-1N"],
+            "recommended": "21-2H"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（ヴァルキューレ）",
+        "description": "ヴァルキューレの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-2N", "15-3H", "18-2N"],
+            "recommended": "21-2N"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（山海経）",
+        "description": "山海経の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-1N", "9-2H", "12-1N", "12-2H", "15-3N", "15-1H", "18-3N", "18-1H"],
+            "recommended": "21-3N"
+        }
+    },
+    {
+        "name": "上級戦術教育BD（百鬼夜行）",
+        "description": "百鬼夜行の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["9-5N", "9-1H", "12-5N", "12-1H", "15-5N", "18-5N", "21-5N"],
+            "recommended": "21-1H"
+        }
+    },
+    {
+        "name": "最上級戦術教育BD（アビドス）",
+        "description": "アビドスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（アリウス）",
+        "description": "アリウスの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（ゲヘナ）",
+        "description": "ゲヘナの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（トリニティ）",
+        "description": "トリニティの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（ミレニアム）",
+        "description": "ミレニアムの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（レッドウィンター）",
+        "description": "レッドウィンターの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（ヴァルキューレ）",
+        "description": "ヴァルキューレの生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（山海経）",
+        "description": "山海経の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "最上級戦術教育BD（百鬼夜行）",
+        "description": "百鬼夜行の生徒の戦術活動を映像として記録した教育用BD。",
+        "category": "戦術教育BD",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "アンティキティラ装置の欠片",
+        "description": "アンティキティラ装置の壊れた部品。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-3H"],
+            "recommended": "6-3N"
+        }
+    },
+    {
+        "name": "エーテルの粉",
+        "description": "エーテルとしては最もデフォルトな形である、空気中から抽出したエーテルの粉。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-2H"],
+            "recommended": "6-2N"
+        }
+    },
+    {
+        "name": "トーテムポールの破片",
+        "description": "トーテムポールの破片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-3H"],
+            "recommended": "3-4N"
+        }
+    },
+    {
+        "name": "ニムルドレンズの欠片",
+        "description": "壊れたニムルドレンズの欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1H"],
+            "recommended": "3-1N"
+        }
+    },
+    {
+        "name": "ネブラディスクの欠片",
+        "description": "ネブラディスクの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1H"],
+            "recommended": "3-1N"
+        }
+    },
+    {
+        "name": "ファイストス円盤の欠片",
+        "description": "ファイストス円盤の壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-2H"],
+            "recommended": "3-2N"
+        }
+    },
+    {
+        "name": "マンドレイクの種",
+        "description": "固く閉じられているマンドレイクの種。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-2H"],
+            "recommended": "3-2N"
+        }
+    },
+    {
+        "name": "ミステリーストーンの欠片",
+        "description": "ミステリーストーンの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-1H"],
+            "recommended": "6-5N"
+        }
+    },
+    {
+        "name": "レヒニッツ写本のページ",
+        "description": "本体から千切られたレヒニッツ写本のページ。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-1H"],
+            "recommended": "6-1N"
+        }
+    },
+    {
+        "name": "ヴォルフスエックの鉄鉱石",
+        "description": "精錬されてないヴォルフスエックの鉄鉱石。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-3H"],
+            "recommended": "3-3N"
+        }
+    },
+    {
+        "name": "中空十二面体の欠片",
+        "description": "中空十二面体の壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-3H"],
+            "recommended": "6-3N"
+        }
+    },
+    {
+        "name": "円盤型ペンダントの欠片",
+        "description": "円盤型ペンダントの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-3H"],
+            "recommended": "6-4N"
+        }
+    },
+    {
+        "name": "古代の電池の破片",
+        "description": "古代の電池の壊れた部品。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1H"],
+            "recommended": "3-5N"
+        }
+    },
+    {
+        "name": "古代文明のメダルの欠片",
+        "description": "古代文明のメダルの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "6-2H"
+        }
+    },
+    {
+        "name": "断片的なヴォイニッチ手稿のコピー",
+        "description": "本体から千切られたヴォイニッチ手稿の断片のコピー。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-1H"],
+            "recommended": "6-1N"
+        }
+    },
+    {
+        "name": "水晶埴輪の破片",
+        "description": "壊れた水晶埴輪の破片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-2H"],
+            "recommended": "6-2N"
+        }
+    },
+    {
+        "name": "髪伸び人形の破片",
+        "description": "髪伸び人形の破片の一部。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "3-2H"
+        }
+    },
+    {
+        "name": "黄金の糸",
+        "description": "黄金色に輝く珍しい羊の毛から得られた糸。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-3H"],
+            "recommended": "3-3N"
+        }
+    },
+    {
+        "name": "エーテルの欠片",
+        "description": "エーテルの粉を圧縮して作った固形のエーテルの欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-2H"],
+            "recommended": "12-2N"
+        }
+    },
+    {
+        "name": "マンドレイクの芽",
+        "description": "若芽が出ているマンドレイクの芽。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-2H"],
+            "recommended": "9-2N"
+        }
+    },
+    {
+        "name": "ヴォルフスエック鋼鉄の欠片",
+        "description": "精錬中に零れ落ちたヴォルフスエック鋼鉄の欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-3H"],
+            "recommended": "9-3N"
+        }
+    },
+    {
+        "name": "傷んだレヒニッツ写本",
+        "description": "所々が千切れて落書きで傷んだレヒニッツ写本。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-1H"],
+            "recommended": "12-1N"
+        }
+    },
+    {
+        "name": "傷んだヴォイニッチ手稿のコピー",
+        "description": "所々が千切れて、落書きで傷んだヴォイニッチ手稿のコピー。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-1H"],
+            "recommended": "12-1N"
+        }
+    },
+    {
+        "name": "壊れたアンティキティラ装置",
+        "description": "元の形が分からないほど壊れたアンティキティラ装置。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-3H"],
+            "recommended": "12-3N"
+        }
+    },
+    {
+        "name": "壊れたニムルドレンズ",
+        "description": "至る所にひびが入って欠けているニムルドレンズ。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-1H"],
+            "recommended": "9-1N"
+        }
+    },
+    {
+        "name": "壊れたネブラディスク",
+        "description": "元の形が分からないほど壊れたネブラディスク。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-1H"],
+            "recommended": "9-1N"
+        }
+    },
+    {
+        "name": "壊れたファイストス円盤",
+        "description": "元の形が分からないほど壊れたファイストス円盤。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-2H"],
+            "recommended": "9-2N"
+        }
+    },
+    {
+        "name": "壊れたミステリーストーン",
+        "description": "元の形が分からないほど壊れたミステリーストーン。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-1H"],
+            "recommended": "12-5N"
+        }
+    },
+    {
+        "name": "壊れた中空十二面体",
+        "description": "元の形が分からないほど壊れた中空十二面体。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-3H"],
+            "recommended": "12-3N"
+        }
+    },
+    {
+        "name": "壊れた円盤型ペンダント",
+        "description": "元の形が分からないほど壊れた円盤型ペンダント。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-3H"],
+            "recommended": "12-4N"
+        }
+    },
+    {
+        "name": "壊れた水晶埴輪",
+        "description": "元の形が分からないほど壊れた水晶埴輪。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-2H"],
+            "recommended": "12-2N"
+        }
+    },
+    {
+        "name": "破損したトーテムポール",
+        "description": "かなりの部分が破損したトーテムポール。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-3H"],
+            "recommended": "9-4N"
+        }
+    },
+    {
+        "name": "破損した古代の電池",
+        "description": "かなりの部分が破損した古代の電池。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-1H"],
+            "recommended": "9-5N"
+        }
+    },
+    {
+        "name": "破損した古代文明のメダル",
+        "description": "元の形が分からないほど壊れた古代文明のメダル。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": [],
+            "recommended": "12-2H"
+        }
+    },
+    {
+        "name": "破損した髪伸び人形",
+        "description": "かなり傷ついてしまった髪伸び人形。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": [],
+            "recommended": "9-2H"
+        }
+    },
+    {
+        "name": "黄金の巻糸",
+        "description": "黄金の羊毛から得られた糸の束。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-3H"],
+            "recommended": "9-3N"
+        }
+    },
+    {
+        "name": "エーテルの結晶",
+        "description": "純粋なエーテルのみを集めて結晶の形に精製したエーテルの結晶。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-2H"],
+            "recommended": "18-2N"
+        }
+    },
+    {
+        "name": "マンドレイクジュース",
+        "description": "熟成されたマンドレイクを絞って作ったジュース。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-2N", "15-2H", "21-2H"],
+            "recommended": "21-2N"
+        }
+    },
+    {
+        "name": "不完全なミステリーストーン",
+        "description": "修復したものの、正しい形か分からないミステリーストーン。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-1H"],
+            "recommended": "18-5N"
+        }
+    },
+    {
+        "name": "低純度のヴォルフスエック鋼鉄",
+        "description": "様々な不純物が混ざった低純度のヴォルフスエック鋼鉄。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-3N", "15-3H", "21-3H"],
+            "recommended": "21-3N"
+        }
+    },
+    {
+        "name": "修復済みのトーテムポール",
+        "description": "幾つかのトーテムポールを寄せ合わせて修理したトーテムポール。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-4N", "15-3H", "21-3H"],
+            "recommended": "21-4N"
+        }
+    },
+    {
+        "name": "修復済みの水晶埴輪",
+        "description": "欠片を寄せ集めて修復した水晶埴輪。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-2H"],
+            "recommended": "18-2N"
+        }
+    },
+    {
+        "name": "修復途中の中空十二面体",
+        "description": "欠片を寄せ集めて修復している最中の中空十二面体。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-3H"],
+            "recommended": "18-3N"
+        }
+    },
+    {
+        "name": "修復途中の円盤型ペンダント",
+        "description": "欠片を寄せ集めて修復している最中の円盤型ペンダント。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-3H"],
+            "recommended": "18-4N"
+        }
+    },
+    {
+        "name": "修復途中の古代文明のメダル",
+        "description": "欠片を寄せ集めて修復している最中の古代文明のメダル。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": [],
+            "recommended": "18-2H"
+        }
+    },
+    {
+        "name": "修理済みの髪伸び人形",
+        "description": "あちこちを綺麗にしてもらった髪伸び人形。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-2H"],
+            "recommended": "21-2H"
+        }
+    },
+    {
+        "name": "大きな黄金の巻糸",
+        "description": "黄金の羊毛から得られたたくさんの糸の束。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-3N", "15-3H", "21-3H"],
+            "recommended": "21-3N"
+        }
+    },
+    {
+        "name": "摩耗したアンティキティラ装置",
+        "description": "壊れて正常に作動しないアンティキティラ装置。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-3H"],
+            "recommended": "18-3N"
+        }
+    },
+    {
+        "name": "摩耗したニムルドレンズ",
+        "description": "欠片を寄せ集めて修復したニムルドレンズ。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-1N", "15-1H", "21-1H"],
+            "recommended": "21-1N"
+        }
+    },
+    {
+        "name": "摩耗したネブラディスク",
+        "description": "古くて至る所が摩耗したネブラディスク。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-1N", "15-1H", "21-1H"],
+            "recommended": "21-1N"
+        }
+    },
+    {
+        "name": "摩耗したファイストス円盤",
+        "description": "古くて至る所が摩耗したファイストス円盤。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-2N", "15-2H", "21-2H"],
+            "recommended": "21-2N"
+        }
+    },
+    {
+        "name": "摩耗した古代の電池",
+        "description": "今となっては動作していない古代の電池。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-5N", "15-1H", "21-1H"],
+            "recommended": "21-5N"
+        }
+    },
+    {
+        "name": "編集済みのレヒニッツ写本",
+        "description": "傷んだ箇所に注釈を付けて編集したレヒニッツ写本。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-1H"],
+            "recommended": "18-1N"
+        }
+    },
+    {
+        "name": "編集済みのヴォイニッチ手稿のコピー",
+        "description": "傷んだ箇所に注釈をつけて編集したヴォイニッチ手稿のコピー。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-1H"],
+            "recommended": "18-1N"
+        }
+    },
+    {
+        "name": "エーテルのエッセンス",
+        "description": "最も純粋で強力なエーテルだけを集めて作ったエーテルの上澄み。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "マンドレイク濃縮液",
+        "description": "マンドレイクジュースを濃縮して作ったマンドレイクの濃縮液。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なる古代の電池",
+        "description": "完全な状態の古代の電池。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なアンティキティラ装置",
+        "description": "完全な状態のアンティキティラ装置。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なトーテムポール",
+        "description": "完全な状態のトーテムポール。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なニムルドレンズ",
+        "description": "完全な状態のニムルドレンズ。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なネブラディスク",
+        "description": "完全な状態のネブラディスク。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なファイストス円盤",
+        "description": "完全な状態のファイストス円盤。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なミステリーストーン",
+        "description": "完全な状態のミステリーストーン。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なレヒニッツ写本",
+        "description": "完全な状態のレヒニッツ写本。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全なヴォイニッチ手稿のコピー",
+        "description": "完全な状態のヴォイニッチ手稿のコピー。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全な円盤型ペンダント",
+        "description": "完全な状態の円盤型ペンダント。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全な水晶埴輪",
+        "description": "完全な状態の水晶埴輪。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "高純度のヴォルフスエック鋼鉄",
+        "description": "精錬して純度を上げたヴォルフスエック鋼鉄。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "アイリの神名文字",
+        "description": "アイリの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "19-2H"
+        }
+    },
+    {
+        "name": "アカリの神名文字",
+        "description": "アカリの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["2-2H", "5-1H", "9-1H"],
+            "recommended": "11-1H"
+        }
+    },
+    {
+        "name": "アスナの神名文字",
+        "description": "アスナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["4-1H", "7-1H"],
+            "recommended": "16-1H"
+        }
+    },
+    {
+        "name": "アヤネの神名文字",
+        "description": "アヤネの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "18-2H"
+        }
+    },
+    {
+        "name": "アリスの神名文字",
+        "description": "アリスの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "23-3H"
+        }
+    },
+    {
+        "name": "アルの神名文字",
+        "description": "アルの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "18-3H"
+        }
+    },
+    {
+        "name": "イオリの神名文字",
+        "description": "イオリの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["14-3H"],
+            "recommended": "20-3H"
+        }
+    },
+    {
+        "name": "イズナの神名文字",
+        "description": "イズナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "19-3H"
+        }
+    },
+    {
+        "name": "イズミの神名文字",
+        "description": "イズミの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "13-3H"
+        }
+    },
+    {
+        "name": "カヨコの神名文字",
+        "description": "カヨコの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["14-1H"],
+            "recommended": "21-2H"
+        }
+    },
+    {
+        "name": "カリンの神名文字",
+        "description": "カリンの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "17-3H"
+        }
+    },
+    {
+        "name": "キリノの神名文字",
+        "description": "キリノの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "22-2H"
+        }
+    },
+    {
+        "name": "コトリの神名文字",
+        "description": "コトリの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["2-1H", "8-1H"],
+            "recommended": "12-1H"
+        }
+    },
+    {
+        "name": "シミコの神名文字",
+        "description": "シミコの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["18-1H"],
+            "recommended": "22-1H"
+        }
+    },
+    {
+        "name": "シロコの神名文字",
+        "description": "シロコの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-3H"],
+            "recommended": "9-3H"
+        }
+    },
+    {
+        "name": "ジュリの神名文字",
+        "description": "ジュリの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["19-1H"],
+            "recommended": "23-1H"
+        }
+    },
+    {
+        "name": "ジュンコの神名文字",
+        "description": "ジュンコの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["2-3H", "5-2H"],
+            "recommended": "6-3H"
+        }
+    },
+    {
+        "name": "スズミの神名文字",
+        "description": "スズミの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["1-2H", "3-1H", "6-1H"],
+            "recommended": "10-1H"
+        }
+    },
+    {
+        "name": "セリカの神名文字",
+        "description": "セリカの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["1-3H", "7-2H"],
+            "recommended": "9-2H"
+        }
+    },
+    {
+        "name": "セリナの神名文字",
+        "description": "セリナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "20-1H"
+        }
+    },
+    {
+        "name": "チセの神名文字",
+        "description": "チセの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["14-2H"],
+            "recommended": "17-2H"
+        }
+    },
+    {
+        "name": "ツバキの神名文字",
+        "description": "ツバキの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["15-2H"],
+            "recommended": "23-2H"
+        }
+    },
+    {
+        "name": "ネルの神名文字",
+        "description": "ネルの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "15-3H"
+        }
+    },
+    {
+        "name": "ハスミの神名文字",
+        "description": "ハスミの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-2H", "8-2H"],
+            "recommended": "11-2H"
+        }
+    },
+    {
+        "name": "ハルカの神名文字",
+        "description": "ハルカの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["13-1H"],
+            "recommended": "15-1H"
+        }
+    },
+    {
+        "name": "ハルナの神名文字",
+        "description": "ハルナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["8-3H"],
+            "recommended": "12-3H"
+        }
+    },
+    {
+        "name": "ハレの神名文字",
+        "description": "ハレの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "20-2H"
+        }
+    },
+    {
+        "name": "ヒナの神名文字",
+        "description": "ヒナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "16-3H"
+        }
+    },
+    {
+        "name": "ヒビキの神名文字",
+        "description": "ヒビキの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "22-3H"
+        }
+    },
+    {
+        "name": "ヒフミの神名文字",
+        "description": "ヒフミの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["5-3H"],
+            "recommended": "10-3H"
+        }
+    },
+    {
+        "name": "ヒフミ（水着）の神名文字",
+        "description": "ヒフミ（水着）の神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "21-3H"
+        }
+    },
+    {
+        "name": "フィーナの神名文字",
+        "description": "フィーナの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["4-2H", "6-2H"],
+            "recommended": "10-2H"
+        }
+    },
+    {
+        "name": "ホシノの神名文字",
+        "description": "ホシノの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["7-3H"],
+            "recommended": "11-3H"
+        }
+    },
+    {
+        "name": "ムツキの神名文字",
+        "description": "ムツキの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["13-2H"],
+            "recommended": "16-2H"
+        }
+    },
+    {
+        "name": "ユウカの神名文字",
+        "description": "ユウカの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["1-1H", "4-3H"],
+            "recommended": "12-2H"
+        }
+    },
+    {
+        "name": "ヨシミの神名文字",
+        "description": "ヨシミの神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["17-1H"],
+            "recommended": "21-1H"
+        }
+    },
+    {
+        "name": "交通安全のお守り",
+        "description": "事故などが起こらないよう、交通安全の祈りが込められたお守り。振ってみると、中からジャラジャラという金属っぽい音がする。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 80
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-1H", "2-4N", "2-5N", "2-1H", "7-1H", "8-3N", "8-4N", "8-5N", "8-1H"],
+            "recommended": "2-3N"
+        }
+    },
+    {
+        "name": "発熱カイロ",
+        "description": "揉んだり振ったりすると温かくなる、手のひらサイズのカイロ。酷寒の環境下で、これほど頼りがいのあるものもそうそう無い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 130
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-1H", "4-1H", "5-3N", "5-3N", "5-4N", "5-1H", "5-1H", "10-1H", "11-3N", "11-4N", "11-5N", "11-1H"],
+            "recommended": "5-5N"
+        }
+    },
+    {
+        "name": "ペロロのお守り",
+        "description": "大きな白い羽のお守り。羽毛の出所については、機密情報とのこと。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 180
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-1H", "7-1H", "8-4N", "8-5N", "8-1H", "8-1H", "14-1N", "14-2N", "14-4N", "14-1H", "14-2H"],
+            "recommended": "8-3N"
+        }
+    },
+    {
+        "name": "クルス",
+        "description": "トリニティの生徒たちに愛用されている、十字架の形をしたお守り。バッグにぶら下げるアクセサリーとしてもぴったりだと評判。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 250
+            },
+            {
+                "paramType": "criticalDamageResistRate",
+                "paramValue": 1000
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-1H", "11-4N", "11-5N", "11-1H", "17-1N", "17-2N", "17-4N", "17-1H", "17-2H"],
+            "recommended": "11-3N"
+        }
+    },
+    {
+        "name": "カモフラダルマ",
+        "description": "カモフラージュ柄のだるま。どこに置いても自然に背景へと溶け込むが、どこにでも置かれるとちょっと怖い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 280
+            },
+            {
+                "paramType": "criticalDamageResistRate",
+                "paramValue": 1500
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 120
+            }
+        ],
+        "dropIn": {
+            "stages": ["14-2N", "14-4N", "14-1H", "14-2H", "20-1N", "20-2N", "20-4N", "20-1H", "20-2H"],
+            "recommended": "14-1N"
+        }
+    },
+    {
+        "name": "呪いの人形",
+        "description": "怨念などの強い感情がこめられていそうな呪いの人形。針刺しとして使いやすいらしく、手芸部の生徒たちに人気が高い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 320
+            },
+            {
+                "paramType": "criticalDamageResistRate",
+                "paramValue": 1800
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 150
+            }
+        ],
+        "dropIn": {
+            "stages": ["17-2N", "17-4N", "17-1H", "17-2H", "23-1N", "23-2N", "23-4N", "23-1H", "23-2H"],
+            "recommended": "17-1N"
+        }
+    },
+    {
+        "name": "ポケット消臭剤",
+        "description": "機能的化粧品ブランド「シーサイド」とのコラボで制作された携帯消臭剤。そのファッショナブルなデザインから、キーホルダーにつけてアクセサリーのように活用する生徒も多い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 360
+            },
+            {
+                "paramType": "criticalDamageResistRate",
+                "paramValue": 2100
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 180
+            }
+        ],
+        "dropIn": {
+            "stages": ["20-2N", "20-4N", "20-1H", "20-2H"],
+            "recommended": "20-1N"
+        }
+    },
+    {
+        "name": "ドリームキャッチャー",
+        "description": "悪夢を消してくれるという呪術的な意味を持つものである。匂いを嗅ぐと、木特有の良い香りがする。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "お守り",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "criticalChanceResistPoint",
+                "paramValue": 380
+            },
+            {
+                "paramType": "criticalDamageResistRate",
+                "paramValue": 2400
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 200
+            }
+        ],
+        "dropIn": {
+            "stages": ["23-2N", "23-4N", "23-1H", "23-2H"],
+            "recommended": "23-1N"
+        }
+    },
+    {
+        "name": "スポーツグローブ",
+        "description": "滑りにくいよう、手のひら側がでこぼこになっているスポーツグローブ。材質に難燃素材を使用しているため、熱い銃身に触れる時も安心。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "6.4%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-1N", "1-2N", "1-3N", "2-2H", "7-1N", "7-2N", "7-3N", "7-2H", "8-2H"],
+            "recommended": "1-2H"
+        }
+    },
+    {
+        "name": "ニットのミトン",
+        "description": "アウトドアブランド「マナスル」の、女子高生をターゲットにした手袋。保温性はやや心許ないが、デザインの可愛さで人気の商品。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "10.4%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-1N", "4-2N", "4-2N", "4-2H", "4-2H", "4-2H", "5-2H", "5-2H", "10-1N", "10-2N", "10-3N", "10-2H", "11-2H"],
+            "recommended": "4-3N"
+        }
+    },
+    {
+        "name": "ペロロの鍋掴み",
+        "description": "「モモフレンズ」のマスコットキャラクター「ペロロ」デザインの白い鍋掴み。これを着けると、突然踊り出したくなるらしい。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "14.4%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-1N", "7-3N", "7-2H", "7-2H", "8-2H", "8-2H", "13-1N", "13-2N", "13-5N", "13-1H", "13-2H"],
+            "recommended": "7-2N"
+        }
+    },
+    {
+        "name": "レザーグローブ",
+        "description": "高級革を使用しているグローブ。耐久性はそれほど高くなく、主に式典やパーティなどで使われる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "20%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 70
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-1N", "10-3N", "10-2H", "10-2H", "11-2H", "16-1N", "16-2N", "16-5N", "16-1H", "16-2H"],
+            "recommended": "10-2N"
+        }
+    },
+    {
+        "name": "タクティカルグローブ",
+        "description": "防炎素材を使用して作られた、丈夫なタクティカルグローブ。たとえ熱せられた棒を握ってたとしても問題無し！",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "25%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 200
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-1N", "13-2N", "13-5N", "13-1H", "19-1N", "19-2N", "19-5N", "19-1H", "19-2H"],
+            "recommended": "13-2H"
+        }
+    },
+    {
+        "name": "レースのグローブ",
+        "description": "サテン素材で作られた、高級感のあるデザインのグローブ。熱に弱いため、火気を取り扱う際にはご注意。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "30%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 300
+            },
+            {
+                "paramType": "accuracy",
+                "paramValue": 30
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-1N", "16-2N", "16-5N", "16-1H", "22-1N", "22-2N", "22-5N", "22-1H", "22-2H"],
+            "recommended": "16-2H"
+        }
+    },
+    {
+        "name": "アームカバー",
+        "description": "紫外線対策とファッション、その二つの要素を同時に求める生徒のためのアームカバー。季節の変わり目などにおススメ。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "35%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 350
+            },
+            {
+                "paramType": "accuracy",
+                "paramValue": 200
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-1N", "19-2N", "19-5N", "19-1H"],
+            "recommended": "19-2H"
+        }
+    },
+    {
+        "name": "パールヤーングローブ",
+        "description": "真珠の装飾が施されたヤーングローブ。指の部分は露出しているので、精巧な作業をするのにも問題ない。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "40%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 370
+            },
+            {
+                "paramType": "accuracy",
+                "paramValue": 220
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-1N", "22-2N", "22-5N", "22-1H"],
+            "recommended": "22-2H"
+        }
+    },
+    {
+        "name": "ピンクスニーカー",
+        "description": "スポーツウェアブランド「サーバル」から発売された、ピンク色のスニーカー。内側に柔らかい素材を使用しているため、ランニングに最適。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "4%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-1N", "1-3N", "1-4N", "2-3H", "7-1N", "7-3N", "7-4N", "7-3H", "8-3H"],
+            "recommended": "1-3H"
+        }
+    },
+    {
+        "name": "ムートンブーツ",
+        "description": "アウトドアブランド「マナスル」のブーツ。デザインの可愛らしさもさることながら、保温性にも優れており、寒い地方の女子高生たちに人気が高い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "6.5%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-1N", "4-3N", "4-3N", "4-3H", "4-3H", "4-3H", "5-3H", "5-3H", "10-1N", "10-3N", "10-4N", "10-3H", "11-3H"],
+            "recommended": "4-4N"
+        }
+    },
+    {
+        "name": "ピンキーパカのスリッパ",
+        "description": "「モモフレンズ」のピンクのアルパカ、ピンキーパカをモチーフにしたスリッパ。ふかふかで断熱性もしっかりとしている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "9%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-1N", "7-4N", "7-3H", "7-3H", "8-3H", "8-3H", "13-1N", "13-3N", "13-4N", "13-2H", "13-3H"],
+            "recommended": "7-3N"
+        }
+    },
+    {
+        "name": "アンティークなエナメルローファー",
+        "description": "トリニティ総合学園の生徒たちが履いているローファー。エナメル塗料で仕上げているため、光を受けると靴の先が輝く。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "12.5%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "6%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-1N", "10-4N", "10-3H", "10-3H", "11-3H", "16-1N", "16-3N", "16-4N", "16-2H", "16-3H"],
+            "recommended": "10-3N"
+        }
+    },
+    {
+        "name": "戦闘用ブーツ",
+        "description": "足を保護するため、厚めの素材で丈夫に作られた戦闘用のブーツ。かかと部分が盛り上がっているため、シークレットシューズ的な要素を兼ね備えており、自身を大人っぽく見せたい生徒や、身長が気になる生徒たちに愛用されている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "20%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "9%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-1N", "13-3N", "13-4N", "13-2H", "19-1N", "19-3N", "19-4N", "19-2H", "19-3H"],
+            "recommended": "13-3H"
+        }
+    },
+    {
+        "name": "ヒールパンプス",
+        "description": "可愛らしさとシンプルさを兼ね備えたハイヒール。これを履いて歩くと、どことなくいつもより優雅な歩き方に。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "25%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "12%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-1N", "16-3N", "16-4N", "16-2H", "22-1N", "22-3N", "22-4N", "22-2H", "22-3H"],
+            "recommended": "16-3H"
+        }
+    },
+    {
+        "name": "カジュアルスニーカー",
+        "description": "シンプルなデザインのスニーカー。軽くてフィット感も良く、多くの生徒から支持されている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "30%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "13.5%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-1N", "19-3N", "19-4N", "19-2H"],
+            "recommended": "19-3H"
+        }
+    },
+    {
+        "name": "防水登山ブーツ",
+        "description": "天然ゴムに防水コーティングを施した通気性と耐久性に優れた登山用ブーツ。水に落ちても表面は濡れない。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "35%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "15%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-1N", "22-3N", "22-4N", "22-2H"],
+            "recommended": "22-3H"
+        }
+    },
+    {
+        "name": "ブルートゥースのネックレス",
+        "description": "着用している人の体温や心拍数などを測定できるブルートゥース機能を搭載したネックレス。運動量を簡単に把握することができるため、特にダイエットを志す人たちに愛用されている。「ダイエットの必需品」と呼ばれているが、果たして笑顔で外せる日は来るのか。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "8%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "8%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-3H", "2-2N", "2-4N", "2-3H", "7-3H", "8-2N", "8-4N", "8-5N", "8-3H"],
+            "recommended": "2-5N"
+        }
+    },
+    {
+        "name": "雪花のペンダント",
+        "description": "雪模様の装飾がついた銀色のペンダント。長い時間見つめていると、なんだか優しい気持ちになれる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "13%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "13%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-3H", "4-3H", "5-2N", "5-5N", "5-5N", "5-3H", "5-3H", "10-3H", "11-2N", "11-4N", "11-5N", "11-3H"],
+            "recommended": "5-4N"
+        }
+    },
+    {
+        "name": "ニコライのロケットペンダント",
+        "description": "「モモフレンズ」のキャラクター「Mr.ニコライ」の顔がぶら下がったようなロケットペンダント。鼻の部分を押すと、写真を入れられる小さなスペースが開く。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "18%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "18%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-3H", "7-3H", "8-2N", "8-4N", "8-3H", "8-3H", "14-1N", "14-3N", "14-5N", "14-2H", "14-3H"],
+            "recommended": "8-5N"
+        }
+    },
+    {
+        "name": "十字架のチョーカー",
+        "description": "有名ブランド「ベロニカ」から発売された、十字架の装飾が付いたチョーカー。シンプルだが洗練されたデザインのため人気が高い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "25%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "25%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-3H", "11-2N", "11-4N", "11-3H", "17-1N", "17-3N", "17-5N", "17-2H", "17-3H"],
+            "recommended": "11-5N"
+        }
+    },
+    {
+        "name": "ドッグタグ",
+        "description": "学籍番号と名前が刻まれたドッグタグ。最近特に女子高生たちの間で、大きな人気を集め始めている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "28%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "28%"
+            },
+            {
+                "paramType": "attackPercent",
+                "paramValue": "4%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["14-1N", "14-3N", "14-2H", "14-3H", "20-1N", "20-3N", "20-5N", "20-2H", "20-3H"],
+            "recommended": "14-5N"
+        }
+    },
+    {
+        "name": "パンクチョーカー",
+        "description": "鋭いスパイクがしつらえられたパンクスタイルのチョーカー。首に着けるとちょっと頷きにくくなる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "32%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "32%"
+            },
+            {
+                "paramType": "attackPercent",
+                "paramValue": "6%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["17-1N", "17-3N", "17-2H", "17-3H", "23-1N", "23-3N", "23-5N", "23-2H", "23-3H"],
+            "recommended": "17-5N"
+        }
+    },
+    {
+        "name": "チェーンネックレス",
+        "description": "チェーンで作られたネックレス。ジャラジャラと響く音が心地良いという生徒もいれば、冷たい感触が苦手という生徒もおり、評価は割れるところ。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "35%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "35%"
+            },
+            {
+                "paramType": "attackPercent",
+                "paramValue": "8%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["20-1N", "20-3N", "20-2H", "20-3H"],
+            "recommended": "20-5N"
+        }
+    },
+    {
+        "name": "グリーンリーフネックレス",
+        "description": "モダンファッションブランド「ローレライ」から発売されたネックレス。 光を受けると葉っぱにほのかな光沢が出るという。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ネックレス",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "healPercent",
+                "paramValue": "38%"
+            },
+            {
+                "paramType": "CCPowerPercent",
+                "paramValue": "38%"
+            },
+            {
+                "paramType": "attackPercent",
+                "paramValue": "10%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["23-1N", "23-3N", "23-2H", "23-3H"],
+            "recommended": "23-5N"
+        }
+    },
+    {
+        "name": "防水スポーツバッグ",
+        "description": "「サーバル」が製作した防水加工のスポーツバッグ。水が染みない素材で作られているため、川や海に持って行っても安心。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 600
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-2N", "1-4N", "1-5N", "1-1H", "7-2N", "7-4N", "7-5N", "7-1H", "8-1H"],
+            "recommended": "2-1H"
+        }
+    },
+    {
+        "name": "寒冷地用バッグ",
+        "description": "「マナスル」が製作した寒冷地用のバッグ。裏地が厚い素材で作られており、飲み物などを冷めないようにきっちり保温してくれる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 975
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-2N", "4-4N", "4-4N", "4-1H", "4-1H", "5-1H", "5-1H", "5-1H", "10-2N", "10-4N", "10-5N", "10-1H", "11-1H"],
+            "recommended": "4-5N"
+        }
+    },
+    {
+        "name": "ペロロのバッグ",
+        "description": "ペロロが大きくプリントされたバッグ。収納スペースが広く、ペロロマニアでない普通の人達にも人気がある。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 1350
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-2N", "7-5N", "7-1H", "7-1H", "8-1H", "8-1H", "13-4N", "13-3H", "14-3N", "14-5N", "14-3H"],
+            "recommended": "7-4N"
+        }
+    },
+    {
+        "name": "紺色のスクールバッグ",
+        "description": "トリニティ総合学園の校則に従って製作されたスクールバッグ。そのシンプルで高級なデザインは、他校の生徒からも人気が高い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 1875
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1000
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-2N", "10-5N", "10-1H", "11-1H", "11-1H", "16-4N", "16-3H", "17-3N", "17-5N", "17-3H"],
+            "recommended": "10-4N"
+        }
+    },
+    {
+        "name": "戦闘用ランドセル",
+        "description": "機能性と収納性とを強化した「カゼヤマ」社特別製のランドセル。小型の武装をたくさん持ち歩きたい生徒たちに好評のもよう。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 3500
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1100
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-4N", "13-3H", "14-3N", "14-5N", "19-4N", "19-3H", "20-3N", "20-5N", "20-3H"],
+            "recommended": "14-3H"
+        }
+    },
+    {
+        "name": "デビルウイングのトートバッグ",
+        "description": "大きな翼が描かれたトートバッグ。比較的シンプルなデザインをしており、カジュアルな服装にもバッチリ。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 5500
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1200
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-4N", "16-3H", "17-3N", "17-5N", "22-4N", "22-3H", "23-3N", "23-5N", "23-3H"],
+            "recommended": "17-3H"
+        }
+    },
+    {
+        "name": "ストリートバッグ",
+        "description": "カジュアルな雰囲気に実用性を加えたストリートバッグ。たっぷり収納できるため、多くの生徒に愛用されている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 7500
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1300
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-4N", "19-3H", "20-3N", "20-5N"],
+            "recommended": "20-3H"
+        }
+    },
+    {
+        "name": "蝶柄のショルダーバッグ",
+        "description": "大きな蝶々が描かれたショルダーバッグ。軽い素材なので、旅行に持って行っても負担にならない。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 9500
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1400
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-4N", "22-3H", "23-3N", "23-5N"],
+            "recommended": "23-3H"
+        }
+    },
+    {
+        "name": "サーバルのメタルバッジ",
+        "description": "有名なスポーツウェアブランド「サーバル」のロゴバッジ。丈夫な金属で作られているため、青春の汗と情熱の中でも摩耗の心配なし。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 800
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-5N", "1-2H", "2-1N", "2-5N", "7-5N", "7-2H", "8-1N", "8-5N", "8-2H"],
+            "recommended": "2-2H"
+        }
+    },
+    {
+        "name": "マナスルのフェルトバッジ",
+        "description": "アウトドアブランド「マナスル」のロゴバッジ。柔らかいフェルト製のため、温度の変化が大きくても変形の心配が少ない。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 1300
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-5N", "4-5N", "4-2H", "4-2H", "5-1N", "5-2H", "5-2H", "5-2H", "10-5N", "10-2H", "11-1N", "11-5N", "11-2H"],
+            "recommended": "5-5N"
+        }
+    },
+    {
+        "name": "アングリーアデリーのバッジ",
+        "description": "「モモフレンズ」のアングリーアデリーが描かれたバッジ。ずっと見つめていると気分が悪くなるかも……。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 1800
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-2H", "7-2H", "8-1N", "8-5N", "8-2H", "8-2H", "13-2N", "13-5N", "13-2H", "14-4N", "14-1H"],
+            "recommended": "7-5N"
+        }
+    },
+    {
+        "name": "ベロニカの刺繍バッジ",
+        "description": "有名ブランド「ベロニカ」のロゴが刺繍されたバッジ。どんな既製品でも、これをつけると高級品に見える。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 2500
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 1000
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-2H", "11-1N", "11-5N", "11-2H", "11-2H", "16-2N", "16-5N", "16-2H", "17-4N", "17-1H"],
+            "recommended": "10-5N"
+        }
+    },
+    {
+        "name": "カゼヤマのワッペン",
+        "description": "ミリタリー専門ブランド「カゼヤマ」のロゴが印刷されたワッペン。裏側の面ファスナーを利用して、衣服などに簡単に付けることができる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 4500
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 2000
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "10%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-2N", "13-5N", "13-2H", "14-4N", "19-2N", "19-5N", "19-2H", "20-4N", "20-1H"],
+            "recommended": "14-1H"
+        }
+    },
+    {
+        "name": "ココデビルのバッジ",
+        "description": "ゴスロリ系ブランド「ココデビル」のロゴが印刷されたシルバーのバッジ。裏側のピンを使うことで、ブローチのように身に着けることができる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 6500
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 3000
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "18%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-2N", "16-5N", "16-2H", "17-4N", "22-2N", "22-5N", "22-2H", "23-4N", "23-1H"],
+            "recommended": "17-1H"
+        }
+    },
+    {
+        "name": "ストリートバッジ",
+        "description": "ストリートファッションブランド「トリプルステップ」の新作バッジ。社名を中央に大きく印刷した大胆さからは、制作者の自信が窺える。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 9500
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 3200
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "22%"
+            },
+            {
+                "paramType": "evasion",
+                "paramValue": 400
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-2N", "19-5N", "19-2H", "20-4N"],
+            "recommended": "20-1H"
+        }
+    },
+    {
+        "name": "ローレライバッジ",
+        "description": "モダンファッションブランド「ローレライ」から発売されたバッジ。無垢材に精巧な加工を施しているため、表面が滑らかで良い香りがするという。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 12000
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 3400
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "24%"
+            },
+            {
+                "paramType": "evasion",
+                "paramValue": 450
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-2N", "22-5N", "22-2H", "23-4N"],
+            "recommended": "23-1H"
+        }
+    },
+    {
+        "name": "テニス用ヘアバンド",
+        "description": "スポーツウェアブランド「サーバル」から発売されているテニス用ヘアバンド。運動中の汗が落ちても目に入らないよう、吸収性の高い素材で作られている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 400
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-4N", "1-3H", "2-1N", "2-2N", "2-3N", "7-4N", "7-3H", "8-1N", "8-2N", "8-3N", "8-3H"],
+            "recommended": "2-3H"
+        }
+    },
+    {
+        "name": "シュシュ",
+        "description": "サテン素材で作られている、弾力性に優れたシュシュ。温かい汁物やラーメンなどを食べる時は、このシュシュで髪を縛っておくのがおススメ。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 650
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-4N", "4-3H", "4-3H", "5-1N", "5-1N", "5-2N", "5-2N", "5-3H", "5-3H", "5-3H", "10-4N", "10-3H", "11-1N", "11-2N", "11-3N", "11-3H"],
+            "recommended": "5-3N"
+        }
+    },
+    {
+        "name": "モモのヘアピン",
+        "description": "「モモトーク」のアイコンの形をしたブローチが付いたヘアピン。ブローチをこすると、ほのかに桃の香りがする。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 900
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-4N", "7-3H", "7-3H", "8-1N", "8-3N", "8-3H", "8-3H", "13-3N", "13-4N", "13-1H", "14-2N", "14-5N", "14-2H"],
+            "recommended": "8-2N"
+        }
+    },
+    {
+        "name": "翼のヘアピン",
+        "description": "有名ブランド「ベロニカ」が、天使の翼をモチーフに製作したヘアピン。トリニティの生徒たちにはあまり人気がない模様。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 1250
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "10%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-4N", "10-3H", "11-1N", "11-3N", "11-3H", "11-3H", "16-3N", "16-4N", "16-1H", "17-2N", "17-5N", "17-2H"],
+            "recommended": "11-2N"
+        }
+    },
+    {
+        "name": "多目的ヘアピン",
+        "description": "片側が研磨されて鋭利な形状になっているため、有事の際には栓抜きやポケットナイフとしても活用できる多目的型のヘアピン。普通に使おうと思って手を傷つけてしまう可能性もあるので、その辺りはご注意を。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 3000
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "20%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-3N", "13-4N", "13-1H", "14-2N", "14-5N", "19-3N", "19-4N", "19-1H", "20-2N", "20-5N", "20-2H"],
+            "recommended": "14-2H"
+        }
+    },
+    {
+        "name": "コウモリのヘアピン",
+        "description": "黒いリボンにも見えるコウモリの羽のヘアピン。これを付けるだけでまるで小悪魔のような魅力が。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 4500
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "24%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-3N", "16-4N", "16-1H", "17-2N", "17-5N", "22-3N", "22-4N", "22-1H", "23-2N", "23-5N", "23-2H"],
+            "recommended": "17-2H"
+        }
+    },
+    {
+        "name": "カリグラフィーヘアピン",
+        "description": "文字でデザインされたヘアピン。文字列そのものに意味はないが、どこか胸をときめかせてくれるデザイン。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 6500
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "28%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-3N", "19-4N", "19-1H", "20-2N", "20-5N"],
+            "recommended": "20-2H"
+        }
+    },
+    {
+        "name": "リーフヘアピン",
+        "description": "葉っぱの形をしたヘアピン。普段使いには少し難しいが、オシャレをした日につけると良いだろう。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 8500
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "32%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-3N", "22-4N", "22-1H", "23-2N", "23-5N"],
+            "recommended": "23-2H"
+        }
+    },
+    {
+        "name": "無地のキャップ",
+        "description": "スポーツウェアブランド「サーバル」が発売した、藍色で無地のキャップ。色んなバッジをつけて個性を強調できるので、ファッショングッズとして愛されている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "8%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-1N", "1-2N", "1-3N", "1-5N", "2-1H", "7-1N", "7-2N", "7-3N", "7-5N", "7-1H", "8-1H"],
+            "recommended": "1-1H"
+        }
+    },
+    {
+        "name": "ニット帽",
+        "description": "アウトドアブランド「マナスル」の、女子高生をターゲットにしたニット帽。保温性はやや心許ないが、デザインの可愛さで人気の商品。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "13%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-1N", "4-1N", "4-2N", "4-3N", "4-1H", "4-1H", "4-1H", "5-1H", "5-1H", "10-1N", "10-2N", "10-3N", "10-5N", "10-1H", "11-1H"],
+            "recommended": "4-5N"
+        }
+    },
+    {
+        "name": "ビッグブラザーの中折れ帽",
+        "description": "「モモフレンズ」のキャラクター、ビッグブラザーのぬいぐるみがついた小さな中折れ帽。この帽子をかぶると急にビッグブラザーの視線が感じられるという。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "18%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-2N", "7-3N", "7-5N", "7-1H", "7-1H", "8-1H", "8-1H", "13-1N", "13-2N", "13-3N", "13-5N", "13-1H", "13-3H"],
+            "recommended": "7-1N"
+        }
+    },
+    {
+        "name": "リボン付きベレー帽",
+        "description": "トリニティ総合学園の校帽としても採用されている、白色のリボン付きベレー帽。実際に被ってみると、そのボリューム感を生かす着こなしは思ったより難しいとのこと。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "25%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 800
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-2N", "10-3N", "10-5N", "10-1H", "10-1H", "11-1H", "16-1N", "16-2N", "16-3N", "16-5N", "16-1H", "16-3H"],
+            "recommended": "10-1N"
+        }
+    },
+    {
+        "name": "防弾ヘルメット",
+        "description": "飛来するあらゆるものから頭部を守ることができる頑丈な防弾ヘルメット。外側は柔らかい綿素材で覆われており、ワッペンなどを付けて飾ることができる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "30%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1200
+            }
+        ],
+        "dropIn": {
+            "stages": ["13-1N", "13-2N", "13-3N", "13-5N", "13-3H", "19-1N", "19-2N", "19-3N", "19-5N", "19-1H", "19-3H"],
+            "recommended": "13-1H"
+        }
+    },
+    {
+        "name": "フリルのミニハット",
+        "description": "華やかなフリルで飾られたミニハット。フリルの裏側には小さなヘアピンが隠されており、形を固定させるための役割も担っている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "35%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1600
+            }
+        ],
+        "dropIn": {
+            "stages": ["16-1N", "16-2N", "16-3N", "16-5N", "16-3H", "22-1N", "22-2N", "22-3N", "22-5N", "22-1H", "22-3H"],
+            "recommended": "16-1H"
+        }
+    },
+    {
+        "name": "バケットハット",
+        "description": "顔の上部を隠せる大きめのバケットハット。マスクを合わせると顔の露出を最低限にでき、紫外線対策もバッチリ。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "40%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1800
+            }
+        ],
+        "dropIn": {
+            "stages": ["19-1N", "19-2N", "19-3N", "19-5N", "19-3H"],
+            "recommended": "19-1H"
+        }
+    },
+    {
+        "name": "リーフリボン付き中折れ帽",
+        "description": "葉っぱの飾りがリボン状に差し込まれたファブリック素材の中折れ帽。リゾートファッションによく似合う。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "45%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 2000
+            }
+        ],
+        "dropIn": {
+            "stages": ["22-1N", "22-2N", "22-3N", "22-5N", "22-3H"],
+            "recommended": "22-1H"
+        }
+    },
+    {
+        "name": "デジタルウォッチ",
+        "description": "スポーツウェアブランド「サーバル」のデジタルウォッチ。防水仕様なので、泳ぐ時なども着用したままでOK。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 1,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 80
+            }
+        ],
+        "dropIn": {
+            "stages": ["1-2H", "2-1N", "2-2N", "2-3N", "2-2H", "7-2H", "8-1N", "8-2N", "8-3N", "8-4N", "8-2H"],
+            "recommended": "2-4N"
+        }
+    },
+    {
+        "name": "レザーの腕時計",
+        "description": "アウトドアブランド「マナスル」の時計。革製のため、装着部分の手首が冷える心配がない。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 2,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 130
+            }
+        ],
+        "dropIn": {
+            "stages": ["4-2H", "4-2H", "5-1N", "5-2N", "5-4N", "5-4N", "5-2H", "5-2H", "10-2H", "11-1N", "11-2N", "11-3N", "11-4N", "11-2H"],
+            "recommended": "5-3N"
+        }
+    },
+    {
+        "name": "ウェーブキャットの時計",
+        "description": "「モモフレンズ」のキャラクター「ウェーブキャット」が描かれた腕時計。ウェーブキャットの両腕が時計の針になっているため、時間に応じて奇怪に捻じれていく様が見られる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 3,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 180
+            }
+        ],
+        "dropIn": {
+            "stages": ["7-2H", "7-2H", "8-1N", "8-2N", "8-3N", "8-2H", "8-2H", "14-1N", "14-2N", "14-3N", "14-4N", "14-1H", "14-3H"],
+            "recommended": "8-4N"
+        }
+    },
+    {
+        "name": "アンティークな懐中時計",
+        "description": "「ベロニカ」のロゴが刻印されたアンティークな懐中時計。腕時計に比べて確認に手間がかかるのは短所だが、ファッションアイテムとして人気が高い。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 4,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 250
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1000
+            }
+        ],
+        "dropIn": {
+            "stages": ["10-2H", "11-1N", "11-2N", "11-3N", "11-2H", "17-1N", "17-2N", "17-3N", "17-4N", "17-1H", "17-3H"],
+            "recommended": "11-4N"
+        }
+    },
+    {
+        "name": "防塵型の腕時計",
+        "description": "ミリタリー専門ブランド「カゼヤマ」で製作された防塵型の腕時計。過酷な環境下でも、故障の心配をすることなく使用することができる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 5,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 280
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1500
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "5%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["14-1N", "14-2N", "14-3N", "14-1H", "14-3H", "20-1N", "20-2N", "20-3N", "20-4N", "20-1H", "20-3H"],
+            "recommended": "14-4N"
+        }
+    },
+    {
+        "name": "ゴシック風の腕時計",
+        "description": "ゴシック風にデザインされた腕時計。クラシカルな服などによく似合うものの、慣れないと時間が読みにくいという弱点がある。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 6,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 320
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 1800
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "7%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["17-1N", "17-2N", "17-3N", "17-1H", "17-3H", "23-1N", "23-2N", "23-3N", "23-4N", "23-1H", "23-3H"],
+            "recommended": "17-4N"
+        }
+    },
+    {
+        "name": "ストリートファッションウォッチ",
+        "description": "モダンで可愛いデザインが人気のストリートファッションウォッチ。「トリプルステップ」はこの時計と合わせて、ブレスレットをセット売りする戦略を立てているとか。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 7,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 360
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 2100
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "9%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["20-1N", "20-2N", "20-3N", "20-1H", "20-3H"],
+            "recommended": "20-4N"
+        }
+    },
+    {
+        "name": "ローレライの腕時計",
+        "description": "モダンファッションブランド「ローレライ」から発売された腕時計。木と革を使用した洗練されたデザインが独特な雰囲気を醸し出している。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "腕時計",
+        "tier": 8,
+        "params": [
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 400
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 2400
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "11%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["23-1N", "23-2N", "23-3N", "23-1H", "23-3H"],
+            "recommended": "23-4N"
+        }
+    },
+    {
+        "name": "発熱カイロの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "発熱カイロ"
+    },
+    {
+        "name": "ペロロのお守りの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ペロロのお守り"
+    },
+    {
+        "name": "クルスの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "クルス"
+    },
+    {
+        "name": "カモフラダルマの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "カモフラダルマ"
+    },
+    {
+        "name": "呪いの人形の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "呪いの人形"
+    },
+    {
+        "name": "ポケット消臭剤の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ポケット消臭剤"
+    },
+    {
+        "name": "ドリームキャッチャーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ドリームキャッチャー"
+    },
+    {
+        "name": "ニットのミトンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ニットのミトン"
+    },
+    {
+        "name": "ペロロの鍋掴みの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ペロロの鍋掴み"
+    },
+    {
+        "name": "レザーグローブの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "レザーグローブ"
+    },
+    {
+        "name": "タクティカルグローブの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "タクティカルグローブ"
+    },
+    {
+        "name": "レースのグローブの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "レースのグローブ"
+    },
+    {
+        "name": "アームカバーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アームカバー"
+    },
+    {
+        "name": "パールヤーングローブの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "パールヤーングローブ"
+    },
+    {
+        "name": "ムートンブーツの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ムートンブーツ"
+    },
+    {
+        "name": "ピンキーパカのスリッパの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ピンキーパカのスリッパ"
+    },
+    {
+        "name": "アンティークなエナメルローファーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アンティークなエナメルローファー"
+    },
+    {
+        "name": "戦闘用ブーツの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "戦闘用ブーツ"
+    },
+    {
+        "name": "ヒールパンプスの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ヒールパンプス"
+    },
+    {
+        "name": "カジュアルスニーカーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "カジュアルスニーカー"
+    },
+    {
+        "name": "防水登山ブーツの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "防水登山ブーツ"
+    },
+    {
+        "name": "雪花のペンダントの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "雪花のペンダント"
+    },
+    {
+        "name": "ニコライのロケットペンダントの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ニコライのロケットペンダント"
+    },
+    {
+        "name": "十字架のチョーカーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "十字架のチョーカー"
+    },
+    {
+        "name": "ドッグタグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ドッグタグ"
+    },
+    {
+        "name": "パンクチョーカーの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "パンクチョーカー"
+    },
+    {
+        "name": "チェーンネックレスの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "チェーンネックレス"
+    },
+    {
+        "name": "グリーンリーフネックレスの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "グリーンリーフネックレス"
+    },
+    {
+        "name": "寒冷地用バッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "寒冷地用バッグ"
+    },
+    {
+        "name": "ペロロのバッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ペロロのバッグ"
+    },
+    {
+        "name": "紺色のスクールバッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "紺色のスクールバッグ"
+    },
+    {
+        "name": "戦闘用ランドセルの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "戦闘用ランドセル"
+    },
+    {
+        "name": "デビルウイングのトートバッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "デビルウイングのトートバッグ"
+    },
+    {
+        "name": "ストリートバッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ストリートバッグ"
+    },
+    {
+        "name": "蝶柄のショルダーバッグの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "蝶柄のショルダーバッグ"
+    },
+    {
+        "name": "マナスルのフェルトバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "マナスルのフェルトバッジ"
+    },
+    {
+        "name": "アングリーアデリーのバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アングリーアデリーのバッジ"
+    },
+    {
+        "name": "ベロニカの刺繍バッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ベロニカの刺繍バッジ"
+    },
+    {
+        "name": "カゼヤマのワッペンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "カゼヤマのワッペン"
+    },
+    {
+        "name": "ココデビルのバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ココデビルのバッジ"
+    },
+    {
+        "name": "ストリートバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ストリートバッジ"
+    },
+    {
+        "name": "ローレライバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ローレライバッジ"
+    },
+    {
+        "name": "シュシュの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "シュシュ"
+    },
+    {
+        "name": "モモのヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "モモのヘアピン"
+    },
+    {
+        "name": "翼のヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "翼のヘアピン"
+    },
+    {
+        "name": "多目的ヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "多目的ヘアピン"
+    },
+    {
+        "name": "コウモリのヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "コウモリのヘアピン"
+    },
+    {
+        "name": "カリグラフィーヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "カリグラフィーヘアピン"
+    },
+    {
+        "name": "リーフヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "リーフヘアピン"
+    },
+    {
+        "name": "ニット帽の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ニット帽"
+    },
+    {
+        "name": "ビッグブラザーの中折れ帽の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ビッグブラザーの中折れ帽"
+    },
+    {
+        "name": "リボン付きベレー帽の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "リボン付きベレー帽"
+    },
+    {
+        "name": "防弾ヘルメットの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "防弾ヘルメット"
+    },
+    {
+        "name": "フリルのミニハットの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "フリルのミニハット"
+    },
+    {
+        "name": "バケットハットの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "バケットハット"
+    },
+    {
+        "name": "リーフリボン付き中折れ帽の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "リーフリボン付き中折れ帽"
+    },
+    {
+        "name": "レザーの腕時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "レザーの腕時計"
+    },
+    {
+        "name": "ウェーブキャットの時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ウェーブキャットの時計"
+    },
+    {
+        "name": "アンティークな懐中時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アンティークな懐中時計"
+    },
+    {
+        "name": "防塵型の腕時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "防塵型の腕時計"
+    },
+    {
+        "name": "ゴシック風の腕時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ゴシック風の腕時計"
+    },
+    {
+        "name": "ストリートファッションウォッチの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ストリートファッションウォッチ"
+    },
+    {
+        "name": "ローレライの腕時計の設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ローレライの腕時計"
+    }
+]

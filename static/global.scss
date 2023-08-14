@@ -1,0 +1,189 @@
+:root {
+    font-family: "Inter", "Kinto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--color-main-02);
+    background-image:
+    repeating-linear-gradient(
+        90deg,
+        var(--color-background-pattern),
+        var(--color-background-pattern) 0.075rem,
+        transparent 0.075rem,
+        transparent 1.5rem
+    ),
+    repeating-linear-gradient(
+        0deg,
+        var(--color-background-pattern),
+        var(--color-background-pattern) 0.075rem,
+        var(--color-main-01) 0.075rem,
+        var(--color-main-01) 1.5rem
+    );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1.5rem 1.5rem;
+}
+
+:root {
+    --header-height: 64px;
+    --body-width: max(1080px, 50vw);
+    --color-dominant: #128afa;
+    --color-white: #ffffff;
+    --color-black: #1b1b1b;
+    --color-calendar-red: #e73b3b;
+    --color-calendar-blue: #2f76f9;
+    --color-calendar-pink: #ff6a97;
+    --color-student-role-striker: #cc4125;
+    --color-student-role-special: #1155cc;
+    --color-student-param-red: #94090f;
+    --color-student-param-yellow: #be890a;
+    --color-student-param-blue: #1f6095;
+    --color-student-param-purple: #8c3c97;
+    --color-student-param-misc: #3c4a5e;
+    --color-student-landscape-apt-green: #45cf3b;
+    --color-student-landscape-apt-yellow: #d6bc09;
+    --color-student-landscape-apt-red: #d53f2f;
+    --color-stage-difficulty-green: #03ce5f; 
+    --color-stage-difficulty-red: #ef4040;
+    --color-item-rarity-n: #dbe6ea;
+    --color-item-rarity-r: #afdcf5;
+    --color-item-rarity-sr: #ffdd7f;
+    --color-item-rarity-ssr: #d29aee;
+    --solid-shadow-block-background: repeating-linear-gradient(
+        135deg,
+        var(--color-main-01),
+        var(--color-main-01) 0.875rem,
+        var(--color-medium-01) 0.875rem,
+        var(--color-medium-01) 1rem
+    );
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    list-style-type: none;
+    transition-timing-function: cubic-bezier(0, 0.36, 0.36, 1) !important;
+    transition-duration: 0.425s;
+    transition-property: none;
+    animation-duration: 0.425s;
+    animation-timing-function: cubic-bezier(0, 0.36, 0.36, 1) !important;
+    animation-fill-mode: forwards;
+
+    &::marker {
+        display: none;
+        font-size: 0;
+    }
+
+    &:focus-visible {
+        outline-color: var(--color-dominant);
+    }
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+b.skill-param {
+    color: var(--color-dominant);
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(0 0 99.9% 99.9%);
+}
+
+.sentence {
+    line-height: 1.5;
+}
+
+.strict-break {
+    word-break: keep-all;
+    line-break: strict;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-main-01: var(--color-white);
+        --color-main-02: var(--color-black);
+        --color-medium-01: #f9f9fb;
+        --color-medium-02: #cdcdcd;
+        --color-medium-03: #b3b3b3;
+        --color-medium-04: #4e4e4e;
+        --color-background-pattern: #f1f1f1;
+        --solid-shadow-block-border: solid 0.1rem var(--color-black);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-main-01: var(--color-black);
+        --color-main-02: var(--color-white);
+        --color-medium-01: #2b2b2b;
+        --color-medium-02: #4e4e4e;
+        --color-medium-03: #6e6e6e;
+        --color-medium-04: #cdcdcd;
+        --color-background-pattern: var(--color-medium-01);
+        --solid-shadow-block-border: solid 0.1rem var(--color-medium-03);
+    }
+}
+
+@media (max-width: 1280px) {
+    :root {
+        font-size: 16px;
+
+        --body-width: 84vw;
+    }
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/asset/font/Inter-Medium.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/asset/font/Inter-Bold.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kinto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/asset/font/KintoSans-Medium.woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kinto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/asset/font/KintoSans-Bold.woff2");
+    font-display: swap;
+}

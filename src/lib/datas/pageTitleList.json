@@ -1,0 +1,17 @@
+[
+    {
+        "path": "students",
+        "title": "生徒名簿",
+        "level": 0
+    },
+    {
+        "path": "stages",
+        "title": "任務一覧",
+        "level": 0
+    },
+    {
+        "path": "items",
+        "title": "アイテム",
+        "level": 0
+    }
+]
