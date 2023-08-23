@@ -1,5 +1,5 @@
 # BlueScripture
-[![](https://github.com/BlueScripture/BlueScripture/assets/138224200/3b3d4675-2cb6-4922-9c93-20afa9db9900)](https://bluescripture.net)
+![BlueScripture](https://github.com/BlueScripture/BlueScripture/assets/138224200/0bd759d7-36b2-4557-82ee-1a2da0bb2f5e)
 
 **BlueScripture**はゲーム「ブルーアーカイブ（ブルアカ）」のデータを収集・分類・構造化することを目的とした非公式プロジェクトです。
 
