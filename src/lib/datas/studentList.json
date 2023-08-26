@@ -24767,6 +24767,261 @@
         ]
     },
     {
+        "name": "メル",
+        "fullName": "姫木 メル",
+        "ruby": "ひめき める",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "HG",
+        "position": "MIDDLE",
+        "class": "アタッカー",
+        "school": "レッドウィンター",
+        "atkAttr": "貫通",
+        "defAttr": "軽装",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "シューズ",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 12,
+            "day": 21
+        },
+        "params": {
+            "minHitpoint": 2317,
+            "hitpointIncrease": 247.544,
+            "minAtk": 513,
+            "atkIncrease": 46.694,
+            "minDef": 18,
+            "defIncrease": 0.929,
+            "minHeal": 1778,
+            "healIncrease": 35.929,
+            "accuracy": 108,
+            "evasion": 1011,
+            "criticalPoint": 270,
+            "criticalDamageFactor": "200%",
+            "stability": 916
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "最強のアイデア",
+                "skillDesc": "敵1人に対して、攻撃力の{p1}分のダメージ/\n攻撃力{p2}分の火傷状態持続ダメージを付与（30秒間）/\nさらに弱点把握状態を適用（30秒間）\n弱点把握状態の敵への攻撃時に、メルの攻撃力の{p3}分の追加ダメージ\n（このダメージにおいては、会心が発動しません）\n（最大480発分まで適用されます）",
+                "parameters": [
+                    ["91.1%", "104%", "145%", "159%", "173%"],
+                    ["173%", "199%", "251%", "277%", "329%"],
+                    ["1.3%", "1.5%", "1.7%", "1.9%", "2.5%"]
+                ],
+                "costs": [5, 5, 5, 5, 5]
+            },
+            "normalSkill": {
+                "skillName": "妄想は無限大",
+                "skillDesc": "50秒毎に、敵1人に対して攻撃力の{p1}分のダメージ/\nさらに攻撃力の{p2}分の火傷状態持続ダメージを付与（30秒間）",
+                "parameters": [
+                    ["71.4%", "75%", "78.4%", "92.8%", "96.4%", "100%", "114.2%", "117.8%", "121.4%", "135.6%"],
+                    ["47.9%", "50.3%", "52.7%", "62.3%", "64.7%", "67.1%", "76.7%", "79.1%", "81.5%", "91.1%"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "インプット",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "インプット+",
+                "skillDesc": "攻撃力を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["504", "530", "555", "656", "681", "706", "807", "832", "857", "958"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "設定崩壊！",
+                "skillDesc": "通常攻撃3回毎に強化弾を発射し、攻撃力の{p1}分のダメージ",
+                "parameters": [["139%", "146%", "153%", "181%", "188%", "195%", "222%", "229%", "236%", "264%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "マンドレイクの種",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "マンドレイクの芽",
+                    "quantity": 15
+                },
+                {
+                    "itemName": "ミステリーストーンの欠片",
+                    "quantity": 25
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "マンドレイクジュース",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "壊れたミステリーストーン",
+                    "quantity": 27
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "マンドレイク濃縮液",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "不完全なミステリーストーン",
+                    "quantity": 19
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "マンドレイクの種",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "マンドレイクの芽",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "ミステリーストーンの欠片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "マンドレイクの芽",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "ミステリーストーンの欠片",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "マンドレイクジュース",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "壊れたミステリーストーン",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "マンドレイク濃縮液",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "不完全なミステリーストーン",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "マンドレイク濃縮液",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "不完全なミステリーストーン",
+                    "quantity": 11
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "モエ",
         "fullName": "風倉 モエ",
         "ruby": "かぜくら もえ",
@@ -31530,6 +31785,257 @@
                 {
                     "itemName": "エーテルの結晶",
                     "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "モミジ",
+        "fullName": "秋泉 モミジ",
+        "ruby": "あきいずみ もみじ",
+        "starGrade": "★2",
+        "role": "STRIKER",
+        "weapon": "RL",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "レッドウィンター",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "A",
+        "outdoorApt": "A",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 8,
+            "day": 7
+        },
+        "params": {
+            "minHitpoint": 2330,
+            "hitpointIncrease": 156.56,
+            "minAtk": 996,
+            "atkIncrease": 90.524,
+            "minDef": 19,
+            "defIncrease": 1.0,
+            "minHeal": 1525,
+            "healIncrease": 30.796,
+            "accuracy": 759,
+            "evasion": 197,
+            "criticalPoint": 202,
+            "criticalDamageFactor": "200%",
+            "stability": 984
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "図書館ではお静かに",
+                "skillDesc": "円形範囲内の敵に対して、攻撃力の{p1}分のダメージ",
+                "parameters": [["187%", "215%", "272%", "300%", "356%"]],
+                "costs": [4, 4, 4, 4, 4]
+            },
+            "normalSkill": {
+                "skillName": "知識の力",
+                "skillDesc": "30秒毎に、攻撃力を{p1}増加（20秒間）",
+                "parameters": [["11.8%", "12.4%", "13%", "15.4%", "16%", "16.6%", "18.9%", "19.5%", "20.1%", "22.5%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "コレクターの熱量",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "コレクターの熱量+",
+                "skillDesc": "会心値を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["100", "105", "110", "130", "135", "140", "160", "165", "170", "190"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "旅の始まり",
+                "skillDesc": "戦闘開始時、攻撃力を{p1}増加{p2}",
+                "parameters": [
+                    ["9.4%", "9.8%", "10.3%", "12.2%", "12.7%", "13.1%", "15%", "15.5%", "16%", "17.8%"],
+                    ["", "", "", "", "", "", "/\n通常攻撃時、円形範囲の半径が1.5倍に増加", "/\n通常攻撃時、円形範囲の半径が1.5倍に増加", "/\n通常攻撃時、円形範囲の半径が1.5倍に増加", "/\n通常攻撃時、円形範囲の半径が1.5倍に増加"]
+                ]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ニムルドレンズの欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れたニムルドレンズ",
+                    "quantity": 14
+                },
+                {
+                    "itemName": "断片的なヴォイニッチ手稿のコピー",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "摩耗したニムルドレンズ",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "傷んだヴォイニッチ手稿のコピー",
+                    "quantity": 26
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（レッドウィンター）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なニムルドレンズ",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 20
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ニムルドレンズの欠片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れたニムルドレンズ",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "断片的なヴォイニッチ手稿のコピー",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れたニムルドレンズ",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "断片的なヴォイニッチ手稿のコピー",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したニムルドレンズ",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "傷んだヴォイニッチ手稿のコピー",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なニムルドレンズ",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なニムルドレンズ",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 14
                 }
             ],
             [
