@@ -13,5 +13,15 @@
         "path": "items",
         "title": "アイテム",
         "level": 0
+    },
+    {
+        "path": "tools",
+        "title": "ツール集",
+        "level": 0
+    },
+    {
+        "path": "tools/unit-image-maker",
+        "title": "編成画像メーカー",
+        "level": 2
     }
 ]
