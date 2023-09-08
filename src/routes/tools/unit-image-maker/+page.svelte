@@ -1,6 +1,8 @@
 <script lang="ts">
     import HeadlineGroup from "$lib/components/HeadlineGroup.svelte"
     import Logo from "$lib/components/Logo.svelte"
+    import PositionMoveButton from "$lib/components/PositionMoveButton.svelte"
+    import RemoveButton from "$lib/components/RemoveButton.svelte"
     import { STUDENT_ROLE_TYPES, type StudentInfo, type StudentRole } from "$lib/types"
     import { Utils, searchStudent } from "$lib/utils"
     import html2canvas from "html2canvas"
@@ -13,15 +15,16 @@
         }
     }
 
-    const units: Unit[] = [
-        {
-            desc: "",
-            students: {
-                striker: [],
-                special: []
-            }
+    const unitTemplate: Unit = {
+        desc: "",
+        students: {
+            striker: [],
+            special: []
         }
-    ]
+    }
+
+    const units: Unit[] = [structuredClone(unitTemplate)]
+
     let renderUnitsElement: HTMLElement
     let currentryFocusedSearchFieldID: string | null = null
     let searchResult: StudentInfo[] | null = null
@@ -34,6 +37,28 @@
 
         searchResult = result
         currentryFocusedSearchFieldID = fieldID
+    }
+
+    function swapStudentsIndex(unitIndex: number, role: StudentRole, studentIndex: number, direction: "up" | "down") {
+        const unit = units[unitIndex]
+        const students = role == "STRIKER" ? unit.students.striker : unit.students.special
+        const targetIndex = direction == "up" ? studentIndex - 1 : studentIndex + 1
+        if (targetIndex < 0 || targetIndex >= students.length) {
+            return
+        }
+        const tmp = students[studentIndex]
+        students[studentIndex] = students[targetIndex]
+        students[targetIndex] = tmp
+
+        units[unitIndex] = unit // NOTE: Tell Svelte that the array has been updated
+    }
+
+    function removeStudentInfo(unitIndex: number, role: StudentRole, studentIndex: number) {
+        const unit = units[unitIndex]
+        const students = role == "STRIKER" ? unit.students.striker : unit.students.special
+        students[studentIndex] = undefined
+
+        units[unitIndex] = unit
     }
 
     async function downloadUnitImage() {
@@ -77,19 +102,16 @@
             <section class="render-unit">
                 <h2>部隊1{unit.desc ? `（${unit.desc}）` : ""}</h2>
                 <section class="render-students">
-                    {#each Utils.generateNumberSequence(4) as index}
-                        {@const name = unit.students.striker[index - 1]}
-                        <section class="render-student">
-                            <div class="render-student-role" data-student-role="STRIKER" />
-                            <div class="render-student-icon" style={name != null ? `background-image: url(/asset/image/student/icon/${name}.webp);` : null} />
-                        </section>
-                    {/each}
-                    {#each Utils.generateNumberSequence(2) as index}
-                        {@const name = unit.students.special[index - 1]}
-                        <section class="render-student">
-                            <div class="render-student-role" data-student-role="SPECIAL" />
-                            <div class="render-student-icon" style={name != null ? `background-image: url(/asset/image/student/icon/${name}.webp);` : null} />
-                        </section>
+                    {#each STUDENT_ROLE_TYPES as role}
+                        {@const studentsNumber = role == "STRIKER" ? 4 : 2}
+                        {#each Utils.generateNumberSequence(studentsNumber) as roleIndex}
+                            {@const student = role == "STRIKER" ? unit.students.striker[roleIndex - 1] : unit.students.special[roleIndex - 1]}
+                            {@const path = student != null ? `student/icon/${student.name}` : "empty"}
+                            <section class="render-student">
+                                <div class="render-student-role" data-student-role={role} />
+                                <div class="render-student-icon" style="background-image: url(/asset/image/{path}.webp);" />
+                            </section>
+                        {/each}
                     {/each}
                 </section>
             </section>
@@ -107,6 +129,10 @@
     <li>
         {#each Utils.generateNumberSequence(units.length) as unitIndex}
             <ol class="unit">
+                <div class="unit-description">
+                    <h2>部隊{unitIndex}</h2>
+                    <input type="text" placeholder="部隊の説明" bind:value={units[unitIndex - 1].desc} />
+                </div>
                 {#each STUDENT_ROLE_TYPES as role}
                     {@const studentsNumber = role == "STRIKER" ? 4 : 2}
                     {#each Utils.generateNumberSequence(studentsNumber) as roleIndex}
@@ -121,8 +147,8 @@
                                                 <li class="result">
                                                     <button on:click={() => (role == "STRIKER" ? (units[unitIndex - 1].students.striker[roleIndex - 1] = result) : (units[unitIndex - 1].students.special[roleIndex - 1] = result))}>
                                                         <span class="result-name">{result.name}</span>
-                                                        <span class="result-param" data-student-attack-type={result.atkAttr}>{result.atkAttr}</span>
-                                                        <span class="result-param" data-student-defence-type={result.defAttr}>{result.defAttr}</span>
+                                                        <span class="param" data-student-attack-type={result.atkAttr}>{result.atkAttr}</span>
+                                                        <span class="param" data-student-defence-type={result.defAttr}>{result.defAttr}</span>
                                                     </button>
                                                 </li>
                                             {/each}
@@ -132,13 +158,32 @@
                                     </ul>
                                 </div>
                             </li>
-                        {:else}
+                        {:else if student != null}
                             <li class="student">
                                 <div class="student-icon">
                                     <div class="role" data-student-role={role} />
                                     <div class="icon" style="background-image: url(/asset/image/student/icon/{student.name}.webp);" />
                                 </div>
                                 <p class="student-name">{student.name}</p>
+                                <span class="student-params">
+                                    <span class="param" data-student-attack-type={student.atkAttr}>{student.atkAttr}</span>
+                                    <span class="param" data-student-defence-type={student.defAttr}>{student.defAttr}</span>
+                                </span>
+                                <div class="element-control-buttons">
+                                    <PositionMoveButton
+                                        onClick={() => {
+                                            swapStudentsIndex(unitIndex - 1, role, roleIndex - 1, "up")
+                                        }}
+                                        direction="up"
+                                    />
+                                    <PositionMoveButton
+                                        onClick={() => {
+                                            swapStudentsIndex(unitIndex - 1, role, roleIndex - 1, "down")
+                                        }}
+                                        direction="down"
+                                    />
+                                    <RemoveButton onClick={() => removeStudentInfo(unitIndex - 1, role, roleIndex - 1)} />
+                                </div>
                             </li>
                         {/if}
                     {/each}
@@ -150,9 +195,11 @@
 <button type="button" on:click={downloadUnitImage}>画像を書き出し</button>
 
 <style lang="scss">
+    $border: solid 0.075rem var(--color-medium-03);
+
     #render-units-container {
         $base-font-size: 28px;
-        position: absolute;
+        //position: absolute;
         bottom: 100%;
         width: 1080px;
         box-sizing: border-box;
@@ -260,14 +307,44 @@
             display: flex;
             flex-direction: column;
 
+            .unit-description {
+                border-top: $border;
+                display: flex;
+                gap: 1rem;
+                padding: 0.75rem 1rem;
+                background-color: var(--color-main-01);
+
+                h2 {
+                    font-weight: 500;
+                }
+
+                input {
+                    appearance: none;
+                    padding: 0.25rem 0.5rem;
+                    box-sizing: border-box;
+                    font-size: 0.925rem;
+                    width: 50%;
+                    background-color: var(--color-main-01);
+                    border: $border;
+                    border-radius: 0.25rem;
+                    color: var(--color-medium-04);
+
+                    &::placeholder {
+                        color: var(--color-medium-04);
+                    }
+                }
+            }
+
             .student-search-field-container,
             .student {
                 width: inherit;
-                padding: 0.5rem 2rem;
+                padding: 1.4125rem 2rem;
                 box-sizing: border-box;
-                border-top: solid 0.075rem var(--color-medium-03);
+                border-top: $border;
                 background-color: var(--color-main-01);
+            }
 
+            .student-search-field-container {
                 .student-search-field {
                     position: relative;
 
@@ -280,7 +357,7 @@
                         box-sizing: border-box;
                         font-size: 0.925rem;
                         background-color: var(--color-main-01);
-                        border: solid 0.075rem var(--color-medium-03);
+                        border: $border;
                         border-radius: 0.25rem;
                         color: var(--color-medium-04);
 
@@ -301,7 +378,7 @@
                         padding: 0.375rem;
                         box-sizing: border-box;
                         background-color: var(--color-main-01);
-                        border: solid 0.075rem var(--color-medium-03);
+                        border: $border;
                         filter: drop-shadow(0 0.25rem 0.25rem var(--color-medium-02));
                         border-radius: 0.25rem;
                         color: var(--color-medium-04);
@@ -321,34 +398,6 @@
                                 transition-property: background-color;
                                 transition-duration: 0.2s;
 
-                                .result-param {
-                                    font-size: 0.875rem;
-                                    border-radius: 9999vh;
-                                    padding: 0.175rem 1rem;
-                                    color: var(--color-white);
-                                    background-color: var(--color-student-param-misc);
-
-                                    &[data-student-attack-type="爆発"],
-                                    &[data-student-defence-type="軽装"] {
-                                        background-color: var(--color-student-param-red);
-                                    }
-
-                                    &[data-student-attack-type="貫通"],
-                                    &[data-student-defence-type="重装"] {
-                                        background-color: var(--color-student-param-yellow);
-                                    }
-
-                                    &[data-student-attack-type="神秘"],
-                                    &[data-student-defence-type="特殊"] {
-                                        background-color: var(--color-student-param-blue);
-                                    }
-
-                                    &[data-student-attack-type="振動"],
-                                    &[data-student-defence-type="弾力"] {
-                                        background-color: var(--color-student-param-purple);
-                                    }
-                                }
-
                                 &:hover {
                                     background-color: var(--color-medium-02);
                                 }
@@ -366,10 +415,95 @@
                         color: var(--color-medium-03);
                     }
                 }
+            }
 
-                &:last-of-type {
-                    border-bottom: solid 0.075rem var(--color-medium-03);
+            .student {
+                padding: 0.75rem 1.75rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+
+                .student-icon {
+                    position: relative;
+                    margin-right: 0.75rem;
+                    height: 3rem;
+                    width: 3rem;
+                    min-height: 3rem;
+                    min-width: 3rem;
+
+                    .role {
+                        position: absolute;
+                        //display: block;
+                        height: inherit;
+                        width: inherit;
+                        border-radius: 0.25rem;
+
+                        &[data-student-role="STRIKER"] {
+                            background-color: var(--color-student-role-striker);
+                        }
+
+                        &[data-student-role="SPECIAL"] {
+                            background-color: var(--color-student-role-special);
+                        }
+                    }
+
+                    .icon {
+                        position: relative;
+                        min-width: inherit;
+                        min-height: inherit;
+                        margin-left: 0.4em;
+                        background-color: var(--color-medium-02);
+                        background-position: center top;
+                        background-size: cover;
+                        border-radius: 0.25em;
+                    }
                 }
+
+                .student-params {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+
+                .element-control-buttons {
+                    display: flex;
+                    height: 1.125rem;
+                    gap: 0.25rem;
+                    margin-left: auto;
+                }
+            }
+
+            .student:last-of-type,
+            .student-search-field-container:last-of-type {
+                border-bottom: $border;
+            }
+        }
+
+        .param {
+            font-size: 0.875rem;
+            border-radius: 9999vh;
+            padding: 0.175rem 1rem;
+            color: var(--color-white);
+            background-color: var(--color-student-param-misc);
+
+            &[data-student-attack-type="爆発"],
+            &[data-student-defence-type="軽装"] {
+                background-color: var(--color-student-param-red);
+            }
+
+            &[data-student-attack-type="貫通"],
+            &[data-student-defence-type="重装"] {
+                background-color: var(--color-student-param-yellow);
+            }
+
+            &[data-student-attack-type="神秘"],
+            &[data-student-defence-type="特殊"] {
+                background-color: var(--color-student-param-blue);
+            }
+
+            &[data-student-attack-type="振動"],
+            &[data-student-defence-type="弾力"] {
+                background-color: var(--color-student-param-purple);
             }
         }
     }
