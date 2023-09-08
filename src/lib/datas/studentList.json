@@ -7038,6 +7038,254 @@
         ]
     },
     {
+        "name": "コトリ（応援団）",
+        "fullName": "豊見 コトリ（応援団）",
+        "ruby": "とよみ  ことり",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "MG",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "ミレニアム",
+        "atkAttr": "爆発",
+        "defAttr": "特殊",
+        "townApt": "D",
+        "outdoorApt": "B",
+        "indoorApt": "S",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 12,
+            "day": 31
+        },
+        "params": {
+            "minHitpoint": 2512,
+            "hitpointIncrease": 194.56,
+            "minAtk": 390,
+            "atkIncrease": 35.371,
+            "minDef": 79,
+            "defIncrease": 4.036,
+            "minHeal": 1650,
+            "healIncrease": 33.331,
+            "accuracy": 100,
+            "evasion": 199,
+            "criticalPoint": 200,
+            "criticalDamageFactor": "200%",
+            "stability": 1392
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "祝砲の由来は……",
+                "skillDesc": "扇形範囲内の敵に対して、攻撃力の{p1}分のダメージ",
+                "parameters": [["205%", "236%", "297%", "328%", "390%"]],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "あっ、それはですね！",
+                "skillDesc": "自身を除く味方がExスキルを5回使用する度に、自身を除く円形範囲内の味方に対して、会心値を{p1}増加（30秒間）",
+                "parameters": [["11.4%", "12%", "12.6%", "14.9%", "15.5%", "16%", "18.3%", "18.9%", "19.5%", "21.8%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "なんでも聞いてください！",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "なんでも聞いてください！+",
+                "skillDesc": "命中値を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["160", "168", "176", "208", "216", "224", "256", "264", "272", "304"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "お役に立てて嬉しいです！",
+                "skillDesc": "ノーマルスキルのバフ効果を味方1人に適用する度に、自身の攻撃力を{p1}増加（30秒間）（最大5回分まで重複）",
+                "parameters": [["6.6%", "6.9%", "7.3%", "8.6%", "8.9%", "9.3%", "10.6%", "10.9%", "11.3%", "12.6%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 15
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 26
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なファイストス円盤",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 22
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なファイストス円盤",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なファイストス円盤",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "コハル",
         "fullName": "下江 コハル",
         "ruby": "しもえ こはる",
