@@ -9,6 +9,7 @@ const students = structuredClone(Students) as StudentInfo[]
 const studentsSearchOptions = {
     threshold: 0.5,
     shouldSort: true,
+    useExtendedSearch: true,
     keys: [{ name: "name", weight: 0.6 }, { name: "fullName", weight: 0.3 }, { name: "ruby", weight: 0.8 }, "role"]
 }
 const studentsSearchIndex = new Fuse(students, studentsSearchOptions)
@@ -83,18 +84,32 @@ export function toggleListControlMenu(listControlMenu: HTMLElement, opened: bool
     }
 }
 
-export function searchStudent(name: string, role: StudentRole): StudentInfo[] | null {
-    const searchResults = studentsSearchIndex.search(
-        {
-            $and: [
-                {
-                    $or: [{ name: Utils.convertHiraganaToKatakana(name) }, { fullName: name }, { ruby: name }]
-                },
-                { role: role }
-            ]
-        },
-        { limit: 5 }
-    )
+export function searchStudent(name: string, role: StudentRole, ignoreGroup: (string | null)[]): StudentInfo[] | null {
+    const nameQuery = (() => {
+        const katakanaName = Utils.convertHiraganaToKatakana(name)
+
+        if (ignoreGroup.length > 0) {
+            const ignoreGroupQuery = ignoreGroup.map((element) => `!${element}$`).join(" ")
+            if (!ignoreGroup.some((element) => element == name)) {
+                return `${ignoreGroupQuery} ${katakanaName}`
+            } else {
+                return ignoreGroupQuery
+            }
+        } else {
+            return katakanaName
+        }
+    })()
+
+    const searchQuery = {
+        $and: [
+            {
+                $or: [{ name: nameQuery }, { fullName: name }, { ruby: name }]
+            },
+            { role: role }
+        ]
+    }
+
+    const searchResults = studentsSearchIndex.search(searchQuery as Fuse.Expression, { limit: 5 })
 
     if (searchResults.length > 0) {
         return searchResults.map((result) => result.item)
