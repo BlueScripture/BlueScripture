@@ -1,6 +1,6 @@
 export const siteName = "BlueScripture"
-export const siteVersion = "2.0.0"
-export const siteCodename = "Sirius"
+export const siteVersion = "2.1.0"
+export const siteCodename = "Canopus"
 export const siteRepo = "BlueScripture/BlueScripture"
 export const siteDomain = "bluescripture.net"
 export const authorName = "BlueScripture Dev. Dept."

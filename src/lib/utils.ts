@@ -1,6 +1,18 @@
 import { redirect } from "@sveltejs/kit"
 import PageTitleList from "$lib/datas/pageTitleList.json"
-import type { PageTitle } from "$lib/types"
+import type { PageTitle, StudentInfo, StudentRole } from "$lib/types"
+import Fuse from "fuse.js"
+import Students from "$lib/datas/studentList.json"
+
+const students = structuredClone(Students) as StudentInfo[]
+
+const studentsSearchOptions = {
+    threshold: 0.5,
+    shouldSort: true,
+    useExtendedSearch: true,
+    keys: [{ name: "name", weight: 0.6 }, { name: "fullName", weight: 0.3 }, { name: "ruby", weight: 0.8 }, "role"]
+}
+const studentsSearchIndex = new Fuse(students, studentsSearchOptions)
 
 function ignoreEvent(event: Event) {
     event.preventDefault()
@@ -72,6 +84,40 @@ export function toggleListControlMenu(listControlMenu: HTMLElement, opened: bool
     }
 }
 
+export function searchStudent(name: string, role: StudentRole, ignoreGroup: (string | null)[]): StudentInfo[] | null {
+    const nameQuery = (() => {
+        const katakanaName = Utils.convertHiraganaToKatakana(name)
+
+        if (ignoreGroup.length > 0) {
+            const ignoreGroupQuery = ignoreGroup.map((element) => `!${element}$`).join(" ")
+            if (!ignoreGroup.some((element) => element == name)) {
+                return `${ignoreGroupQuery} ${katakanaName}`
+            } else {
+                return ignoreGroupQuery
+            }
+        } else {
+            return katakanaName
+        }
+    })()
+
+    const searchQuery = {
+        $and: [
+            {
+                $or: [{ name: nameQuery }, { fullName: name }, { ruby: name }]
+            },
+            { role: role }
+        ]
+    }
+
+    const searchResults = studentsSearchIndex.search(searchQuery as Fuse.Expression, { limit: 5 })
+
+    if (searchResults.length > 0) {
+        return searchResults.map((result) => result.item)
+    } else {
+        return null
+    }
+}
+
 export const Scroll = {
     lock() {
         document.addEventListener("touchmove", ignoreEvent, { passive: false })
@@ -108,5 +154,12 @@ export const Utils = {
     generateNumberSequence(length: number): number[] {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         return [...Array(length)].map((_, i) => i + 1)
+    },
+
+    convertHiraganaToKatakana(str: string): string {
+        return str.replace(/[\u3041-\u3096]/g, (match) => {
+            const chr = match.charCodeAt(0) + 0x60
+            return String.fromCharCode(chr)
+        })
     }
 } as const
