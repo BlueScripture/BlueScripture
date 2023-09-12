@@ -599,11 +599,11 @@
                                 fill: var(--color-medium-02);
                             }
 
-                            input:checked + svg .st0 {
+                            input:checked + svg > path.st0 {
                                 fill: var(--color-dominant);
                             }
 
-                            input:disabled + svg .st0 {
+                            input:disabled + svg > path.st0 {
                                 filter: opacity(0.375);
                             }
                         }
