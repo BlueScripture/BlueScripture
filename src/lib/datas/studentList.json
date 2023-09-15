@@ -16891,6 +16891,257 @@
         ]
     },
     {
+        "name": "ハルナ（体操服）",
+        "fullName": "黒舘 ハルナ（体操服）",
+        "ruby": "くろだて はるな",
+        "starGrade": "★3",
+        "role": "SPECIAL",
+        "weapon": "SR",
+        "position": "BACK",
+        "class": "ヒーラー",
+        "school": "ゲヘナ",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "シューズ",
+        "equip2": "バッグ",
+        "equip3": "ネックレス",
+        "birthday": {
+            "month": 3,
+            "day": 1
+        },
+        "params": {
+            "minHitpoint": 3216,
+            "hitpointIncrease": 210.296,
+            "minAtk": 304,
+            "atkIncrease": 27.643,
+            "minDef": 95,
+            "defIncrease": 4.831,
+            "minHeal": 3067,
+            "healIncrease": 61.99,
+            "accuracy": 540,
+            "evasion": 183,
+            "criticalPoint": 270,
+            "criticalDamageFactor": "200%",
+            "stability": 2111
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "美食家のオススメ",
+                "skillDesc": "円形範囲内の味方4人を指定した位置に移動させた後、治癒力の{p1}分の回復",
+                "parameters": [["63%", "72.4%", "91.3%", "100%", "119%"]],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "美食家のアプローチ",
+                "skillDesc": "40秒毎に、敵6人に対して攻撃力の{p1}分のダメージ/\n防御力を{p2}減少（20秒間）",
+                "parameters": [
+                    ["161%", "169%", "177%", "209%", "217%", "226%", "258%", "266%", "274%", "306%"],
+                    ["5.8%", "6.1%", "6.4%", "7.5%", "7.8%", "8.1%", "9.3%", "9.6%", "9.9%", "11%"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "癒やしのスイーツ",
+                "skillDesc": "治癒力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "癒やしのスイーツ+",
+                "skillDesc": "治癒力を{p1}増加/\nさらに治癒力を{p2}増加",
+                "parameters": [
+                    ["1044", "1097", "1149", "1358", "1410", "1462", "1671", "1723", "1775", "1984"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "スポーツ正餐",
+                "skillDesc": "味方の攻撃力を{p1}増加",
+                "parameters": [["9.1%", "9.5%", "10%", "11.8%", "12.3%", "12.7%", "14.5%", "15%", "15.5%", "17.3%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 33
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 22
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 19
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ハルナ（正月）",
         "fullName": "黒舘 ハルナ（正月）",
         "ruby": "くろだて はるな",
