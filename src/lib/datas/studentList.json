@@ -3779,6 +3779,257 @@
         ]
     },
     {
+        "name": "イチカ",
+        "fullName": "仲正 イチカ",
+        "ruby": "なかまさ いちか",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "AR",
+        "position": "MIDDLE",
+        "class": "アタッカー",
+        "school": "トリニティ",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 11,
+            "day": 11
+        },
+        "params": {
+            "minHitpoint": 2490,
+            "hitpointIncrease": 226.341,
+            "minAtk": 342,
+            "atkIncrease": 31.097,
+            "minDef": 19,
+            "defIncrease": 1.0,
+            "minHeal": 1664,
+            "healIncrease": 33.627,
+            "accuracy": 708,
+            "evasion": 790,
+            "criticalPoint": 202,
+            "criticalDamageFactor": "200%",
+            "stability": 1380
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "ちょっと失礼するっす",
+                "skillDesc": "扇形範囲内の敵に対して、攻撃力の{p1}分のダメージ",
+                "parameters": [["726%", "835%", "1053%", "1162%", "1380%"]],
+                "costs": [6, 6, 6, 6, 6]
+            },
+            "normalSkill": {
+                "skillName": "正義実現委員会の連絡網",
+                "skillDesc": "30秒毎に、振動特効を{p1}加算（{p2}間）",
+                "parameters": [
+                    ["32.9%", "34.6%", "36.2%", "42.8%", "44.5%", "46.1%", "52.7%", "54.3%", "56%", "63.1%"],
+                    ["20秒", "20秒", "20秒", "20秒", "20秒", "20秒", "20秒", "20秒", "20秒", "25秒"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "鋭い本能",
+                "skillDesc": "命中値を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "鋭い本能+",
+                "skillDesc": "攻撃力を{p1}増加/\nさらに命中値を{p2}増加",
+                "parameters": [
+                    ["336", "353", "370", "437", "454", "471", "538", "555", "572", "639"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "そういう時もあるっすよね",
+                "skillDesc": "攻撃時、隠れていない敵に対して攻撃力の{p1}分の追加ダメージ",
+                "parameters": [["2.3%", "2.4%", "2.5%", "3%", "3.1%", "3.2%", "3.7%", "3.8%", "3.9%", "4.4%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "アンティキティラ装置の欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れたアンティキティラ装置",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "髪伸び人形の破片",
+                    "quantity": 27
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "摩耗したアンティキティラ装置",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "破損した髪伸び人形",
+                    "quantity": 25
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なアンティキティラ装置",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "修理済みの髪伸び人形",
+                    "quantity": 23
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "アンティキティラ装置の欠片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れたアンティキティラ装置",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "髪伸び人形の破片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れたアンティキティラ装置",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "髪伸び人形の破片",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したアンティキティラ装置",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "破損した髪伸び人形",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なアンティキティラ装置",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "修理済みの髪伸び人形",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なアンティキティラ装置",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修理済みの髪伸び人形",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "イロハ",
         "fullName": "棗 イロハ",
         "ruby": "なつめ いろは",
@@ -5269,6 +5520,257 @@
                 {
                     "itemName": "編集済みのヴォイニッチ手稿のコピー",
                     "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "カスミ",
+        "fullName": "鬼怒川 カスミ",
+        "ruby": "きぬがわ かすみ",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "HG",
+        "position": "MIDDLE",
+        "class": "アタッカー",
+        "school": "ゲヘナ",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "グローブ",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 5,
+            "day": 24
+        },
+        "params": {
+            "minHitpoint": 2412,
+            "hitpointIncrease": 257.891,
+            "minAtk": 254,
+            "atkIncrease": 23.179,
+            "minDef": 19,
+            "defIncrease": 0.964,
+            "minHeal": 1715,
+            "healIncrease": 34.631,
+            "accuracy": 104,
+            "evasion": 1053,
+            "criticalPoint": 208,
+            "criticalDamageFactor": "200%",
+            "stability": 956
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "ジャイアントヒール・クラッシュ",
+                "skillDesc": "円形範囲内の敵に対して、防御力を{p1}減少（25秒間）/\n攻撃力の{p2}分のダメージ",
+                "parameters": [
+                    ["17.6%", "20.3%", "25.6%", "28.2%", "33.5%"],
+                    ["227.6%", "261.9%", "330.1%", "363.9%", "432.5%"]
+                ],
+                "costs": [4, 4, 4, 4, 4]
+            },
+            "normalSkill": {
+                "skillName": "大切なメッセージだよ",
+                "skillDesc": "35秒毎に、円形範囲内の敵に攻撃力の{p1}分のダメージ",
+                "parameters": [["227%", "238%", "250%", "295%", "307%", "318%", "363%", "375%", "386%", "432%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "狂人の戦略",
+                "skillDesc": "会心値を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "狂人の戦略+",
+                "skillDesc": "会心ダメージを{p1}増加/\nさらに会心値を{p2}増加",
+                "parameters": [
+                    ["2000", "2100", "2200", "2600", "2700", "2800", "3200", "3300", "3400", "3800"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "ドリルの音は止まったのか？",
+                "skillDesc": "Exスキルを3回使用する毎に、攻撃力の{p1}分の追加ダメージ",
+                "parameters": [["633%", "665%", "697%", "824%", "855%", "887%", "1014%", "1045%", "1077%", "1204%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "レヒニッツ写本のページ",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "傷んだレヒニッツ写本",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "中空十二面体の欠片",
+                    "quantity": 27
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "編集済みのレヒニッツ写本",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "壊れた中空十二面体",
+                    "quantity": 24
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なレヒニッツ写本",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "修復途中の中空十二面体",
+                    "quantity": 22
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "レヒニッツ写本のページ",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "傷んだレヒニッツ写本",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "中空十二面体の欠片",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "傷んだレヒニッツ写本",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "中空十二面体の欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "編集済みのレヒニッツ写本",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "壊れた中空十二面体",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なレヒニッツ写本",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の中空十二面体",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なレヒニッツ写本",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の中空十二面体",
+                    "quantity": 11
                 }
             ],
             [
