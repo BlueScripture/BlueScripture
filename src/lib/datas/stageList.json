@@ -1769,5 +1769,82 @@
                 "challengeRequiredTurns": 6
             }
         ]
+    },
+    {
+        "areaID": 24,
+        "stages": [
+            {
+                "stageID": "24-1N",
+                "difficulty": "NORMAL",
+                "name": "さわやかな浜辺",
+                "terrain": "outdoor",
+                "recommendedLevel": 90,
+                "dropItems": ["上級戦術教育BD（レッドウィンター）", "上級戦術教育BD（トリニティ）", "編集済みのレヒニッツ写本", "編集済みのヴォイニッチ手稿のコピー"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "24-2N",
+                "difficulty": "NORMAL",
+                "name": "さわやかな砂浜",
+                "terrain": "outdoor",
+                "recommendedLevel": 90,
+                "dropItems": ["上級戦術教育BD（ヴァルキューレ）", "上級戦術教育BD（ゲヘナ）", "エーテルの結晶", "修復済みの水晶埴輪"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "24-3N",
+                "difficulty": "NORMAL",
+                "name": "レモンの匂い香る砂浜",
+                "terrain": "outdoor",
+                "recommendedLevel": 91,
+                "dropItems": ["上級戦術教育BD（山海経）", "上級戦術教育BD（ミレニアム）", "摩耗したアンティキティラ装置", "修復途中の中空十二面体"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "24-4N",
+                "difficulty": "NORMAL",
+                "name": "忘れられた訓練場",
+                "terrain": "outdoor",
+                "recommendedLevel": 91,
+                "dropItems": ["上級戦術教育BD（アビドス）", "上級戦術教育BD（百鬼夜行）", "修復途中の円盤型ペンダント"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "24-5N",
+                "difficulty": "NORMAL",
+                "name": "レモン農場付近",
+                "terrain": "outdoor",
+                "recommendedLevel": 92,
+                "dropItems": ["上級戦術教育BD（アリウス）", "上級戦術教育BD（ミレニアム）", "不完全なミステリーストーン"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "24-1H",
+                "difficulty": "HARD",
+                "name": "ひんやり砂浜",
+                "terrain": "outdoor",
+                "recommendedLevel": 92,
+                "dropItems": ["セリナの神名文字", "上級戦術教育BD（ミレニアム）", "上級戦術教育BD（アリウス）", "編集済みのレヒニッツ写本", "編集済みのヴォイニッチ手稿のコピー", "不完全なミステリーストーン"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "24-2H",
+                "difficulty": "HARD",
+                "name": "ぞくぞく砂浜",
+                "terrain": "outdoor",
+                "recommendedLevel": 93,
+                "dropItems": ["マリーの神名文字", "上級戦術教育BD（ゲヘナ）", "上級戦術教育BD（レッドウィンター）", "エーテルの結晶", "修復済みの水晶埴輪", "修復途中の古代文明のメダル"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "24-3H",
+                "difficulty": "HARD",
+                "name": "肝試しの砂浜",
+                "terrain": "outdoor",
+                "recommendedLevel": 94,
+                "dropItems": ["ヒナの神名文字", "上級戦術教育BD（トリニティ）", "上級戦術教育BD（百鬼夜行）", "摩耗したアンティキティラ装置", "修復途中の円盤型ペンダント", "修復途中の中空十二面体"],
+                "challengeRequiredTurns": 6
+            }
+        ]
     }
 ]
