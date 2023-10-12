@@ -17,7 +17,7 @@ const calendarStruct = (() => {
     const requiredWeekCount = Math.ceil((currentMonthLastDay + offset) / 7)
 
     const currentMonthDaysSequence = Utils.generateNumberSequence(currentMonthLastDay)
-    const previousMonthDaysSequence = Utils.generateNumberSequence(previousMonthLastDay).slice(-offset)
+    const previousMonthDaysSequence = offset > 0 ? Utils.generateNumberSequence(previousMonthLastDay).slice(-offset) : []
     const nextMonthDaysSequence = Utils.generateNumberSequence(requiredWeekCount * 7 - currentMonthDaysSequence.length - previousMonthDaysSequence.length)
 
     const daysSequence = {
