@@ -8,7 +8,10 @@
         "preview": "npm run build && vite preview",
         "start": "npm run build && PORT=8501 node build",
         "lint": "eslint src/**/*.{svelte,ts} && stylelint **/*.{svelte,scss} && prettier --check src/**/*.{svelte,ts} src/**/*.json",
-        "format": "eslint --fix src/**/*.{svelte,ts} && stylelint --fix **/*.{svelte,scss} && prettier --write src/**/*.{svelte,ts} src/**/*.json"
+        "format": "eslint --fix src/**/*.{svelte,ts} && stylelint --fix **/*.{svelte,scss} && prettier --write src/**/*.{svelte,ts} src/**/*.json",
+        "ci:eslint": "eslint src/**/*.{svelte,ts} --config .eslintrc",
+        "ci:stylelint": "stylelint **/*.{svelte,scss}",
+        "ci:prettier": "prettier --check src/**/*.{svelte,ts} src/**/*.json"
     },
     "devDependencies": {
         "@neoconfetti/svelte": "^1.0.0",
