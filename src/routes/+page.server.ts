@@ -1,7 +1,7 @@
 import { commitLogs } from "../hooks.server"
 import { Utils } from "$lib/utils"
 import Students from "$lib/datas/studentList.json"
-import type { BirthdaySchedule } from "$lib/types"
+import type { BirthdaySchedule, StudentBirthday } from "$lib/types"
 
 const students = structuredClone(Students)
 
@@ -31,8 +31,8 @@ const calendarStruct = (() => {
     const birthdaysDict = ((): BirthdaySchedule[][] => {
         const tmpArr = new Array(combinedDaysSequence.length) as BirthdaySchedule[][]
 
-        for (const student of students.filter((student) => student.birthday.month == currentMonth && !/（/.test(student.name))) {
-            const index = daysSequence.currentMonth.findIndex((day) => day == student.birthday.day)
+        for (const student of students.filter((student) => student.birthday != null && student.birthday.month == currentMonth && !/（/.test(student.name))) {
+            const index = daysSequence.currentMonth.findIndex((day) => day == (student.birthday as StudentBirthday).day)
             const birthday: BirthdaySchedule = {
                 student: student.name,
                 date: student.birthday
