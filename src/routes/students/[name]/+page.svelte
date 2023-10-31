@@ -255,7 +255,11 @@
                             {#if profileLabelName.id == "fullName"}
                                 {data.studentInfo.fullName.replace(/（.+）/, "")}
                             {:else if profileLabelName.id == "birthday"}
-                                {data.studentInfo.birthday.month}/{data.studentInfo.birthday.day}
+                                {#if data.studentInfo.birthday != null}
+                                    {data.studentInfo.birthday.month}/{data.studentInfo.birthday.day}
+                                {:else}
+                                    不明
+                                {/if}
                             {:else}
                                 {data.studentInfo[profileLabelName.id]}
                             {/if}

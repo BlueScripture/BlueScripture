@@ -110,7 +110,7 @@ export type StudentInfo = {
     equip1: StudentEquip1
     equip2: StudentEquip2
     equip3: StudentEquip3
-    birthday: StudentBirthday
+    birthday: StudentBirthday | null
     params: StudentParams
     skills: StudentSkills
     exSkillUpgradeRequirements: StudentSkillUpgradeRequirement[][]
