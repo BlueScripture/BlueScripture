@@ -1,308 +1,5 @@
 [
     {
-        "name": "美琴",
-        "fullName": "御坂 美琴",
-        "ruby": "みさか みこと",
-        "starGrade": "★3",
-        "role": "STRIKER",
-        "weapon": "AR",
-        "position": "MIDDLE",
-        "class": "アタッカー",
-        "school": "常盤台中学",
-        "atkAttr": "貫通",
-        "defAttr": "重装",
-        "townApt": "D",
-        "outdoorApt": "S",
-        "indoorApt": "B",
-        "equip1": "グローブ",
-        "equip2": "ヘアピン",
-        "equip3": "腕時計",
-        "birthday": {
-            "month": 5,
-            "day": 2
-        },
-        "params": {
-            "minHitpoint": 2601,
-            "hitpointIncrease": 236.381,
-            "minAtk": 320,
-            "atkIncrease": 29.153,
-            "minDef": 19,
-            "defIncrease": 0.964,
-            "minHeal": 1894,
-            "healIncrease": 38.26,
-            "accuracy": 731,
-            "evasion": 764,
-            "criticalPoint": 208,
-            "criticalDamageFactor": "200%",
-            "stability": 1336
-        },
-        "skills": {
-            "exSkill": {
-                "skillName": "常盤台の超電磁砲",
-                "skillDesc": "直線範囲内の敵に対して、攻撃力の{p1}分のダメージ",
-                "parameters": [["544%", "626%", "789%", "871%", "1034%"]],
-                "costs": [3, 3, 3, 3, 3]
-            },
-            "normalSkill": {
-                "skillName": "ちょっと痺れるわよ！",
-                "skillDesc": "50秒毎に、円形範囲内の敵に攻撃力の{p1}分のダメージ\n攻撃力の{p2}分の感電持続ダメージを付与（{p3}間）",
-                "parameters": [
-                    ["120%", "126%", "132%", "156%", "162%", "168%", "192%", "198%", "204%", "228%"],
-                    ["113%", "119%", "124%", "130%", "135%", "140%", "143%", "148%", "152%", "157%"],
-                    ["20秒", "20秒", "20秒", "25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "40秒"]
-                ]
-            },
-            "normalSkillPlus": null,
-            "passiveSkill": {
-                "skillName": "電撃操作能力",
-                "skillDesc": "命中値を{p1}増加/\n食蜂操祈の混乱効果は適用されません",
-                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
-            },
-            "passiveSkillPlus": {
-                "skillName": "電撃操作能力+",
-                "skillDesc": "攻撃力を{p1}増加/\nさらに命中値を{p2}増加/\n食蜂操祈の混乱効果は適用されません",
-                "parameters": [
-                    ["290", "304", "319", "376", "391", "405", "463", "478", "492", "550"],
-                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
-                ]
-            },
-            "subSkill": {
-                "skillName": "何度も言わせんじゃないわよ",
-                "skillDesc": "ノーマルスキルの発動と同時に、攻撃力を{p1}増加（{p2}間）",
-                "parameters": [
-                    ["10%", "11.2%", "12.4%", "13.4%", "14.7%", "16%", "17.2%", "18.5%", "20%", "21.4%"],
-                    ["20秒", "20秒", "20秒", "25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "40秒"]
-                ]
-            }
-        },
-        "exSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級戦術教育BD（トリニティ）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（山海経）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（ミレニアム）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（アビドス）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "中級戦術教育BD（アリウス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（レッドウィンター）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（百鬼夜行）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（ヴァルキューレ）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "上級戦術教育BD（トリニティ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（山海経）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（ミレニアム）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（アビドス）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級戦術教育BD（アリウス）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（レッドウィンター）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（百鬼夜行）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（ヴァルキューレ）",
-                    "quantity": 3
-                }
-            ]
-        ],
-        "commonSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級技術ノート（アリウス）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（百鬼夜行）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（トリニティ）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（山海経）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "初級技術ノート（アビドス）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（ミレニアム）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（ヴァルキューレ）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（レッドウィンター）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（アリウス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（百鬼夜行）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（トリニティ）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（山海経）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（アビドス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（ミレニアム）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（ヴァルキューレ）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（レッドウィンター）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（アリウス）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（百鬼夜行）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（トリニティ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（山海経）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（アビドス）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ミレニアム）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ヴァルキューレ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（レッドウィンター）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（アリウス）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（百鬼夜行）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（トリニティ）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（山海経）",
-                    "quantity": 7
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（アビドス）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（ミレニアム）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（ヴァルキューレ）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（レッドウィンター）",
-                    "quantity": 7
-                }
-            ],
-            [
-                {
-                    "itemName": "秘伝ノート",
-                    "quantity": 1
-                }
-            ]
-        ]
-    },
-    {
         "name": "アカネ（バニーガール）",
         "fullName": "室笠 アカネ（バニーガール）",
         "ruby": "むろかさ あかね",
@@ -17951,257 +17648,6 @@
         ]
     },
     {
-        "name": "ハルナ（体操服）",
-        "fullName": "黒舘 ハルナ（体操服）",
-        "ruby": "くろだて はるな",
-        "starGrade": "★3",
-        "role": "SPECIAL",
-        "weapon": "SR",
-        "position": "BACK",
-        "class": "ヒーラー",
-        "school": "ゲヘナ",
-        "atkAttr": "振動",
-        "defAttr": "重装",
-        "townApt": "S",
-        "outdoorApt": "B",
-        "indoorApt": "D",
-        "equip1": "シューズ",
-        "equip2": "バッグ",
-        "equip3": "ネックレス",
-        "birthday": {
-            "month": 3,
-            "day": 1
-        },
-        "params": {
-            "minHitpoint": 3216,
-            "hitpointIncrease": 210.296,
-            "minAtk": 304,
-            "atkIncrease": 27.643,
-            "minDef": 95,
-            "defIncrease": 4.831,
-            "minHeal": 3067,
-            "healIncrease": 61.99,
-            "accuracy": 540,
-            "evasion": 183,
-            "criticalPoint": 270,
-            "criticalDamageFactor": "200%",
-            "stability": 2111
-        },
-        "skills": {
-            "exSkill": {
-                "skillName": "美食家のオススメ",
-                "skillDesc": "円形範囲内の味方4人を指定した位置に移動させた後、治癒力の{p1}分の回復",
-                "parameters": [["63%", "72.4%", "91.3%", "100%", "119%"]],
-                "costs": [3, 3, 3, 3, 3]
-            },
-            "normalSkill": {
-                "skillName": "美食家のアプローチ",
-                "skillDesc": "40秒毎に、敵6人に対して攻撃力の{p1}分のダメージ/\n防御力を{p2}減少（20秒間）",
-                "parameters": [
-                    ["161%", "169%", "177%", "209%", "217%", "226%", "258%", "266%", "274%", "306%"],
-                    ["5.8%", "6.1%", "6.4%", "7.5%", "7.8%", "8.1%", "9.3%", "9.6%", "9.9%", "11%"]
-                ]
-            },
-            "normalSkillPlus": null,
-            "passiveSkill": {
-                "skillName": "癒やしのスイーツ",
-                "skillDesc": "治癒力を{p1}増加",
-                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
-            },
-            "passiveSkillPlus": {
-                "skillName": "癒やしのスイーツ+",
-                "skillDesc": "治癒力を{p1}増加/\nさらに治癒力を{p2}増加",
-                "parameters": [
-                    ["1044", "1097", "1149", "1358", "1410", "1462", "1671", "1723", "1775", "1984"],
-                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
-                ]
-            },
-            "subSkill": {
-                "skillName": "スポーツ正餐",
-                "skillDesc": "味方の攻撃力を{p1}増加",
-                "parameters": [["9.1%", "9.5%", "10%", "11.8%", "12.3%", "12.7%", "14.5%", "15%", "15.5%", "17.3%"]]
-            }
-        },
-        "exSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "水晶埴輪の破片",
-                    "quantity": 19
-                }
-            ],
-            [
-                {
-                    "itemName": "中級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "初級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "壊れた水晶埴輪",
-                    "quantity": 16
-                },
-                {
-                    "itemName": "黄金の糸",
-                    "quantity": 33
-                }
-            ],
-            [
-                {
-                    "itemName": "上級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "中級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "修復済みの水晶埴輪",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "黄金の巻糸",
-                    "quantity": 22
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級戦術教育BD（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "完全な水晶埴輪",
-                    "quantity": 11
-                },
-                {
-                    "itemName": "大きな黄金の巻糸",
-                    "quantity": 19
-                }
-            ]
-        ],
-        "commonSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                },
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "水晶埴輪の破片",
-                    "quantity": 6
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "壊れた水晶埴輪",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "黄金の糸",
-                    "quantity": 12
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                },
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "壊れた水晶埴輪",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "黄金の糸",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "修復済みの水晶埴輪",
-                    "quantity": 5
-                },
-                {
-                    "itemName": "黄金の巻糸",
-                    "quantity": 16
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "完全な水晶埴輪",
-                    "quantity": 4
-                },
-                {
-                    "itemName": "大きな黄金の巻糸",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "完全な水晶埴輪",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "大きな黄金の巻糸",
-                    "quantity": 13
-                }
-            ],
-            [
-                {
-                    "itemName": "秘伝ノート",
-                    "quantity": 1
-                }
-            ]
-        ]
-    },
-    {
         "name": "ハルナ（正月）",
         "fullName": "黒舘 ハルナ（正月）",
         "ruby": "くろだて はるな",
@@ -18453,6 +17899,257 @@
         ]
     },
     {
+        "name": "ハルナ（体操服）",
+        "fullName": "黒舘 ハルナ（体操服）",
+        "ruby": "くろだて はるな",
+        "starGrade": "★3",
+        "role": "SPECIAL",
+        "weapon": "SR",
+        "position": "BACK",
+        "class": "ヒーラー",
+        "school": "ゲヘナ",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "シューズ",
+        "equip2": "バッグ",
+        "equip3": "ネックレス",
+        "birthday": {
+            "month": 3,
+            "day": 1
+        },
+        "params": {
+            "minHitpoint": 3216,
+            "hitpointIncrease": 210.296,
+            "minAtk": 304,
+            "atkIncrease": 27.643,
+            "minDef": 95,
+            "defIncrease": 4.831,
+            "minHeal": 3067,
+            "healIncrease": 61.99,
+            "accuracy": 540,
+            "evasion": 183,
+            "criticalPoint": 270,
+            "criticalDamageFactor": "200%",
+            "stability": 2111
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "美食家のオススメ",
+                "skillDesc": "円形範囲内の味方4人を指定した位置に移動させた後、治癒力の{p1}分の回復",
+                "parameters": [["63%", "72.4%", "91.3%", "100%", "119%"]],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "美食家のアプローチ",
+                "skillDesc": "40秒毎に、敵6人に対して攻撃力の{p1}分のダメージ/\n防御力を{p2}減少（20秒間）",
+                "parameters": [
+                    ["161%", "169%", "177%", "209%", "217%", "226%", "258%", "266%", "274%", "306%"],
+                    ["5.8%", "6.1%", "6.4%", "7.5%", "7.8%", "8.1%", "9.3%", "9.6%", "9.9%", "11%"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "癒やしのスイーツ",
+                "skillDesc": "治癒力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "癒やしのスイーツ+",
+                "skillDesc": "治癒力を{p1}増加/\nさらに治癒力を{p2}増加",
+                "parameters": [
+                    ["1044", "1097", "1149", "1358", "1410", "1462", "1671", "1723", "1775", "1984"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "スポーツ正餐",
+                "skillDesc": "味方の攻撃力を{p1}増加",
+                "parameters": [["9.1%", "9.5%", "10%", "11.8%", "12.3%", "12.7%", "14.5%", "15%", "15.5%", "17.3%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 33
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 22
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 19
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ヒナ",
         "fullName": "空崎 ヒナ",
         "ruby": "そらさき ひな",
@@ -18689,6 +18386,264 @@
                 },
                 {
                     "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "ヒナ（水着）",
+        "fullName": "空崎 ヒナ（水着）",
+        "ruby": "そらさき ひな",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "MG",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "ゲヘナ",
+        "atkAttr": "爆発",
+        "defAttr": "重装",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 2,
+            "day": 19
+        },
+        "params": {
+            "minHitpoint": 2655,
+            "hitpointIncrease": 205.641,
+            "minAtk": 408,
+            "atkIncrease": 37.129,
+            "minDef": 78,
+            "defIncrease": 3.938,
+            "minHeal": 1858,
+            "healIncrease": 37.5,
+            "accuracy": 102,
+            "evasion": 195,
+            "criticalPoint": 204,
+            "criticalDamageFactor": "200%",
+            "stability": 1364
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "絶海：イシュ・ボシェテ",
+                "skillDesc": "扇形範囲内の敵最大5人に対して、攻撃力の{p1}分のダメージ",
+                "parameters": [["232%", "267%", "336%", "371%", "441%"]],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "スローアンドノックアウト",
+                "skillDesc": "20秒毎に敵1人に対して、攻撃力の{p1}分のダメージ/\nさらに気絶状態を付与（{p2}間）",
+                "parameters": [
+                    ["141%", "148%", "155%", "170%", "177%", "184%", "198%", "205%", "212%", "226%"],
+                    ["1.6秒", "1.6秒", "1.6秒", "1.7秒", "1.7秒", "1.7秒", "1.9秒", "1.9秒", "1.9秒", "2秒"]
+                ]
+            },
+            "normalSkillPlus": {
+                "skillName": "スローアンドノックアウト+",
+                "skillDesc": "20秒毎に敵1人に対して、攻撃力の{p1}分のダメージ/\nさらに気絶状態を付与（{p2}間）",
+                "parameters": [
+                    ["295%", "310%", "325%", "354%", "369%", "384%", "413%", "428%", "443%", "472%"],
+                    ["1.6秒", "1.6秒", "1.6秒", "1.7秒", "1.7秒", "1.7秒", "1.9秒", "1.9秒", "1.9秒", "2秒"]
+                ]
+            },
+            "passiveSkill": {
+                "skillName": "無慈悲な風紀委員会",
+                "skillDesc": "会心値を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "無慈悲な風紀委員会+",
+                "skillDesc": "CC抵抗力を{p1}増加/\nさらに会心値を{p2}増加",
+                "parameters": [
+                    ["14", "15", "16", "19", "19", "20", "23", "24", "24", "27"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "実力行使",
+                "skillDesc": "Exスキルの使用時、攻撃力を{p1}増加（最大で5回分まで効果が重複）",
+                "parameters": [["8.7%", "9.1%", "9.5%", "11.3%", "11.7%", "12.2%", "13.9%", "14.3%", "14.8%", "16.5%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "断片的なヴォイニッチ手稿のコピー",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "傷んだヴォイニッチ手稿のコピー",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 25
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なヴォイニッチ手稿のコピー",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 19
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "断片的なヴォイニッチ手稿のコピー",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "傷んだヴォイニッチ手稿のコピー",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "傷んだヴォイニッチ手稿のコピー",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なヴォイニッチ手稿のコピー",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なヴォイニッチ手稿のコピー",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
                     "quantity": 14
                 }
             ],
@@ -19199,264 +19154,6 @@
                 {
                     "itemName": "修復途中の中空十二面体",
                     "quantity": 11
-                }
-            ],
-            [
-                {
-                    "itemName": "秘伝ノート",
-                    "quantity": 1
-                }
-            ]
-        ]
-    },
-    {
-        "name": "ヒナ（水着）",
-        "fullName": "空崎 ヒナ（水着）",
-        "ruby": "そらさき ひな",
-        "starGrade": "★3",
-        "role": "STRIKER",
-        "weapon": "MG",
-        "position": "BACK",
-        "class": "アタッカー",
-        "school": "ゲヘナ",
-        "atkAttr": "爆発",
-        "defAttr": "重装",
-        "townApt": "B",
-        "outdoorApt": "S",
-        "indoorApt": "D",
-        "equip1": "帽子",
-        "equip2": "ヘアピン",
-        "equip3": "腕時計",
-        "birthday": {
-            "month": 2,
-            "day": 19
-        },
-        "params": {
-            "minHitpoint": 2655,
-            "hitpointIncrease": 205.641,
-            "minAtk": 408,
-            "atkIncrease": 37.129,
-            "minDef": 78,
-            "defIncrease": 3.938,
-            "minHeal": 1858,
-            "healIncrease": 37.5,
-            "accuracy": 102,
-            "evasion": 195,
-            "criticalPoint": 204,
-            "criticalDamageFactor": "200%",
-            "stability": 1364
-        },
-        "skills": {
-            "exSkill": {
-                "skillName": "絶海：イシュ・ボシェテ",
-                "skillDesc": "扇形範囲内の敵最大5人に対して、攻撃力の{p1}分のダメージ",
-                "parameters": [["232%", "267%", "336%", "371%", "441%"]],
-                "costs": [3, 3, 3, 3, 3]
-            },
-            "normalSkill": {
-                "skillName": "スローアンドノックアウト",
-                "skillDesc": "20秒毎に敵1人に対して、攻撃力の{p1}分のダメージ/\nさらに気絶状態を付与（{p2}間）",
-                "parameters": [
-                    ["141%", "148%", "155%", "170%", "177%", "184%", "198%", "205%", "212%", "226%"],
-                    ["1.6秒", "1.6秒", "1.6秒", "1.7秒", "1.7秒", "1.7秒", "1.9秒", "1.9秒", "1.9秒", "2秒"]
-                ]
-            },
-            "normalSkillPlus": {
-                "skillName": "スローアンドノックアウト+",
-                "skillDesc": "20秒毎に敵1人に対して、攻撃力の{p1}分のダメージ/\nさらに気絶状態を付与（{p2}間）",
-                "parameters": [
-                    ["295%", "310%", "325%", "354%", "369%", "384%", "413%", "428%", "443%", "472%"],
-                    ["1.6秒", "1.6秒", "1.6秒", "1.7秒", "1.7秒", "1.7秒", "1.9秒", "1.9秒", "1.9秒", "2秒"]
-                ]
-            },
-            "passiveSkill": {
-                "skillName": "無慈悲な風紀委員会",
-                "skillDesc": "会心値を{p1}増加",
-                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
-            },
-            "passiveSkillPlus": {
-                "skillName": "無慈悲な風紀委員会+",
-                "skillDesc": "CC抵抗力を{p1}増加/\nさらに会心値を{p2}増加",
-                "parameters": [
-                    ["14", "15", "16", "19", "19", "20", "23", "24", "24", "27"],
-                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
-                ]
-            },
-            "subSkill": {
-                "skillName": "実力行使",
-                "skillDesc": "Exスキルの使用時、攻撃力を{p1}増加（最大で5回分まで効果が重複）",
-                "parameters": [["8.7%", "9.1%", "9.5%", "11.3%", "11.7%", "12.2%", "13.9%", "14.3%", "14.8%", "16.5%"]]
-            }
-        },
-        "exSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "断片的なヴォイニッチ手稿のコピー",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "itemName": "中級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "初級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "傷んだヴォイニッチ手稿のコピー",
-                    "quantity": 13
-                },
-                {
-                    "itemName": "ファイストス円盤の欠片",
-                    "quantity": 30
-                }
-            ],
-            [
-                {
-                    "itemName": "上級戦術教育BD（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "中級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
-                    "quantity": 11
-                },
-                {
-                    "itemName": "壊れたファイストス円盤",
-                    "quantity": 25
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級戦術教育BD（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（ゲヘナ）",
-                    "quantity": 18
-                },
-                {
-                    "itemName": "完全なヴォイニッチ手稿のコピー",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "摩耗したファイストス円盤",
-                    "quantity": 19
-                }
-            ]
-        ],
-        "commonSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                },
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "断片的なヴォイニッチ手稿のコピー",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "傷んだヴォイニッチ手稿のコピー",
-                    "quantity": 4
-                },
-                {
-                    "itemName": "ファイストス円盤の欠片",
-                    "quantity": 12
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 5
-                },
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "傷んだヴォイニッチ手稿のコピー",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "ファイストス円盤の欠片",
-                    "quantity": 18
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "編集済みのヴォイニッチ手稿のコピー",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "壊れたファイストス円盤",
-                    "quantity": 16
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "完全なヴォイニッチ手稿のコピー",
-                    "quantity": 4
-                },
-                {
-                    "itemName": "摩耗したファイストス円盤",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（ゲヘナ）",
-                    "quantity": 12
-                },
-                {
-                    "itemName": "完全なヴォイニッチ手稿のコピー",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "摩耗したファイストス円盤",
-                    "quantity": 14
                 }
             ],
             [
@@ -23298,6 +22995,309 @@
         ]
     },
     {
+        "name": "美琴",
+        "fullName": "御坂 美琴",
+        "ruby": "みさか みこと",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "AR",
+        "position": "MIDDLE",
+        "class": "アタッカー",
+        "school": "常盤台中学",
+        "atkAttr": "貫通",
+        "defAttr": "重装",
+        "townApt": "D",
+        "outdoorApt": "S",
+        "indoorApt": "B",
+        "equip1": "グローブ",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 5,
+            "day": 2
+        },
+        "params": {
+            "minHitpoint": 2601,
+            "hitpointIncrease": 236.381,
+            "minAtk": 320,
+            "atkIncrease": 29.153,
+            "minDef": 19,
+            "defIncrease": 0.964,
+            "minHeal": 1894,
+            "healIncrease": 38.26,
+            "accuracy": 731,
+            "evasion": 764,
+            "criticalPoint": 208,
+            "criticalDamageFactor": "200%",
+            "stability": 1336
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "常盤台の超電磁砲",
+                "skillDesc": "直線範囲内の敵に対して、攻撃力の{p1}分のダメージ",
+                "parameters": [["544%", "626%", "789%", "871%", "1034%"]],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "ちょっと痺れるわよ！",
+                "skillDesc": "50秒毎に、円形範囲内の敵に攻撃力の{p1}分のダメージ\n攻撃力の{p2}分の感電持続ダメージを付与（{p3}間）",
+                "parameters": [
+                    ["120%", "126%", "132%", "156%", "162%", "168%", "192%", "198%", "204%", "228%"],
+                    ["113%", "119%", "124%", "130%", "135%", "140%", "143%", "148%", "152%", "157%"],
+                    ["20秒", "20秒", "20秒", "25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "40秒"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "電撃操作能力",
+                "skillDesc": "命中値を{p1}増加/\n食蜂操祈の混乱効果は適用されません",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "電撃操作能力+",
+                "skillDesc": "攻撃力を{p1}増加/\nさらに命中値を{p2}増加/\n食蜂操祈の混乱効果は適用されません",
+                "parameters": [
+                    ["290", "304", "319", "376", "391", "405", "463", "478", "492", "550"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "何度も言わせんじゃないわよ",
+                "skillDesc": "ノーマルスキルの発動と同時に、攻撃力を{p1}増加（{p2}間）",
+                "parameters": [
+                    ["10%", "11.2%", "12.4%", "13.4%", "14.7%", "16%", "17.2%", "18.5%", "20%", "21.4%"],
+                    ["20秒", "20秒", "20秒", "25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "40秒"]
+                ]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（山海経）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（アビドス）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（アリウス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（レッドウィンター）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（ヴァルキューレ）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（山海経）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（アビドス）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（アリウス）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（レッドウィンター）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（百鬼夜行）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（ヴァルキューレ）",
+                    "quantity": 3
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（アリウス）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（山海経）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（アビドス）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（ヴァルキューレ）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（アリウス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（山海経）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（アビドス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（ヴァルキューレ）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（アリウス）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（山海経）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（アビドス）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ヴァルキューレ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（アリウス）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（山海経）",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（アビドス）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（ヴァルキューレ）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ミサキ",
         "fullName": "戒野 ミサキ",
         "ruby": "いましの みさき",
@@ -23535,6 +23535,302 @@
                 {
                     "itemName": "摩耗したアンティキティラ装置",
                     "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "操祈",
+        "fullName": "食蜂 操祈",
+        "ruby": "しょくほう みさき",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "HG",
+        "position": "MIDDLE",
+        "class": "サポーター",
+        "school": "常盤台中学",
+        "atkAttr": "爆発",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "C",
+        "indoorApt": "C",
+        "equip1": "シューズ",
+        "equip2": "ヘアピン",
+        "equip3": "ネックレス",
+        "birthday": null,
+        "params": {
+            "minHitpoint": 2474,
+            "hitpointIncrease": 264.438,
+            "minAtk": 290,
+            "atkIncrease": 26.466,
+            "minDef": 18,
+            "defIncrease": 0.919,
+            "minHeal": 1978,
+            "healIncrease": 39.974,
+            "accuracy": 109,
+            "evasion": 999,
+            "criticalPoint": 218,
+            "criticalDamageFactor": "200%",
+            "stability": 908
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "心理掌握",
+                "skillDesc": "指定した相手およびその円形範囲内の最も近い敵2人に対して、攻撃力の{p1}分のダメージ/\n混乱状態を付与（{p2}間）",
+                "parameters": [
+                    ["772%", "888%", "1120%", "1236%", "1468%"],
+                    ["5秒", "5秒", "7秒", "7秒", "7秒"]
+                ],
+                "costs": [5, 5, 5, 5, 5]
+            },
+            "normalSkill": {
+                "skillName": "少し手伝ってくれるかしら？",
+                "skillDesc": "30秒毎に、円形範囲内の敵に攻撃力の{p1}分のダメージ",
+                "parameters": [["318%", "334%", "350%", "413%", "429%", "445%", "509%", "525%", "541%", "604%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "常盤台の女王",
+                "skillDesc": "CC抵抗力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "常盤台の女王+",
+                "skillDesc": "攻撃力を{p1}増加/\nさらにCC抵抗力を{p2}増加",
+                "parameters": [
+                    ["152", "159", "167", "197", "205", "212", "242", "250", "258", "288"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "私は頭脳派だしぃ",
+                "skillDesc": "食蜂操祈のExスキルで相手に混乱状態を適用する度に防御力と回避値を{p1}増加（20秒間）",
+                "parameters": [["19.3%", "20.3%", "21.3%", "25.1%", "26.1%", "27.1%", "30.9%", "31.9%", "32.9%", "36.7%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級戦術教育BD（レッドウィンター）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（山海経）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（ヴァルキューレ）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（アビドス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級戦術教育BD（アリウス）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（レッドウィンター）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（山海経）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（ヴァルキューレ）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（アビドス）",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "最上級戦術教育BD（アリウス）",
+                    "quantity": 3
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（山海経）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（アビドス）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（ヴァルキューレ）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（レッドウィンター）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（アリウス）",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（山海経）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（アビドス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（ヴァルキューレ）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（レッドウィンター）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（アリウス）",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（山海経）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（アビドス）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ヴァルキューレ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（レッドウィンター）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（アリウス）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（山海経）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（アビドス）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（ヴァルキューレ）",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（レッドウィンター）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（アリウス）",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 7
                 }
             ],
             [
@@ -28345,302 +28641,6 @@
                 {
                     "itemName": "マンドレイクジュース",
                     "quantity": 14
-                }
-            ],
-            [
-                {
-                    "itemName": "秘伝ノート",
-                    "quantity": 1
-                }
-            ]
-        ]
-    },
-    {
-        "name": "操祈",
-        "fullName": "食蜂 操祈",
-        "ruby": "しょくほう みさき",
-        "starGrade": "★3",
-        "role": "STRIKER",
-        "weapon": "HG",
-        "position": "MIDDLE",
-        "class": "サポーター",
-        "school": "常盤台中学",
-        "atkAttr": "爆発",
-        "defAttr": "重装",
-        "townApt": "S",
-        "outdoorApt": "C",
-        "indoorApt": "C",
-        "equip1": "シューズ",
-        "equip2": "ヘアピン",
-        "equip3": "ネックレス",
-        "birthday": null,
-        "params": {
-            "minHitpoint": 2474,
-            "hitpointIncrease": 264.438,
-            "minAtk": 290,
-            "atkIncrease": 26.466,
-            "minDef": 18,
-            "defIncrease": 0.919,
-            "minHeal": 1978,
-            "healIncrease": 39.974,
-            "accuracy": 109,
-            "evasion": 999,
-            "criticalPoint": 218,
-            "criticalDamageFactor": "200%",
-            "stability": 908
-        },
-        "skills": {
-            "exSkill": {
-                "skillName": "心理掌握",
-                "skillDesc": "指定した相手およびその円形範囲内の最も近い敵2人に対して、攻撃力の{p1}分のダメージ/\n混乱状態を付与（{p2}間）",
-                "parameters": [
-                    ["772%", "888%", "1120%", "1236%", "1468%"],
-                    ["5秒", "5秒", "7秒", "7秒", "7秒"]
-                ],
-                "costs": [5, 5, 5, 5, 5]
-            },
-            "normalSkill": {
-                "skillName": "少し手伝ってくれるかしら？",
-                "skillDesc": "30秒毎に、円形範囲内の敵に攻撃力の{p1}分のダメージ",
-                "parameters": [["318%", "334%", "350%", "413%", "429%", "445%", "509%", "525%", "541%", "604%"]]
-            },
-            "normalSkillPlus": null,
-            "passiveSkill": {
-                "skillName": "常盤台の女王",
-                "skillDesc": "CC抵抗力を{p1}増加",
-                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
-            },
-            "passiveSkillPlus": {
-                "skillName": "常盤台の女王+",
-                "skillDesc": "攻撃力を{p1}増加/\nさらにCC抵抗力を{p2}増加",
-                "parameters": [
-                    ["152", "159", "167", "197", "205", "212", "242", "250", "258", "288"],
-                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
-                ]
-            },
-            "subSkill": {
-                "skillName": "私は頭脳派だしぃ",
-                "skillDesc": "食蜂操祈のExスキルで相手に混乱状態を適用する度に防御力と回避値を{p1}増加（20秒間）",
-                "parameters": [["19.3%", "20.3%", "21.3%", "25.1%", "26.1%", "27.1%", "30.9%", "31.9%", "32.9%", "36.7%"]]
-            }
-        },
-        "exSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級戦術教育BD（ミレニアム）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（百鬼夜行）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（ゲヘナ）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級戦術教育BD（レッドウィンター）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "中級戦術教育BD（山海経）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（ヴァルキューレ）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（アビドス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級戦術教育BD（アリウス）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "上級戦術教育BD（ミレニアム）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（百鬼夜行）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級戦術教育BD（レッドウィンター）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級戦術教育BD（山海経）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（ヴァルキューレ）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（アビドス）",
-                    "quantity": 3
-                },
-                {
-                    "itemName": "最上級戦術教育BD（アリウス）",
-                    "quantity": 3
-                }
-            ]
-        ],
-        "commonSkillUpgradeRequirements": [
-            [
-                {
-                    "itemName": "初級技術ノート（山海経）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（アビドス）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（ミレニアム）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（ヴァルキューレ）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "初級技術ノート（レッドウィンター）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（ゲヘナ）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（アリウス）",
-                    "quantity": 10
-                },
-                {
-                    "itemName": "初級技術ノート（百鬼夜行）",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（山海経）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（アビドス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（ミレニアム）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（ヴァルキューレ）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "中級技術ノート（レッドウィンター）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（ゲヘナ）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（アリウス）",
-                    "quantity": 9
-                },
-                {
-                    "itemName": "中級技術ノート（百鬼夜行）",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（山海経）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（アビドス）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ミレニアム）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ヴァルキューレ）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "上級技術ノート（レッドウィンター）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（ゲヘナ）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（アリウス）",
-                    "quantity": 8
-                },
-                {
-                    "itemName": "上級技術ノート（百鬼夜行）",
-                    "quantity": 8
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（山海経）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（アビドス）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（ミレニアム）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（ヴァルキューレ）",
-                    "quantity": 7
-                }
-            ],
-            [
-                {
-                    "itemName": "最上級技術ノート（レッドウィンター）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（ゲヘナ）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（アリウス）",
-                    "quantity": 7
-                },
-                {
-                    "itemName": "最上級技術ノート（百鬼夜行）",
-                    "quantity": 7
                 }
             ],
             [
