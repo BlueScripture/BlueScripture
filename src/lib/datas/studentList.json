@@ -27392,6 +27392,260 @@
         ]
     },
     {
+        "name": "ユカリ",
+        "fullName": "勘解由小路 ユカリ",
+        "ruby": "かでのこうじ ゆかり",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "SR",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "百鬼夜行",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 6,
+            "day": 16
+        },
+        "params": {
+            "minHitpoint": 2505,
+            "hitpointIncrease": 194.06,
+            "minAtk": 401,
+            "atkIncrease": 36.413,
+            "minDef": 19,
+            "defIncrease": 1.028,
+            "minHeal": 1655,
+            "healIncrease": 33.423,
+            "accuracy": 905,
+            "evasion": 198,
+            "criticalPoint": 201,
+            "criticalDamageFactor": "200%",
+            "stability": 1988
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "まっすぐに芽生えた決意",
+                "skillDesc": "円形範囲内の敵に攻撃力の{p1}分のダメージ/\nさらに自身が所有する「祈願」を10個単位で可能な限り消耗し、消耗した「祈願」10個毎に攻撃力の{p2}分の確定会心ダメージ",
+                "parameters": [
+                    ["159%", "183%", "230%", "254%", "302%"],
+                    ["117%", "135%", "170%", "188%", "223%"]
+                ],
+                "costs": [7, 7, 7, 7, 7]
+            },
+            "normalSkill": {
+                "skillName": "待ち侘びた再会",
+                "skillDesc": "40秒毎に、「祈願」を{p1}獲得（「祈願」は最大50個まで重複）/\n攻撃力を{p2}増加（30秒間）",
+                "parameters": [
+                    ["10個", "10個", "10個", "10個", "10個", "10個", "20個", "20個", "20個", "20個"],
+                    ["5.4%", "6.3%", "7.2%", "9.2%", "10.3%", "11.5%", "14%", "15.3%", "16.7%", "19.7%"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "百花繚乱のえり～と",
+                "skillDesc": "会心ダメージ率を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "百花繚乱のえり～と＋",
+                "skillDesc": "攻撃力を{p1}増加/\nさらに会心ダメージ率を{p2}増加",
+                "parameters": [
+                    ["309", "324", "340", "401", "417", "432", "494", "509", "525", "586"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "面を上げて向き合う責務",
+                "skillDesc": "自身を除く味方が消耗したコスト分、「祈願」を獲得（「祈願」は最大50個まで重複）/\n「祈願」を10個獲得する度に会心ダメージ率を{p1}増加（15秒間）",
+                "parameters": [["8.1%", "8.5%", "8.9%", "10.6%", "11%", "11.4%", "13%", "13.4%", "13.8%", "15.5%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ネブラディスクの欠片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れたネブラディスク",
+                    "quantity": 14
+                },
+                {
+                    "itemName": "古代の電池の破片",
+                    "quantity": 29
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "摩耗したネブラディスク",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "破損した古代の電池",
+                    "quantity": 23
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なネブラディスク",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "摩耗した古代の電池",
+                    "quantity": 20
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ネブラディスクの欠片",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れたネブラディスク",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "古代の電池の破片",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れたネブラディスク",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "古代の電池の破片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したネブラディスク",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "破損した古代の電池",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なネブラディスク",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "摩耗した古代の電池",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なネブラディスク",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗した古代の電池",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ユズ",
         "fullName": "花岡 ユズ",
         "ruby": "はなおか ゆず",
