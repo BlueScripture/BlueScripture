@@ -5283,6 +5283,257 @@
         ]
     },
     {
+        "name": "エイミ（水着）",
+        "fullName": "和泉元 エイミ（水着）",
+        "ruby": "いずみもと えいみ",
+        "starGrade": "★3",
+        "role": "SPECIAL",
+        "weapon": "SG",
+        "position": "BACK",
+        "class": "サポーター",
+        "school": "ミレニアム",
+        "atkAttr": "神秘",
+        "defAttr": "特殊",
+        "townApt": "D",
+        "outdoorApt": "S",
+        "indoorApt": "B",
+        "equip1": "シューズ",
+        "equip2": "バッグ",
+        "equip3": "ネックレス",
+        "birthday": {
+            "month": 5,
+            "day": 1
+        },
+        "params": {
+            "minHitpoint": 3184,
+            "hitpointIncrease": 208.265,
+            "minAtk": 307,
+            "atkIncrease": 27.87,
+            "minDef": 94,
+            "defIncrease": 4.798,
+            "minHeal": 2063,
+            "healIncrease": 41.647,
+            "accuracy": 545,
+            "evasion": 181,
+            "criticalPoint": 272,
+            "criticalDamageFactor": "200%",
+            "stability": 2088
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "頼もしい支援",
+                "skillDesc": "円形範囲内の味方6人を指定した位置に移動した後、治癒力の{p1}分のシールド効果を発動{p2}（30秒間）",
+                "parameters": [
+                    ["104%", "119%", "151%", "166%", "197%"],
+                    ["", "", "。攻撃力を10.2%増加", "。攻撃力を10.2%増加", "。攻撃力を12.6%増加"]
+                ],
+                "costs": [4, 4, 4, 4, 4]
+            },
+            "normalSkill": {
+                "skillName": "エイミの自信作",
+                "skillDesc": "45秒毎に、味方4人の攻撃速度を{p1}増加（25秒間）",
+                "parameters": [["11%", "11.6%", "12.1%", "14.3%", "14.9%", "15.4%", "17.6%", "18.2%", "18.7%", "21%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "水を得た魚",
+                "skillDesc": "治癒力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "水を得た魚+",
+                "skillDesc": "バフ効果持続力を{p1}増加/\nさらに治癒力を{p2}増加",
+                "parameters": [
+                    ["1000", "1050", "1100", "1300", "1350", "1400", "1600", "1650", "1700", "1900"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "滑るように",
+                "skillDesc": "味方の攻撃速度を{p1}増加",
+                "parameters": [["9.1%", "9.5%", "10%", "11.8%", "12.3%", "12.7%", "14.5%", "15%", "15.5%", "17.3%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "髪伸び人形の破片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "破損した髪伸び人形",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 32
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修理済みの髪伸び人形",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 26
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な髪伸び人形",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 20
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "髪伸び人形の破片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "破損した髪伸び人形",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "破損した髪伸び人形",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修理済みの髪伸び人形",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な髪伸び人形",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な髪伸び人形",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "カエデ",
         "fullName": "勇美 カエデ",
         "ruby": "いさみ かえで",
@@ -7292,6 +7543,261 @@
         ]
     },
     {
+        "name": "キキョウ",
+        "fullName": "桐生 キキョウ",
+        "ruby": "きりゅう ききょう",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "SR",
+        "position": "BACK",
+        "class": "サポーター",
+        "school": "百鬼夜行",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "グローブ",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 8,
+            "day": 8
+        },
+        "params": {
+            "minHitpoint": 2388,
+            "hitpointIncrease": 184.955,
+            "minAtk": 303,
+            "atkIncrease": 27.547,
+            "minDef": 18,
+            "defIncrease": 0.973,
+            "minHeal": 1731,
+            "healIncrease": 34.977,
+            "accuracy": 946,
+            "evasion": 189,
+            "criticalPoint": 210,
+            "criticalDamageFactor": "200%",
+            "stability": 1892
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "神機妙算の一手",
+                "skillDesc": "十字範囲内の敵に対して防御力を{p1}減少（30秒間）/\n攻撃力の{p2}分のダメージ",
+                "parameters": [
+                    ["17.6%", "17.6%", "22.9%", "22.9%", "28.1%"],
+                    ["252%", "291%", "366%", "405%", "480%"]
+                ],
+                "costs": [5, 5, 5, 5, 5]
+            },
+            "normalSkill": {
+                "skillName": "敵を知り己を知れば百戦殆からず",
+                "skillDesc": "35秒毎に、自身を除く円形範囲内の味方に対して振動特効を加算（25秒間）/範囲内で効果を受けた味方の数によって効果が増加\n1人：{p1}\n2人：{p2}\n3人以上：{p3}",
+                "parameters": [
+                    ["14.6%", "15.3%", "16.1%", "19%", "19.7%", "20.4%", "23.4%", "24.1%", "24.8%", "27.8%"],
+                    ["18%", "18.9%", "19.8%", "23.4%", "24.3%", "25.2%", "28.8%", "29.7%", "30.6%", "34.2%"],
+                    ["21.4%", "22.5%", "23.6%", "27.8%", "28.9%", "30%", "34.3%", "35.3%", "36.4%", "40.7%"]
+                ]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "作戦参謀としての素養",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "作戦参謀としての素養+",
+                "skillDesc": "弱体状態持続力を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["1000", "1050", "1100", "1300", "1350", "1400", "1600", "1650", "1700", "1900"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "風林火山の計略",
+                "skillDesc": "30秒毎に、攻撃力を{p1}増加（20秒間）/\nさらに「風林火山」を1個付与（最大3個まで重複)/\n「風林火山」が3個になった時、EXスキルを使用すると、「風林火山」を全て消耗し自身を除く味方のEXスキルコストを1減少（EXスキル使用1回分）",
+                "parameters": [["17.2%", "18.1%", "18.9%", "22.4%", "23.3%", "24.1%", "27.6%", "28.4%", "29.3%", "32.8%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "壊れた古代ロケット",
+                    "quantity": 24
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 21
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "水晶埴輪の破片",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた水晶埴輪",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復済みの水晶埴輪",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "壊れた古代ロケット",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な水晶埴輪",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ココナ",
         "fullName": "春原 ココナ",
         "ruby": "すのはら ここな",
@@ -7528,6 +8034,257 @@
                 },
                 {
                     "itemName": "編集済みのヴォイニッチ手稿のコピー",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "コタマ（キャンプ）",
+        "fullName": "音瀬 コタマ（キャンプ）",
+        "ruby": "おとせ こたま",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "HG",
+        "position": "MIDDLE",
+        "class": "サポーター",
+        "school": "ミレニアム",
+        "atkAttr": "貫通",
+        "defAttr": "重装",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "グローブ",
+        "equip2": "バッジ",
+        "equip3": "ネックレス",
+        "birthday": {
+            "month": 1,
+            "day": 5
+        },
+        "params": {
+            "minHitpoint": 2384,
+            "hitpointIncrease": 254.798,
+            "minAtk": 164,
+            "atkIncrease": 14.879,
+            "minDef": 18,
+            "defIncrease": 0.973,
+            "minHeal": 1734,
+            "healIncrease": 35.012,
+            "accuracy": 105,
+            "evasion": 1040,
+            "criticalPoint": 210,
+            "criticalDamageFactor": "200%",
+            "stability": 944
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "熊よけ鈴投げ",
+                "skillDesc": "敵1人に対して、攻撃力の{p1}分のダメージ。混乱状態を付与（{p2}間）",
+                "parameters": [
+                    ["477%", "548%", "691%", "763%", "906%"],
+                    ["7.2秒", "7.2秒", "9.4秒", "9.4秒", "11.5秒"]
+                ],
+                "costs": [6, 6, 6, 6, 6]
+            },
+            "normalSkill": {
+                "skillName": "共鳴効果",
+                "skillDesc": "45秒毎に、自身を除く味方1人と自身の攻撃力を{p1}増加（35秒間）",
+                "parameters": [["5.9%", "6.2%", "6.5%", "7.7%", "8%", "8.3%", "9.5%", "9.8%", "10.1%", "11.3%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "ノイズ増幅",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "ノイズ増幅+",
+                "skillDesc": "CC抵抗力を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["14", "15", "16", "19", "19", "20", "23", "24", "24", "27"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "電波干渉",
+                "skillDesc": "敵を攻撃した時、攻撃力の{p1}分の追加ダメージ",
+                "parameters": [["24.1%", "25.3%", "26.5%", "31.4%", "32.6%", "33.8%", "38.6%", "39.8%", "41%", "45.8%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中空十二面体の欠片",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた中空十二面体",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "レヒニッツ写本のページ",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復途中の中空十二面体",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "傷んだレヒニッツ写本",
+                    "quantity": 29
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な中空十二面体",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "編集済みのレヒニッツ写本",
+                    "quantity": 23
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中空十二面体の欠片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた中空十二面体",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "レヒニッツ写本のページ",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた中空十二面体",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "レヒニッツ写本のページ",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の中空十二面体",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "傷んだレヒニッツ写本",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な中空十二面体",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "編集済みのレヒニッツ写本",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な中空十二面体",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "編集済みのレヒニッツ写本",
                     "quantity": 14
                 }
             ],
@@ -18150,6 +18907,254 @@
         ]
     },
     {
+        "name": "ハレ（キャンプ）",
+        "fullName": "小鈎 ハレ（キャンプ）",
+        "ruby": "おまがり はれ",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "AR",
+        "position": "MIDDLE",
+        "class": "サポーター",
+        "school": "ミレニアム",
+        "atkAttr": "爆発",
+        "defAttr": "軽装",
+        "townApt": "D",
+        "outdoorApt": "S",
+        "indoorApt": "B",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "お守り",
+        "birthday": {
+            "month": 4,
+            "day": 19
+        },
+        "params": {
+            "minHitpoint": 2480,
+            "hitpointIncrease": 225.429,
+            "minAtk": 193,
+            "atkIncrease": 17.637,
+            "minDef": 19,
+            "defIncrease": 1.0,
+            "minHeal": 1671,
+            "healIncrease": 33.786,
+            "accuracy": 711,
+            "evasion": 787,
+            "criticalPoint": 203,
+            "criticalDamageFactor": "200%",
+            "stability": 1376
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "焚き火の甘味",
+                "skillDesc": "自身を除く味方1人に対して、攻撃力を{p1}増加（26秒間）/\nさらに自身にホクホクの焼き芋を5個付与（最大15個まで重複）",
+                "parameters": [["42.3%", "48.6%", "61.3%", "67.7%", "80.4%"]],
+                "costs": [2, 2, 2, 2, 2]
+            },
+            "normalSkill": {
+                "skillName": "広がる温もり",
+                "skillDesc": "50秒毎に、円形範囲内の味方の攻撃力を{p1}増加（30秒間）",
+                "parameters": [["14.5%", "14.9%", "15.2%", "18.1%", "18.5%", "18.9%", "20.3%", "21%", "21.4%", "24.3%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "デトックス効果",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "デトックス効果+",
+                "skillDesc": "バフ効果持続力を{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["1000", "1050", "1100", "1300", "1350", "1400", "1600", "1650", "1700", "1900"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "キャンプの醍醐味",
+                "skillDesc": "ホクホクの焼き芋を保有している状態で敵を攻撃した時、攻撃力の{p1}分の追加ダメージ/\nさらに自身のホクホクの焼き芋が1個減少",
+                "parameters": [["51.6%", "54.2%", "56.8%", "67.1%", "69.6%", "72.2%", "82.5%", "85.2%", "87.7%", "98%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "古代文明のメダルの欠片",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "破損した古代文明のメダル",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "アンティキティラ装置の欠片",
+                    "quantity": 30
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復途中の古代文明のメダル",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "壊れたアンティキティラ装置",
+                    "quantity": 28
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ミレニアム）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な古代文明のメダル",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したアンティキティラ装置",
+                    "quantity": 21
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "古代文明のメダルの欠片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "破損した古代文明のメダル",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "アンティキティラ装置の欠片",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "破損した古代文明のメダル",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "アンティキティラ装置の欠片",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の古代文明のメダル",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れたアンティキティラ装置",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な古代文明のメダル",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "摩耗したアンティキティラ装置",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ミレニアム）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な古代文明のメダル",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "摩耗したアンティキティラ装置",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "ヒナ",
         "fullName": "空崎 ヒナ",
         "ruby": "そらさき ひな",
@@ -28388,6 +29393,257 @@
                 {
                     "itemName": "修復済みの水晶埴輪",
                     "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "レンゲ",
+        "fullName": "不破 レンゲ",
+        "ruby": "ふわ れんげ",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "SR",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "百鬼夜行",
+        "atkAttr": "振動",
+        "defAttr": "重装",
+        "townApt": "S",
+        "outdoorApt": "B",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 7,
+            "day": 23
+        },
+        "params": {
+            "minHitpoint": 2490,
+            "hitpointIncrease": 192.861,
+            "minAtk": 380,
+            "atkIncrease": 34.577,
+            "minDef": 19,
+            "defIncrease": 1.0,
+            "minHeal": 1664,
+            "healIncrease": 33.628,
+            "accuracy": 910,
+            "evasion": 197,
+            "criticalPoint": 202,
+            "criticalDamageFactor": "200%",
+            "stability": 1976
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "百花繚乱式射撃術",
+                "skillDesc": "扇形範囲内の敵に対して攻撃力の{p1}分の火傷状態持続ダメージを付与（20秒間）/\n攻撃力の{p2}分のダメージ",
+                "parameters": [
+                    ["14.5%", "16.7%", "21.1%", "23.3%", "27.6%"],
+                    ["263.5%", "303.7%", "383%", "422.2%", "501.5%"]
+                ],
+                "costs": [3, 3, 3, 3, 3]
+            },
+            "normalSkill": {
+                "skillName": "燃え上がる情熱",
+                "skillDesc": "30秒毎に、「情熱」状態を付与。攻撃力を{p1}増加（22秒間）",
+                "parameters": [["19.8%", "20.8%", "21.8%", "25.7%", "26.7%", "27.7%", "31.7%", "32.7%", "33.7%", "37.6%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "百花繚乱の鬼教官",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "百花繚乱の鬼教官+",
+                "skillDesc": "会心ダメージを{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["2000", "2100", "2200", "2600", "2700", "2800", "3200", "3300", "3400", "3800"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "切り込み隊長としての本分",
+                "skillDesc": "「情熱」状態での攻撃時、攻撃力の{p1}分の追加ダメージ",
+                "parameters": [["4.5%", "4.7%", "5%", "5.9%", "6.1%", "6.3%", "7.2%", "7.5%", "7.7%", "8.6%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "エーテルの粉",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "エーテルの欠片",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "黄金シャトルの欠片",
+                    "quantity": 29
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "エーテルの結晶",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "壊れた黄金シャトル",
+                    "quantity": 26
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（百鬼夜行）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "エーテルのエッセンス",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "修復途中の黄金シャトル",
+                    "quantity": 21
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "エーテルの粉",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "エーテルの欠片",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "黄金シャトルの欠片",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "エーテルの欠片",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "黄金シャトルの欠片",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "エーテルの結晶",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "壊れた黄金シャトル",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "エーテルのエッセンス",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "修復途中の黄金シャトル",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（百鬼夜行）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "エーテルのエッセンス",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "修復途中の黄金シャトル",
+                    "quantity": 12
                 }
             ],
             [

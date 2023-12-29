@@ -704,6 +704,16 @@
         }
     },
     {
+        "name": "古代ロケットの欠片",
+        "description": "古代ロケットの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["6-1H"],
+            "recommended": "6-4N"
+        }
+    },
+    {
         "name": "古代文明のメダルの欠片",
         "description": "古代文明のメダルの壊れた欠片。製造や強化に使用される。",
         "category": "スキル強化素材",
@@ -751,6 +761,16 @@
         "dropIn": {
             "stages": ["3-3H"],
             "recommended": "3-3N"
+        }
+    },
+    {
+        "name": "黄金シャトルの欠片",
+        "description": "黄金シャトルの壊れた欠片。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 0,
+        "dropIn": {
+            "stages": ["3-1H"],
+            "recommended": "3-4N"
         }
     },
     {
@@ -874,6 +894,16 @@
         }
     },
     {
+        "name": "壊れた古代ロケット",
+        "description": "元の形が分からないほど壊れた古代ロケット。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["12-1H"],
+            "recommended": "12-4N"
+        }
+    },
+    {
         "name": "壊れた水晶埴輪",
         "description": "元の形が分からないほど壊れた水晶埴輪。製造や強化に使用される。",
         "category": "スキル強化素材",
@@ -881,6 +911,16 @@
         "dropIn": {
             "stages": ["12-2H"],
             "recommended": "12-2N"
+        }
+    },
+    {
+        "name": "壊れた黄金シャトル",
+        "description": "元の形が分からないほど壊れた黄金シャトル。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 1,
+        "dropIn": {
+            "stages": ["9-1H"],
+            "recommended": "9-4N"
         }
     },
     {
@@ -1014,6 +1054,16 @@
         }
     },
     {
+        "name": "修復途中の古代ロケット",
+        "description": "欠片を寄せ集めて修復している最中の古代ロケット。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["18-4N", "18-1H", "24-1H"],
+            "recommended": "24-4N"
+        }
+    },
+    {
         "name": "修復途中の古代文明のメダル",
         "description": "欠片を寄せ集めて修復している最中の古代文明のメダル。製造や強化に使用される。",
         "category": "スキル強化素材",
@@ -1021,6 +1071,16 @@
         "dropIn": {
             "stages": ["18-2H"],
             "recommended": "24-2H"
+        }
+    },
+    {
+        "name": "修復途中の黄金シャトル",
+        "description": "欠片を寄せ集めて修復している最中の黄金シャトル。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 2,
+        "dropIn": {
+            "stages": ["15-4N", "15-1H", "21-1H"],
+            "recommended": "21-4N"
         }
     },
     {
@@ -1191,6 +1251,13 @@
         "dropIn": null
     },
     {
+        "name": "完全な中空十二面体",
+        "description": "完全な状態の中空十二面体。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
         "name": "完全な円盤型ペンダント",
         "description": "完全な状態の円盤型ペンダント。製造や強化に使用される。",
         "category": "スキル強化素材",
@@ -1198,8 +1265,22 @@
         "dropIn": null
     },
     {
+        "name": "完全な古代文明のメダル",
+        "description": "完全な状態の古代文明のメダル。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
         "name": "完全な水晶埴輪",
         "description": "完全な状態の水晶埴輪。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全な髪伸び人形",
+        "description": "完全な状態の髪伸び人形。製造や強化に使用される。",
         "category": "スキル強化素材",
         "rarity": 3,
         "dropIn": null
