@@ -3,6 +3,7 @@
     import HeadlineGroup from "$lib/components/HeadlineGroup.svelte"
     import { EQUIPMENT_PARAMS_DICT } from "$lib/constants"
     import Items from "$lib/datas/itemList.json"
+    import { mediaServerDomain } from "$lib/site.config"
     import { COMMON_ITEM_CATEGORY_TYPES, type CommonItemInfo, type EquipmentInfo, type ItemInfo } from "$lib/types"
     import { toggleListControlMenu } from "$lib/utils"
 
@@ -84,7 +85,7 @@
                 {#if item.category != "装備の設計図"}
                     <li class="item">
                         <a href="/items/{item.name}" data-item-rarity={item.rarity}>
-                            <img class="item-icon" src="/asset/image/item/{item.name}.webp" alt={item.name} />
+                            <img class="item-icon" src="//{mediaServerDomain}/item/{item.name}.webp" alt={item.name} />
                         </a>
                     </li>
                 {/if}
@@ -97,7 +98,7 @@
             <h2>アイテム情報</h2>
             <div id="item-summary-container">
                 <div id="item-summary">
-                    <img src="/asset/image/item/{itemInfo.name}.webp" alt={itemInfo.name} />
+                    <img src="//{mediaServerDomain}/item/{itemInfo.name}.webp" alt={itemInfo.name} />
                     <div id="item-name-container">
                         <span id="item-category">
                             {#if itemInfo.category == "装備品"}

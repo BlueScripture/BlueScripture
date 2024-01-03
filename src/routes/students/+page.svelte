@@ -4,6 +4,7 @@
     import CrossButtonIcon from "$lib/components/CrossButtonIcon.svelte"
     import HeadlineGroup from "$lib/components/HeadlineGroup.svelte"
     import { toggleListControlMenu } from "$lib/utils"
+    import { mediaServerDomain } from "$lib/site.config"
 
     type FilterCondition = {
         role: StudentRole[]
@@ -278,7 +279,7 @@
         <a class="student" href="/students/{student.name}">
             <div class="student-container-top">
                 <span class="student-role" data-student-role={student.role} />
-                <span class="student-icon" style="background-image: url(/asset/image/student/icon/{student.name}.webp);" />
+                <span class="student-icon" style="background-image: url(//{mediaServerDomain}/student/icon/{student.name}.webp);" />
                 <div class="student-name-container">
                     <p class="student-name-ruby">{student.ruby}</p>
                     <p class="student-name-base strict-break" aria-hidden="true">{student.fullName}</p>

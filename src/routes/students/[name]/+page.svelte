@@ -3,6 +3,7 @@
     import { Utils } from "$lib/utils.js"
     import Items from "$lib/datas/itemList.json"
     import { CURRENT_LEVEL_CAP, EQUIPMENT_PARAMS_DICT, LATEST_EQUIPMENT_TIER } from "$lib/constants"
+    import { mediaServerDomain } from "$lib/site.config"
 
     export let data: {
         studentInfo: StudentInfo
@@ -242,7 +243,7 @@
 
 <section id="student-detail-container">
     <section id="student-portrait">
-        <img src="/asset/image/student/portrait/{data.studentInfo.name}.webp" alt="生徒「{data.studentInfo.name}」の立ち絵" />
+        <img src="//{mediaServerDomain}/student/portrait/{data.studentInfo.name}.webp" alt="生徒「{data.studentInfo.name}」の立ち絵" />
     </section>
     <div id="student-details" class="strict-break">
         <section class="student-detail">
@@ -305,7 +306,7 @@
                 {#each displayedEquipments as equipment}
                     <li class="equipment">
                         <a href="/items/{equipment.name}" class="equipment-container-top">
-                            <img class="equipment-icon" src="/asset/image/item/{equipment.name}.webp" alt={equipment.name} />
+                            <img class="equipment-icon" src="//{mediaServerDomain}/item/{equipment.name}.webp" alt={equipment.name} />
                             <div class="equipment-info">
                                 <span class="equipment-category-tier">{equipment.equipmentCategory}・T{equipment.tier}</span>
                                 <h3 class="equipment-name">{equipment.name}</h3>
@@ -350,7 +351,7 @@
                     {#each data.studentInfo.exSkillUpgradeRequirements[exSkillLevel - 1] as item}
                         <li class="skill-upgrade-requirement">
                             <a href="/items/{item.itemName}">
-                                <img src="/asset/image/item/{item.itemName}.webp" alt={item.itemName} />
+                                <img src="//{mediaServerDomain}/item/{item.itemName}.webp" alt={item.itemName} />
                                 <span>×{item.quantity}</span>
                             </a>
                         </li>
@@ -391,7 +392,7 @@
                     {#each data.studentInfo.commonSkillUpgradeRequirements[commonSkillLevel - 1] as item}
                         <li class="skill-upgrade-requirement">
                             <a href="/items/{item.itemName}">
-                                <img src="/asset/image/item/{item.itemName}.webp" alt={item.itemName} />
+                                <img src="//{mediaServerDomain}/item/{item.itemName}.webp" alt={item.itemName} />
                                 <span>×{item.quantity}</span>
                             </a>
                         </li>

@@ -7,6 +7,7 @@
     import { Utils, searchStudent } from "$lib/utils"
     import html2canvas from "html2canvas"
     import { isClipboardAPIAvailable } from "../../../hooks.client"
+    import { mediaServerDomain } from "$lib/site.config"
 
     type Unit = {
         desc: string
@@ -208,7 +209,7 @@
                                     </div>
                                     <div class="student-icon">
                                         <div class="role" data-student-role={role} />
-                                        <div class="icon" style="background-image: url(/asset/image/student/icon/{student.name}.webp);" />
+                                        <div class="icon" style="background-image: url(//{mediaServerDomain}/student/icon/{student.name}.webp);" />
                                     </div>
                                     <p class="student-name">{student.name}</p>
                                     <span class="student-params">
@@ -271,7 +272,7 @@
                         {@const studentsNumber = role == "STRIKER" ? 4 : 2}
                         {#each Utils.generateNumberSequence(studentsNumber) as roleIndex}
                             {@const student = role == "STRIKER" ? unit.students.STRIKER[roleIndex - 1] : unit.students.SPECIAL[roleIndex - 1]}
-                            {@const style = student != null ? `background-image: url(/asset/image/student/icon/${student.name}.webp);` : null}
+                            {@const style = student != null ? `background-image: url(//${mediaServerDomain}/student/icon/${student.name}.webp);` : null}
                             {@const isInitialSkillSelected = student != null && unit.initialSkills.some((elements) => elements == student.name)}
                             <section class="render-student" data-is-initial-skill={student != null ? unit.initialSkills.some((elements) => elements == student.name) : "false"}>
                                 <div class="render-student-role" data-student-role={role} />

@@ -4,6 +4,7 @@
     import type { AreaInfo } from "$lib/types"
     import { TERRAIN_ALIAS_DICT } from "$lib/constants"
     import HeadlineGroup from "$lib/components/HeadlineGroup.svelte"
+    import { mediaServerDomain } from "$lib/site.config"
 
     const areas = structuredClone(Areas) as AreaInfo[]
 
@@ -50,7 +51,7 @@
                             {#each stage.dropItems.slice(0, 4) as item}
                                 <!--NOTE: Define as constant to avoid conflicts between prettier and eslint quotes rules-->
                                 {@const itemName = item.replace("の設計図", "")}
-                                <img class="drop-item" src="/asset/image/item/{itemName}.webp" alt={item} />
+                                <img class="drop-item" src="//{mediaServerDomain}/item/{itemName}.webp" alt={item} />
                             {/each}
                         </div>
                     </div>

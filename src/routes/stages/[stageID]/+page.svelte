@@ -1,5 +1,6 @@
 <script lang="ts">
     import { TERRAIN_ALIAS_DICT } from "$lib/constants"
+    import { mediaServerDomain } from "$lib/site.config"
     import type { StageInfo } from "$lib/types"
 
     export let data: {
@@ -62,7 +63,7 @@
                     {@const itemLink = item.category == "装備の設計図" ? `/items/${item.parentEquipment}` : `/items/${item.name}`}
                     <li class="item">
                         <a href={itemLink} class="item-container">
-                            <img class="item-icon" src="/asset/image/item/{item.name}.webp" alt={item.name} />
+                            <img class="item-icon" src="//{mediaServerDomain}/item/{item.name}.webp" alt={item.name} />
                             <div class="item-info">
                                 <span class="item-category">
                                     {#if item.category == "装備品"}
