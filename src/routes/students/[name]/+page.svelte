@@ -149,7 +149,7 @@
     }
 
     function setDisplayedEquipments(studentInfo: StudentInfo, tier: number): EquipmentInfo[] {
-        return [studentInfo.equip1, studentInfo.equip2, studentInfo.equip3].map((studentEquip) => equipments.find((equipment) => equipment.equipmentCategory == studentEquip && equipment.tier == tier) as EquipmentInfo)
+        return [studentInfo.equip1, studentInfo.equip2, studentInfo.equip3].map((studentEquip) => (equipments.find((equipment) => equipment.equipmentCategory == studentEquip && equipment.tier == tier) as EquipmentInfo) ?? (equipments.find((equipment) => equipment.equipmentCategory == studentEquip && equipment.tier == tier - 1) as EquipmentInfo))
     }
 
     function setDisplayedSkills(): DisplayedSkills {

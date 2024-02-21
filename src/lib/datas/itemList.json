@@ -1265,6 +1265,13 @@
         "dropIn": null
     },
     {
+        "name": "完全な古代ロケット",
+        "description": "完全な状態の古代ロケット。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
         "name": "完全な古代文明のメダル",
         "description": "完全な状態の古代文明のメダル。製造や強化に使用される。",
         "category": "スキル強化素材",
@@ -1281,6 +1288,13 @@
     {
         "name": "完全な髪伸び人形",
         "description": "完全な状態の髪伸び人形。製造や強化に使用される。",
+        "category": "スキル強化素材",
+        "rarity": 3,
+        "dropIn": null
+    },
+    {
+        "name": "完全な黄金シャトル",
+        "description": "完全な状態の黄金シャトル。製造や強化に使用される。",
         "category": "スキル強化素材",
         "rarity": 3,
         "dropIn": null
@@ -1328,8 +1342,8 @@
         "category": "神名文字",
         "rarity": 0,
         "dropIn": {
-            "stages": [],
-            "recommended": "18-2H"
+            "stages": ["18-2H"],
+            "recommended": "25-2H"
         }
     },
     {
@@ -1420,6 +1434,16 @@
         "dropIn": {
             "stages": ["2-1H", "8-1H"],
             "recommended": "12-1H"
+        }
+    },
+    {
+        "name": "サヤ（私服）の神名文字",
+        "description": "サヤ（私服）の神秘が詰まった神名文字。",
+        "category": "神名文字",
+        "rarity": 0,
+        "dropIn": {
+            "stages": [],
+            "recommended": "25-3H"
         }
     },
     {
@@ -1538,8 +1562,8 @@
         "category": "神名文字",
         "rarity": 0,
         "dropIn": {
-            "stages": ["13-1H"],
-            "recommended": "15-1H"
+            "stages": ["13-1H", "15-1H"],
+            "recommended": "25-1H"
         }
     },
     {
@@ -1988,7 +2012,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-1N", "19-2N", "19-5N", "19-1H"],
+            "stages": ["19-1N", "19-2N", "19-5N", "19-1H", "25-1N", "25-2N", "25-5N", "25-1H", "25-2H"],
             "recommended": "19-2H"
         }
     },
@@ -2016,6 +2040,32 @@
         "dropIn": {
             "stages": ["22-1N", "22-2N", "22-5N", "22-1H"],
             "recommended": "22-2H"
+        }
+    },
+    {
+        "name": "セーリンググローブ",
+        "description": "手のひらに裏地が付いたオープンフィンガーグローブタイプのグローブ。通気性の良い合成樹脂製のこのグローブは、セーリングなどの船舶作業に適している。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "グローブ",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "46%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 450
+            },
+            {
+                "paramType": "accuracy",
+                "paramValue": 220
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-1N", "25-2N", "25-5N", "25-1H"],
+            "recommended": "25-2H"
         }
     },
     {
@@ -2156,7 +2206,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-1N", "19-3N", "19-4N", "19-2H"],
+            "stages": ["19-1N", "19-3N", "19-4N", "19-2H", "25-1N", "25-3N", "25-2H", "25-3H"],
             "recommended": "19-3H"
         }
     },
@@ -2180,6 +2230,28 @@
         "dropIn": {
             "stages": ["22-1N", "22-3N", "22-4N", "22-2H"],
             "recommended": "22-3H"
+        }
+    },
+    {
+        "name": "アクアサンダル",
+        "description": "水切れのよい防水素材で作られた一体型サンダル。水気の多い場所でも滑りにくいように底にはパッドが付いている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "シューズ",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "42%"
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "17.5%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-1N", "25-3N", "25-2H"],
+            "recommended": "25-3H"
         }
     },
     {
@@ -2512,7 +2584,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-4N", "19-3H", "20-3N", "20-5N"],
+            "stages": ["19-4N", "19-3H", "20-3N", "20-5N", "25-4N", "25-3H"],
             "recommended": "20-3H"
         }
     },
@@ -2536,6 +2608,32 @@
         "dropIn": {
             "stages": ["22-4N", "22-3H", "23-3N", "23-5N"],
             "recommended": "23-3H"
+        }
+    },
+    {
+        "name": "スリングドライバック",
+        "description": "片方の肩に掛けて持ち運べるスリングバッグ型のバッグ。防水素材で作られているので、水濡れしやすい電子機器などを収納するのに適している。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッグ",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 12000
+            },
+            {
+                "paramType": "defence",
+                "paramValue": 1600
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "5%"
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-4N"],
+            "recommended": "25-3H"
         }
     },
     {
@@ -2692,7 +2790,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-2N", "19-5N", "19-2H", "20-4N"],
+            "stages": ["19-2N", "19-5N", "19-2H", "20-4N", "25-2N", "25-4N", "25-5N", "25-2H"],
             "recommended": "20-1H"
         }
     },
@@ -2724,6 +2822,36 @@
         "dropIn": {
             "stages": ["22-2N", "22-5N", "22-2H", "23-4N"],
             "recommended": "23-1H"
+        }
+    },
+    {
+        "name": "ハルピュイア・フレキシブルバッジ",
+        "description": "マリンスポーツブランド「ハルピュイア」のロゴがプリントされたワッペンバッジ。柔らかいゴム素材で作られており、汚れに強いため、どこにでも気軽に貼って飾ることができる。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "バッジ",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 14000
+            },
+            {
+                "paramType": "healEffectivenessRate",
+                "paramValue": 3500
+            },
+            {
+                "paramType": "hitpointPercent",
+                "paramValue": "25%"
+            },
+            {
+                "paramType": "evasion",
+                "paramValue": 450
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-2N", "25-4N", "25-2H"],
+            "recommended": "25-5N"
         }
     },
     {
@@ -2864,7 +2992,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-3N", "19-4N", "19-1H", "20-2N", "20-5N"],
+            "stages": ["19-3N", "19-4N", "19-1H", "20-2N", "20-5N", "25-3N", "25-4N", "25-1H"],
             "recommended": "20-2H"
         }
     },
@@ -2888,6 +3016,32 @@
         "dropIn": {
             "stages": ["22-3N", "22-4N", "22-1H", "23-2N", "23-5N"],
             "recommended": "23-2H"
+        }
+    },
+    {
+        "name": "アンカーヘアピン",
+        "description": "2つのフックが付いたアンカー型のヘアピン。デザインは可愛いが、髪を結ぶときにフックに髪が絡まることが多く、実際に使うには少し不便だという。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "ヘアピン",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "hitpoint",
+                "paramValue": 11000
+            },
+            {
+                "paramType": "CCResistRatePercent",
+                "paramValue": "34%"
+            },
+            {
+                "paramType": "criticalPoint",
+                "paramValue": 150
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-3N", "25-1H"],
+            "recommended": "25-4N"
         }
     },
     {
@@ -3028,7 +3182,7 @@
             }
         ],
         "dropIn": {
-            "stages": ["19-1N", "19-2N", "19-3N", "19-5N", "19-3H"],
+            "stages": ["19-1N", "19-2N", "19-3N", "19-5N", "19-3H", "25-1N", "25-2N", "25-3N", "25-5N", "25-1H", "25-3H"],
             "recommended": "19-1H"
         }
     },
@@ -3052,6 +3206,28 @@
         "dropIn": {
             "stages": ["22-1N", "22-2N", "22-3N", "22-5N", "22-3H"],
             "recommended": "22-1H"
+        }
+    },
+    {
+        "name": "セーラーハット",
+        "description": "ストライプで軽くポイントをつけた白いセーラーハット。シンプルなデザインのこの帽子は、オデュッセイア海洋高等学校の校帽としても使われている。",
+        "category": "装備品",
+        "rarity": 0,
+        "equipmentCategory": "帽子",
+        "tier": 9,
+        "params": [
+            {
+                "paramType": "attackPercent",
+                "paramValue": "48%"
+            },
+            {
+                "paramType": "criticalDamageFactor",
+                "paramValue": 2000
+            }
+        ],
+        "dropIn": {
+            "stages": ["25-1N", "25-2N", "25-3N", "25-5N", "25-3H"],
+            "recommended": "25-1H"
         }
     },
     {
@@ -3333,6 +3509,13 @@
         "parentEquipment": "パールヤーングローブ"
     },
     {
+        "name": "セーリンググローブの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "セーリンググローブ"
+    },
+    {
         "name": "ムートンブーツの設計図",
         "category": "装備の設計図",
         "rarity": 0,
@@ -3380,6 +3563,13 @@
         "rarity": 0,
         "dropIn": null,
         "parentEquipment": "防水登山ブーツ"
+    },
+    {
+        "name": "アクアサンダルの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アクアサンダル"
     },
     {
         "name": "雪花のペンダントの設計図",
@@ -3480,6 +3670,13 @@
         "parentEquipment": "蝶柄のショルダーバッグ"
     },
     {
+        "name": "スリングドライバックの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "スリングドライバック"
+    },
+    {
         "name": "マナスルのフェルトバッジの設計図",
         "category": "装備の設計図",
         "rarity": 0,
@@ -3527,6 +3724,13 @@
         "rarity": 0,
         "dropIn": null,
         "parentEquipment": "ローレライバッジ"
+    },
+    {
+        "name": "ハルピュイア・フレキシブルバッジの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "ハルピュイア・フレキシブルバッジ"
     },
     {
         "name": "シュシュの設計図",
@@ -3578,6 +3782,13 @@
         "parentEquipment": "リーフヘアピン"
     },
     {
+        "name": "アンカーヘアピンの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "アンカーヘアピン"
+    },
+    {
         "name": "ニット帽の設計図",
         "category": "装備の設計図",
         "rarity": 0,
@@ -3625,6 +3836,13 @@
         "rarity": 0,
         "dropIn": null,
         "parentEquipment": "リーフリボン付き中折れ帽"
+    },
+    {
+        "name": "セーラーハットの設計図",
+        "category": "装備の設計図",
+        "rarity": 0,
+        "dropIn": null,
+        "parentEquipment": "セーラーハット"
     },
     {
         "name": "レザーの腕時計の設計図",

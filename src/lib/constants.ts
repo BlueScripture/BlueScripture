@@ -1,5 +1,5 @@
-export const CURRENT_LEVEL_CAP = 87 as const
-export const LATEST_EQUIPMENT_TIER = 8 as const
+export const CURRENT_LEVEL_CAP = 90 as const
+export const LATEST_EQUIPMENT_TIER = 9 as const
 export const TERRAIN_ALIAS_DICT = {
     town: "市街地",
     outdoor: "屋外",

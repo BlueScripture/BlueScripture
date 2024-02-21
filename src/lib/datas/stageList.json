@@ -1846,5 +1846,82 @@
                 "challengeRequiredTurns": 6
             }
         ]
+    },
+    {
+        "areaID": 25,
+        "stages": [
+            {
+                "stageID": "25-1N",
+                "difficulty": "NORMAL",
+                "name": "燈籠祭会場・西地区",
+                "terrain": "town",
+                "recommendedLevel": 90,
+                "dropItems": ["セーリンググローブの設計図", "セーラーハットの設計図", "アクアサンダルの設計図", "バケットハットの設計図", "カジュアルスニーカーの設計図", "アームカバーの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "25-2N",
+                "difficulty": "NORMAL",
+                "name": "燈籠祭会場・中央大路",
+                "terrain": "town",
+                "recommendedLevel": 90,
+                "dropItems": ["ハルピュイア・フレキシブルバッジの設計図", "セーリンググローブの設計図", "セーラーハットの設計図", "バケットハットの設計図", "ストリートバッジの設計図", "アームカバーの設計図"],
+                "challengeRequiredTurns": 4
+            },
+            {
+                "stageID": "25-3N",
+                "difficulty": "NORMAL",
+                "name": "第七商店街・東地区",
+                "terrain": "town",
+                "recommendedLevel": 91,
+                "dropItems": ["セーラーハットの設計図", "アンカーヘアピンの設計図", "アクアサンダルの設計図", "バケットハットの設計図", "カリグラフィーヘアピンの設計図", "カジュアルスニーカーの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "25-4N",
+                "difficulty": "NORMAL",
+                "name": "狸町7番地",
+                "terrain": "town",
+                "recommendedLevel": 91,
+                "dropItems": ["ハルピュイア・フレキシブルバッジの設計図", "スリングドライバックの設計図", "アンカーヘアピンの設計図", "ストリートバッジの設計図", "ストリートバッグの設計図", "カリグラフィーヘアピンの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "25-5N",
+                "difficulty": "NORMAL",
+                "name": "桜亭4番地",
+                "terrain": "town",
+                "recommendedLevel": 92,
+                "dropItems": ["ハルピュイア・フレキシブルバッジの設計図", "セーリンググローブの設計図", "セーラーハットの設計図", "バケットハットの設計図", "ストリートバッジの設計図", "アームカバーの設計図"],
+                "challengeRequiredTurns": 6
+            },
+            {
+                "stageID": "25-1H",
+                "difficulty": "HARD",
+                "name": "燈籠祭会場・正面口",
+                "terrain": "town",
+                "recommendedLevel": 92,
+                "dropItems": ["ハルカの神名文字", "セーリンググローブの設計図", "セーラーハットの設計図", "アンカーヘアピンの設計図", "バケットハットの設計図", "カリグラフィーヘアピンの設計図", "アームカバーの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "25-2H",
+                "difficulty": "HARD",
+                "name": "燈籠祭会場・入口",
+                "terrain": "town",
+                "recommendedLevel": 93,
+                "dropItems": ["アヤネの神名文字", "ハルピュイア・フレキシブルバッジの設計図", "セーリンググローブの設計図", "アクアサンダルの設計図", "ストリートバッジの設計図", "カジュアルスニーカーの設計図", "アームカバーの設計図"],
+                "challengeRequiredTurns": 5
+            },
+            {
+                "stageID": "25-3H",
+                "difficulty": "HARD",
+                "name": "キツネ市場・南口",
+                "terrain": "town",
+                "recommendedLevel": 94,
+                "dropItems": ["サヤ（私服）の神名文字", "セーラーハットの設計図", "スリングドライバックの設計図", "アクアサンダルの設計図", "バケットハットの設計図", "ストリートバッグの設計図", "カジュアルスニーカーの設計図"],
+                "challengeRequiredTurns": 5
+            }
+        ]
     }
 ]
