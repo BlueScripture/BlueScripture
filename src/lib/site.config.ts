@@ -1,6 +1,6 @@
 export const siteName = "BlueScripture"
-export const siteVersion = "2.1.0"
-export const siteCodename = "Canopus"
+export const siteVersion = "2.2.0"
+export const siteCodename = "Arcturus"
 export const siteRepo = "BlueScripture/BlueScripture"
 export const siteDomain = "bluescripture.net"
 export const mediaServerDomain = "media.bluescripture.net"
