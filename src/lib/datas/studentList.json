@@ -248,6 +248,254 @@
         ]
     },
     {
+        "name": "アカリ（正月）",
+        "fullName": "鰐渕 アカリ（正月）",
+        "ruby": "わにぶち あかり",
+        "starGrade": "★3",
+        "role": "SPECIAL",
+        "weapon": "AR",
+        "position": "BACK",
+        "class": "T.S",
+        "school": "ゲヘナ",
+        "atkAttr": "神秘",
+        "defAttr": "特殊",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "シューズ",
+        "equip2": "バッグ",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 12,
+            "day": 9
+        },
+        "params": {
+            "minHitpoint": 3168,
+            "hitpointIncrease": 207.263,
+            "minAtk": 308,
+            "atkIncrease": 27.985,
+            "minDef": 94,
+            "defIncrease": 4.771,
+            "minHeal": 2070,
+            "healIncrease": 41.819,
+            "accuracy": 711,
+            "evasion": 724,
+            "criticalPoint": 273,
+            "criticalDamageFactor": "200%",
+            "stability": 1454
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "少しお借りしました！",
+                "skillDesc": "給食推進車両に搭乗したアカリが登場。給食推進車両はアカリのHPの{p1}分の値が追加されたHPを持ちます。（30秒間）\n（給食推進車両は通常攻撃をしません）\n（タクティカルサポートの搭乗物は重複して登場することはできません）",
+                "parameters": [["27.6%", "31.8%", "40%", "44.2%", "52.5%"]],
+                "costs": [5, 5, 5, 5, 5]
+            },
+            "normalSkill": {
+                "skillName": "こんなのはどうですか？",
+                "skillDesc": "40秒毎に、HPが最も低い味方を中心に円形範囲内の味方に対して防御力を{p1}増加（30秒間）（範囲内にいる間だけ効果を維持）",
+                "parameters": [["12.8%", "13.5%", "14.1%", "16.7%", "17.3%", "18%", "20.5%", "21.2%", "21.8%", "24.4%"]]
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "いただきます！",
+                "skillDesc": "最大HPを{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]]
+            },
+            "passiveSkillPlus": {
+                "skillName": "いただきます！+",
+                "skillDesc": "最大HPを{p1}増加/\nさらに最大HPを{p2}増加",
+                "parameters": [
+                    ["4708", "4943", "5178", "6120", "6355", "6591", "7532", "7767", "8003", "8944"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ]
+            },
+            "subSkill": {
+                "skillName": "もっとほしい方？",
+                "skillDesc": "味方の神秘特効を{p1}加算",
+                "parameters": [["15.9%", "16.7%", "17.5%", "20.7%", "21.5%", "22.3%", "25.5%", "26.3%", "27%", "30.2%"]]
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 14
+                },
+                {
+                    "itemName": "古代文明のメダルの欠片",
+                    "quantity": 32
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "破損した古代文明のメダル",
+                    "quantity": 21
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（ゲヘナ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "修復途中の古代文明のメダル",
+                    "quantity": 20
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "古代文明のメダルの欠片",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "古代文明のメダルの欠片",
+                    "quantity": 16
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "破損した古代文明のメダル",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "修復途中の古代文明のメダル",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（ゲヘナ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "修復途中の古代文明のメダル",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "アコ",
         "fullName": "天雨 アコ",
         "ruby": "あまう あこ",
