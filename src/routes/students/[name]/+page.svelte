@@ -344,6 +344,21 @@
                         {@html formatSkillDesc(data.studentInfo.skills.exSkill, exSkillLevel)}
                     </p>
                 </li>
+                {#if data.studentInfo.skills.exSkill.relatedSkills != null}
+                    <ul class="student-skill-list related-skills">
+                        {#each data.studentInfo.skills.exSkill.relatedSkills as relatedSkill}
+                            <li class="skill related-skill">
+                                <div class="skill-type">関連スキル（EXスキル）</div>
+                                <div class="skill-name">
+                                    <h3>{relatedSkill.skillName}</h3>
+                                </div>
+                                <p class="skill-desc">
+                                    {@html formatSkillDesc(relatedSkill, exSkillLevel)}
+                                </p>
+                            </li>
+                        {/each}
+                    </ul>
+                {/if}
             </ul>
             <h3 class="annotation">スキルの強化に必要な素材</h3>
             {#if exSkillLevel - 1 < data.studentInfo.exSkillUpgradeRequirements.length}
@@ -384,6 +399,21 @@
                             {@html formatSkillDesc(skill.info, commonSkillLevel)}
                         </p>
                     </li>
+                    {#if skill.info.relatedSkills != null}
+                        <ul class="student-skill-list related-skills">
+                            {#each skill.info.relatedSkills as relatedSkill}
+                                <li class="skill related-skill">
+                                    <div class="skill-type">関連スキル（{SKILL_TYPE_LABEL_DICT[skill.type]}）</div>
+                                    <div class="skill-name">
+                                        <h3>{relatedSkill.skillName}</h3>
+                                    </div>
+                                    <p class="skill-desc">
+                                        {@html formatSkillDesc(relatedSkill, exSkillLevel)}
+                                    </p>
+                                </li>
+                            {/each}
+                        </ul>
+                    {/if}
                 {/each}
             </ul>
             <h3 class="annotation">スキルの強化に必要な素材</h3>
@@ -659,8 +689,8 @@
                         flex-direction: column;
                         gap: 0.325rem;
                         padding: 0 0.5rem;
-                        padding-bottom: 0.75rem;
-                        border-bottom: var(--dashed-border);
+                        padding-top: 0.75rem;
+                        border-top: var(--dashed-border);
 
                         .skill-type {
                             font-size: 0.925rem;
@@ -686,10 +716,15 @@
                             line-height: 1.25;
                         }
 
-                        &:last-of-type {
-                            padding-bottom: 0;
+                        &:not(.related-skill):first-of-type {
+                            padding-top: 0;
                             border: none;
                         }
+                    }
+
+                    &.related-skills {
+                        padding-right: 0;
+                        padding-left: 1rem;
                     }
                 }
 

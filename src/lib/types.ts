@@ -60,6 +60,7 @@ export type StudentSkillInfo = {
     skillName: string
     skillDesc: string
     parameters: string[][]
+    relatedSkills: StudentSkillInfo[] | null
 }
 
 export type StudentExSkillInfo = StudentSkillInfo & {
