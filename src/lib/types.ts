@@ -180,3 +180,9 @@ export type EquipmentBlueprintInfo = ItemInfoBase & {
 }
 
 export type ItemInfo = CommonItemInfo | EquipmentInfo | EquipmentBlueprintInfo
+
+export type SearchResult = {
+    students: StudentInfo[]
+    stages: RawStageInfo[]
+    items: ItemInfo[]
+}

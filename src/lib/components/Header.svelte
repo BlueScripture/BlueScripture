@@ -3,14 +3,24 @@
     import Logo from "./Logo.svelte"
     import AccordionMenuIcon from "./AccordionMenuIcon.svelte"
     import { afterNavigate } from "$app/navigation"
-    import type { PageTitle } from "$lib/types"
+    import type { PageTitle, SearchResult } from "$lib/types"
+    import { Search } from "$lib/utils"
+    import SearchResults from "./SearchResults.svelte"
     export let pageTitles: PageTitle[] = []
 
     let isAccordionMenuOpen = false
+    let isSearchBoxFocused = false
+    let searchQuery = ""
+    let searchResult: SearchResult
 
     afterNavigate(() => {
         isAccordionMenuOpen = false
+        searchQuery = ""
     })
+
+    $: {
+        searchResult = Search.search(searchQuery)
+    }
 </script>
 
 <header>
@@ -22,6 +32,10 @@
                     <a class="hover-underline" href="/{pageTitle.path}">{pageTitle.title}</a>
                 {/if}
             {/each}
+            <div class="search-box">
+                <input type="search-input" placeholder="検索" bind:value={searchQuery} on:focusin={() => (isSearchBoxFocused = true)} on:focusout={() => (isSearchBoxFocused = false)} />
+                <SearchResults {searchResult} isDisplayed={isSearchBoxFocused} isQueryEmpty={searchQuery.length == 0} />
+            </div>
         </nav>
         <nav id="sitemap-header-mobile">
             <a href="/"><span class="logo"><Logo /></span></a>
@@ -31,6 +45,10 @@
             </span>
             <ul id="accordion-menu" data-accordion-menu-open={isAccordionMenuOpen}>
                 <div aria-hidden={!isAccordionMenuOpen}>
+                    <div class="search-box">
+                        <input type="search-input" placeholder="検索" bind:value={searchQuery} on:focusin={() => (isSearchBoxFocused = true)} on:focusout={() => (isSearchBoxFocused = false)} />
+                        <SearchResults {searchResult} isDisplayed={isSearchBoxFocused} isQueryEmpty={searchQuery.length == 0} />
+                    </div>
                     {#each PageTitleList as pageTitle}
                         {#if pageTitle.level == 0}
                             <li>
@@ -91,6 +109,20 @@
     nav {
         width: var(--body-width);
         margin: 0 auto;
+
+        .search-box {
+            position: relative;
+            margin-left: auto;
+
+            input {
+                box-sizing: border-box;
+                padding: 0.25rem 0.75rem;
+                font-family: "Inter", "Kinto", sans-serif;
+                font-size: 0.925rem;
+                border: solid 0.075rem var(--color-medium-02);
+                border-radius: 0.25rem;
+            }
+        }
     }
 
     a {
@@ -177,13 +209,22 @@
                 transition-property: transform;
                 transform: translateY(0%);
 
-                div {
+                & > div {
                     display: flex;
                     flex-direction: column;
                     gap: 1.65rem;
                     width: var(--body-width);
                     padding: 1.5rem 0 2rem;
                     margin: 0 auto;
+
+                    .search-box {
+                        display: block;
+                        margin: 0;
+
+                        input {
+                            width: 100%;
+                        }
+                    }
                 }
 
                 li {

@@ -4,7 +4,7 @@
     import PositionMoveButton from "$lib/components/PositionMoveButton.svelte"
     import RemoveButton from "$lib/components/RemoveButton.svelte"
     import { STUDENT_ROLE_TYPES, type StudentInfo, type StudentRole } from "$lib/types"
-    import { Utils, searchStudent } from "$lib/utils"
+    import { Utils, Search } from "$lib/utils"
     import html2canvas from "html2canvas"
     import { isClipboardAPIAvailable } from "../../../hooks.client"
     import { mediaServerDomain } from "$lib/site.config"
@@ -56,7 +56,7 @@
 
     function search(event: Event, role: StudentRole, ignoreGroup: string[], fieldID: string) {
         const name = (event.target as HTMLInputElement).value
-        const result = searchStudent(name, role, ignoreGroup)
+        const result = Search.studentWithRole(name, role, ignoreGroup)
 
         searchResult = result
         currentryFocusedSearchFieldID = fieldID

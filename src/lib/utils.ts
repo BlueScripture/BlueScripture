@@ -1,18 +1,36 @@
 import { redirect } from "@sveltejs/kit"
 import PageTitleList from "$lib/datas/pageTitleList.json"
-import type { PageTitle, StudentInfo, StudentRole } from "$lib/types"
+import type { ItemInfo, PageTitle, RawStageInfo, SearchResult, StudentInfo, StudentRole } from "$lib/types"
 import Fuse from "fuse.js"
 import Students from "$lib/datas/studentList.json"
+import Stages from "$lib/datas/stageList.json"
+import Items from "$lib/datas/itemList.json"
 
 const students = structuredClone(Students) as StudentInfo[]
+const stages = structuredClone(Stages).flatMap((area) => area.stages) as RawStageInfo[]
+const items = structuredClone(Items) as ItemInfo[]
 
 const studentsSearchOptions = {
-    threshold: 0.5,
+    threshold: 0.3,
     shouldSort: true,
     useExtendedSearch: true,
     keys: [{ name: "name", weight: 0.6 }, { name: "fullName", weight: 0.3 }, { name: "ruby", weight: 0.8 }, "role"]
 }
+const stagesSearchOptions = {
+    threshold: 0.3,
+    shouldSort: true,
+    useExtendedSearch: true,
+    keys: ["stageID", "name"]
+}
+const itemsSearchOptions = {
+    threshold: 0.3,
+    shouldSort: true,
+    useExtendedSearch: true,
+    keys: ["name"]
+}
 const studentsSearchIndex = new Fuse(students, studentsSearchOptions)
+const stagesSearchIndex = new Fuse(stages, stagesSearchOptions)
+const itemsSearchIndex = new Fuse(items, itemsSearchOptions)
 
 function ignoreEvent(event: Event) {
     event.preventDefault()
@@ -84,37 +102,75 @@ export function toggleListControlMenu(listControlMenu: HTMLElement, opened: bool
     }
 }
 
-export function searchStudent(name: string, role: StudentRole, ignoreGroup: (string | null)[]): StudentInfo[] | null {
-    const nameQuery = (() => {
-        const katakanaName = Utils.convertHiraganaToKatakana(name)
+export const Search = {
+    SEARCH_RESULT_LIMIT: 5,
 
-        if (ignoreGroup.length > 0) {
-            const ignoreGroupQuery = ignoreGroup.map((element) => `!${element}$`).join(" ")
-            if (!ignoreGroup.some((element) => element == name)) {
-                return `${ignoreGroupQuery} ${katakanaName}`
-            } else {
-                return ignoreGroupQuery
-            }
-        } else {
-            return katakanaName
+    search(query: string): SearchResult {
+        const students = this.student(query)
+        const stages = this.stage(query)
+        const items = this.item(query)
+
+        const searchResult: SearchResult = {
+            students,
+            stages,
+            items
         }
-    })()
 
-    const searchQuery = {
-        $and: [
-            {
-                $or: [{ name: nameQuery }, { fullName: name }, { ruby: name }]
-            },
-            { role: role }
-        ]
-    }
+        return searchResult
+    },
 
-    const searchResults = studentsSearchIndex.search(searchQuery as Fuse.Expression, { limit: 5 })
+    student(query: string): StudentInfo[] {
+        const katakanaName = Utils.convertHiraganaToKatakana(query)
 
-    if (searchResults.length > 0) {
+        const searchQuery: Fuse.Expression = {
+            $or: [{ name: katakanaName }, { fullName: query }, { ruby: query }]
+        }
+
+        const searchResults = studentsSearchIndex.search(searchQuery, { limit: this.SEARCH_RESULT_LIMIT })
+
         return searchResults.map((result) => result.item)
-    } else {
-        return null
+    },
+
+    studentWithRole(query: string, role: StudentRole, ignoreGroup: (string | null)[]): StudentInfo[] {
+        const nameQuery = (() => {
+            const katakanaName = Utils.convertHiraganaToKatakana(query)
+
+            if (ignoreGroup.length > 0) {
+                const ignoreGroupQuery = ignoreGroup.map((element) => `!${element}$`).join(" ")
+                if (!ignoreGroup.some((element) => element == query)) {
+                    return `${ignoreGroupQuery} ${katakanaName}`
+                } else {
+                    return ignoreGroupQuery
+                }
+            } else {
+                return katakanaName
+            }
+        })()
+
+        const searchQuery: Fuse.Expression = {
+            $and: [
+                {
+                    $or: [{ name: nameQuery }, { fullName: query }, { ruby: query }]
+                },
+                { role: role }
+            ]
+        }
+
+        const searchResults = studentsSearchIndex.search(searchQuery, { limit: this.SEARCH_RESULT_LIMIT })
+
+        return searchResults.map((result) => result.item)
+    },
+
+    stage(query: string): RawStageInfo[] {
+        const searchResults = stagesSearchIndex.search(query, { limit: this.SEARCH_RESULT_LIMIT })
+
+        return searchResults.map((result) => result.item)
+    },
+
+    item(query: string): ItemInfo[] {
+        const searchResults = itemsSearchIndex.search(query, { limit: this.SEARCH_RESULT_LIMIT })
+
+        return searchResults.map((result) => result.item)
     }
 }
 
