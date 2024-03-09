@@ -245,7 +245,7 @@
     <section id="student-portrait">
         <img src="//{mediaServerDomain}/student/portrait/{data.studentInfo.name}.webp" alt="生徒「{data.studentInfo.name}」の立ち絵" />
     </section>
-    <div id="student-details" class="strict-break">
+    <div id="student-details">
         <section class="student-detail">
             <h2>プロフィール</h2>
             <ul class="student-detail-list">
