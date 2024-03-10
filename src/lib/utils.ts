@@ -20,13 +20,13 @@ const stagesSearchOptions = {
     threshold: 0.3,
     shouldSort: true,
     useExtendedSearch: true,
-    keys: ["stageID", "name"]
+    keys: ["stageID", "name", "ruby"]
 }
 const itemsSearchOptions = {
     threshold: 0.3,
     shouldSort: true,
     useExtendedSearch: true,
-    keys: ["name"]
+    keys: ["name", "ruby"]
 }
 const studentsSearchIndex = new Fuse(students, studentsSearchOptions)
 const stagesSearchIndex = new Fuse(stages, stagesSearchOptions)
@@ -162,13 +162,25 @@ export const Search = {
     },
 
     stage(query: string): RawStageInfo[] {
-        const searchResults = stagesSearchIndex.search(query, { limit: this.SEARCH_RESULT_LIMIT })
+        const katakanaName = Utils.convertHiraganaToKatakana(query)
+
+        const searchQuery: Fuse.Expression = {
+            $or: [{ name: query }, { ruby: katakanaName }]
+        }
+
+        const searchResults = stagesSearchIndex.search(searchQuery, { limit: this.SEARCH_RESULT_LIMIT })
 
         return searchResults.map((result) => result.item)
     },
 
     item(query: string): ItemInfo[] {
-        const searchResults = itemsSearchIndex.search(query, { limit: this.SEARCH_RESULT_LIMIT })
+        const katakanaName = Utils.convertHiraganaToKatakana(query)
+
+        const searchQuery: Fuse.Expression = {
+            $or: [{ name: query }, { ruby: katakanaName }]
+        }
+
+        const searchResults = itemsSearchIndex.search(searchQuery, { limit: this.SEARCH_RESULT_LIMIT })
 
         return searchResults.map((result) => result.item)
     }

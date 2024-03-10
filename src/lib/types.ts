@@ -127,6 +127,7 @@ type StageInfoBase = {
     stageID: string
     difficulty: "NORMAL" | "HARD"
     name: string
+    ruby: string
     terrain: "town" | "outdoor" | "indoor"
     recommendedLevel: number
     challengeRequiredTurns: number
@@ -152,6 +153,7 @@ export type ItemDropLocationInfo = {
 
 type ItemInfoBase = {
     name: string
+    ruby: string
     rarity: 0 | 1 | 2 | 3
     dropIn: ItemDropLocationInfo | null
 }
