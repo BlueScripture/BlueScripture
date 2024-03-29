@@ -99,16 +99,16 @@
 <section id="birthday-calendar-mobile" class="list solid-shadow-block">
     <h2>{data.calendarStruct.currentMonth}月のカレンダー</h2>
     <ol>
-        {#each data.calendarStruct.daysSequence.currentMonth as day}
+        {#each data.calendarStruct.daysSequence.currentMonth as day, i}
             <li data-is-today={String(day == data.calendarStruct.today)}>
                 {#if day == data.calendarStruct.today}
                     <span class="day-number" bind:this={mobileCalendarTodayElement}>{day}</span>
                 {:else}
                     <span class="day-number">{day}</span>
                 {/if}
-                {#if data.calendarStruct.birthdaysDict[day + 1]}
+                {#if data.calendarStruct.birthdaysDict[i + data.calendarStruct.offset]}
                     <span class="birthdays">
-                        {#each data.calendarStruct.birthdaysDict[day + 1] as birthday}
+                        {#each data.calendarStruct.birthdaysDict[i + data.calendarStruct.offset] as birthday}
                             <a href="/students/{birthday.student}" class="birthday">
                                 {birthday.student}の誕生日
                             </a>

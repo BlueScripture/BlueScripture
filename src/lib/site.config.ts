@@ -1,5 +1,5 @@
 export const siteName = "BlueScripture"
-export const siteVersion = "2.3.0"
+export const siteVersion = "2.3.1"
 export const siteCodename = "Rigil Kentaurus"
 export const siteRepo = "BlueScripture/BlueScripture"
 export const siteDomain = "bluescripture.net"

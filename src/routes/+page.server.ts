@@ -1,7 +1,7 @@
 import { commitLogs } from "../hooks.server"
 import { Utils } from "$lib/utils"
 import Students from "$lib/datas/studentList.json"
-import type { BirthdaySchedule, StudentBirthday } from "$lib/types"
+import type { BirthdaySchedule } from "$lib/types"
 
 const students = structuredClone(Students)
 
@@ -28,27 +28,20 @@ const calendarStruct = (() => {
 
     const combinedDaysSequence = [...daysSequence.previousMonth, ...daysSequence.currentMonth, ...daysSequence.nextMonth]
 
-    const birthdaysDict = ((): BirthdaySchedule[][] => {
-        const tmpArr = new Array(combinedDaysSequence.length) as BirthdaySchedule[][]
+    const birthdaysDict = combinedDaysSequence.map((day, index) => {
+        const birthdays: BirthdaySchedule[] = []
 
-        for (const student of students.filter((student) => student.birthday != null && student.birthday.month == currentMonth && !/（/.test(student.name))) {
-            const index = daysSequence.currentMonth.findIndex((day) => day == (student.birthday as StudentBirthday).day)
-            const birthday: BirthdaySchedule = {
-                student: student.name,
-                date: student.birthday
-            }
-
-            if (index != -1) {
-                if (tmpArr[offset + index]) {
-                    tmpArr[offset + index].push(birthday)
-                } else {
-                    tmpArr[offset + index] = [birthday]
-                }
+        for (const student of students.filter((student) => student.birthday != null && student.birthday.month == currentMonth && !/（/.test(student.name) && index >= offset && index < offset + daysSequence.currentMonth.length)) {
+            if (student.birthday != null && student.birthday.day === day) {
+                birthdays.push({
+                    student: student.name,
+                    date: student.birthday
+                })
             }
         }
 
-        return tmpArr
-    })()
+        return birthdays
+    })
 
     return {
         today,
