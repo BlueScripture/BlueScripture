@@ -114,6 +114,8 @@
             }
             case "birthdayAsc":
                 students.sort((a, b) => {
+                    if (a.birthday == null) return 1
+                    if (b.birthday == null) return -1
                     if (new Date(`${a.birthday.month}/${a.birthday.day}`) < new Date(`${b.birthday.month}/${b.birthday.day}`)) return -1
                     if (new Date(`${a.birthday.month}/${a.birthday.day}`) > new Date(`${b.birthday.month}/${b.birthday.day}`)) return 1
                     return 0
@@ -121,6 +123,8 @@
                 break
             case "birthdayDsc":
                 students.sort((a, b) => {
+                    if (a.birthday == null) return 1
+                    if (b.birthday == null) return -1
                     if (new Date(`${a.birthday.month}/${a.birthday.day}`) > new Date(`${b.birthday.month}/${b.birthday.day}`)) return -1
                     if (new Date(`${a.birthday.month}/${a.birthday.day}`) < new Date(`${b.birthday.month}/${b.birthday.day}`)) return 1
                     return 0
@@ -298,7 +302,11 @@
                 {:else if sortOrder == "indoorApt"}
                     <span class="overview-param" data-student-landscape-apt={student.indoorApt}>屋内適性{student.indoorApt}</span>
                 {:else if sortOrder == "birthdayAsc" || sortOrder == "birthdayDsc"}
-                    <span class="overview-param">{student.birthday.month}月{student.birthday.day}日</span>
+                    {#if student.birthday == null}
+                        <span class="overview-param">（不明）</span>
+                    {:else}
+                        <span class="overview-param">{student.birthday.month}月{student.birthday.day}日</span>
+                    {/if}
                 {:else}
                     <span class="overview-param">{student.class}</span>
                 {/if}
