@@ -237,6 +237,7 @@
 
 <svelte:head>
     <meta name="description" content="ゲーム「ブルーアーカイブ（ブルアカ）」に登場する生徒「{data.studentInfo.name}」の詳細ページ" />
+    <meta name="thumbnail" content="//{mediaServerDomain}/student/portrait/{data.studentInfo.name}.webp" />
 </svelte:head>
 
 <h1 class="visually-hidden">生徒詳細ビュー：{data.studentInfo.name}</h1>

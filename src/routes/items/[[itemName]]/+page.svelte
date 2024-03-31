@@ -44,6 +44,7 @@
         <meta name="description" content="ゲーム「ブルーアーカイブ（ブルアカ）」のアイテム一覧ページです。{PAGE_DESCRIPTION}" />
     {:else}
         <meta name="description" content="ゲーム「ブルーアーカイブ（ブルアカ）」のアイテム{data.itemInfo.name}の詳細ページです。{PAGE_DESCRIPTION}" />
+        <meta name="thumbnail" content="//{mediaServerDomain}/item/{data.itemInfo.name}.webp" />
     {/if}
 </svelte:head>
 
