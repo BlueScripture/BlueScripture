@@ -86,7 +86,7 @@
                 {#if item.category != "装備の設計図"}
                     <li class="item">
                         <a href="/items/{item.name}" data-item-rarity={item.rarity}>
-                            <img class="item-icon" src="//{mediaServerDomain}/item/{item.name}.webp" alt={item.name} />
+                            <img class="item-icon" src="//{mediaServerDomain}/item/{item.name}.webp" width="81" height="64" alt={item.name} />
                         </a>
                     </li>
                 {/if}
