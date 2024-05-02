@@ -6742,7 +6742,12 @@
                 "parameters": [["15.8%", "16.6%", "17.3%", "20.5%", "21.3%", "22.1%", "25.3%", "26%", "26.8%", "30%"]],
                 "relatedSkills": null
             },
-            "normalSkillPlus": null,
+            "normalSkillPlus": {
+                "skillName": "カブトムシシールド！+",
+                "skillDesc": "40秒毎に、防御力が最も高い味方1人の防御力を{p1}増加（33秒間）/\nさらに自身のスキルコストを減少（Exスキルの使用1回分）/\n減少するコストの量はノーマルスキルの使用回数によって変更\n1回：Exスキルコストを1減少\n2回：Exスキルコストを2減少\n3回：Exスキルコストを3減少\n4回以降：Exスキルコスト減少効果なし",
+                "parameters": [["21.5%", "22.6%", "23.7%", "28%", "29.1%", "30.1%", "34.4%", "35.5%", "36.6%", "40.9%"]],
+                "relatedSkills": null
+            },
             "passiveSkill": {
                 "skillName": "癒しの波動、とりゃぁっ！",
                 "skillDesc": "治癒力を{p1}増加",
@@ -7454,6 +7459,262 @@
         ]
     },
     {
+        "name": "カズサ（バンド）",
+        "fullName": "杏山 カズサ（バンド）",
+        "ruby": "きょうやま かずさ",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "MG",
+        "position": "BACK",
+        "class": "アタッカー",
+        "school": "トリニティ",
+        "atkAttr": "爆発",
+        "defAttr": "特殊",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "グローブ",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 8,
+            "day": 5
+        },
+        "params": {
+            "minHitpoint": 2416,
+            "hitpointIncrease": 187.164,
+            "minAtk": 334,
+            "atkIncrease": 30.378,
+            "minDef": 76,
+            "defIncrease": 3.892,
+            "minHeal": 1712,
+            "healIncrease": 34.607,
+            "accuracy": 104,
+            "evasion": 191,
+            "criticalPoint": 260,
+            "criticalDamageFactor": "200%",
+            "stability": 1340
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "歴史的一小節",
+                "skillDesc": "自身を中心とした円形範囲内の味方の攻撃速度を{p1}増加/\nさらに、自身に「シュガーラッシュ」を{p2}付与（40秒間）（最大2個まで）",
+                "parameters": [
+                    ["18.9%", "21.7%", "27.4%", "30.2%", "35.9%"],
+                    ["1個", "1個", "1個", "1個", "2個"]
+                ],
+                "costs": [3, 3, 3, 3, 3],
+                "relatedSkills": null
+            },
+            "normalSkill": {
+                "skillName": "ベースチューニング",
+                "skillDesc": "35秒毎に、自身の攻撃力を{p1}増加（26秒間）",
+                "parameters": [["19.6%", "20.6%", "21.5%", "25.5%", "26.5%", "27.4%", "31.4%", "32.3%", "33.3%", "37.2%"]],
+                "relatedSkills": null
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "慣れ親しんできた舞台",
+                "skillDesc": "攻撃速度を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]],
+                "relatedSkills": null
+            },
+            "passiveSkillPlus": {
+                "skillName": "慣れ親しんできた舞台+",
+                "skillDesc": "爆発特効を{p1}加算/\nさらに攻撃速度を{p2}増加",
+                "parameters": [
+                    ["26%", "27.3%", "28.6%", "33.8%", "35.1%", "36.4%", "41.6%", "42.9%", "44.2%", "49.4%"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ],
+                "relatedSkills": null
+            },
+            "subSkill": {
+                "skillName": "スイーツボーカル",
+                "skillDesc": "自身の「シュガーラッシュ」1個毎に、攻撃した時、攻撃力の{p1}分の追加ダメージ（最大2個まで）",
+                "parameters": [["5.6%", "5.9%", "6.2%", "7.3%", "7.5%", "7.8%", "8.9%", "9.2%", "9.5%", "10.6%"]],
+                "relatedSkills": null
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 16
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 32
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 11
+                },
+                {
+                    "itemName": "壊れた古代ロケット",
+                    "quantity": 27
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 19
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "円盤型ペンダントの欠片",
+                    "quantity": 7
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れた円盤型ペンダント",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "古代ロケットの欠片",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の円盤型ペンダント",
+                    "quantity": 6
+                },
+                {
+                    "itemName": "壊れた古代ロケット",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全な円盤型ペンダント",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "修復途中の古代ロケット",
+                    "quantity": 12
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "カホ",
         "fullName": "桑上 カホ",
         "ruby": "くわかみ かほ",
@@ -7507,7 +7768,17 @@
                 ],
                 "relatedSkills": null
             },
-            "normalSkillPlus": null,
+            "normalSkillPlus": {
+                "skillName": "精神統一+",
+                "skillDesc": "戦術入場時、「明鏡止水」状態を付与、攻撃力を{p1}増加（{p2}間）/\n以後、50秒毎に「明鏡止水」状態を付与、攻撃力を{p3}増加（{p4}間）",
+                "parameters": [
+                    ["31.4%", "32.7%", "34.1%", "36.7%", "38.1%", "39.5%", "41.5%", "43%", "44.5%", "45.5%"],
+                    ["25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "35秒", "35秒", "35秒", "40秒"],
+                    ["31.4%", "32.7%", "34.1%", "36.7%", "38.1%", "39.5%", "41.5%", "43%", "44.5%", "45.5%"],
+                    ["25秒", "25秒", "25秒", "30秒", "30秒", "30秒", "35秒", "35秒", "35秒", "40秒"]
+                ],
+                "relatedSkills": null
+            },
             "passiveSkill": {
                 "skillName": "ひたむきな情熱",
                 "skillDesc": "会心ダメージ率を{p1}増加",
@@ -8037,7 +8308,7 @@
             },
             "subSkill": {
                 "skillName": "潜入行動",
-                "skillDesc": "戦闘開始時、直ちに潜入行動状態になり、攻撃を受けたら潜入行動状態を解除/\n潜入行動が解除された後、10秒間攻撃を受けなかったら、再び潜入行動状態に変更/\n潜入行動状態の場合、自身の会心ダメージ率を{p1}増加",
+                "skillDesc": "戦術入場時、直ちに潜入行動状態になり、攻撃を受けたら潜入行動状態を解除/\n潜入行動が解除された後、10秒間攻撃を受けなかったら、再び潜入行動状態に変更/\n潜入行動状態の場合、自身の会心ダメージ率を{p1}増加",
                 "parameters": [["33.6%", "35.2%", "36.9%", "43.6%", "45.3%", "47%", "53.7%", "55.4%", "57.1%", "63.8%"]],
                 "relatedSkills": null
             }
@@ -29580,7 +29851,15 @@
                 "parameters": [["148%", "156%", "163%", "193%", "201%", "208%", "238%", "245%", "253%", "283%"]],
                 "relatedSkills": null
             },
-            "normalSkillPlus": null,
+            "normalSkillPlus": {
+                "skillName": "予期せぬ角度からの一撃+",
+                "skillDesc": "通常攻撃5回毎に、敵1人に対して攻撃力の{p1}分のダメージ/\nさらに弱点把握状態を付与（5秒間）\n弱点把握状態の敵への攻撃時に、ミユの攻撃力の{p2}分の追加ダメージ\n（このダメージにおいては、会心が発動しません）\n（最大50発分まで適用されます）",
+                "parameters": [
+                    ["223%", "234%", "245%", "290%", "301%", "312%", "357%", "368%", "379%", "424%"],
+                    ["15.5%", "16.3%", "17.1%", "20.2%", "20.9%", "21.7%", "24.8%", "25.6%", "26.4%", "29.5%"]
+                ],
+                "relatedSkills": null
+            },
             "passiveSkill": {
                 "skillName": "深呼吸",
                 "skillDesc": "会心ダメージ率を{p1}増加",
@@ -31579,6 +31858,259 @@
                 {
                     "itemName": "摩耗したネブラディスク",
                     "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
+        "name": "ヨシミ（バンド）",
+        "fullName": "伊原木 ヨシミ（バンド）",
+        "ruby": "いばらぎ よしみ",
+        "starGrade": "★3",
+        "role": "STRIKER",
+        "weapon": "AR",
+        "position": "MIDDLE",
+        "class": "アタッカー",
+        "school": "トリニティ",
+        "atkAttr": "爆発",
+        "defAttr": "特殊",
+        "townApt": "B",
+        "outdoorApt": "S",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "腕時計",
+        "birthday": {
+            "month": 8,
+            "day": 29
+        },
+        "params": {
+            "minHitpoint": 2493,
+            "hitpointIncrease": 226.532,
+            "minAtk": 321,
+            "atkIncrease": 29.187,
+            "minDef": 19,
+            "defIncrease": 1.0,
+            "minHeal": 1662,
+            "healIncrease": 33.577,
+            "accuracy": 707,
+            "evasion": 791,
+            "criticalPoint": 252,
+            "criticalDamageFactor": "200%",
+            "stability": 1384
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "爆発クライマックス",
+                "skillDesc": "攻撃力と攻撃速度を{p1}増加（50秒間）/\nさらに「シュガーラッシュ」を5個付与（最大5個まで）/\n「シュガーラッシュ」は10秒毎に1個ずつ解除",
+                "parameters": [["59.1%", "68%", "85.8%", "94.6%", "112%"]],
+                "costs": [10, 10, 10, 10, 10],
+                "relatedSkills": null
+            },
+            "normalSkill": {
+                "skillName": "ビジュアルメーカー",
+                "skillDesc": "通常攻撃10回毎に、敵1人に対して攻撃力の{p1}分のダメージ/\nさらに味方全体の「シュガーラッシュ」1個毎に、ダメージが5%分増加（最大8個まで）",
+                "parameters": [["508%", "534%", "559%", "661%", "686%", "711%", "813%", "839%", "864%", "966%"]],
+                "relatedSkills": null
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "ロックンロール",
+                "skillDesc": "攻撃力を{p1}増加",
+                "parameters": [["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]],
+                "relatedSkills": null
+            },
+            "passiveSkillPlus": {
+                "skillName": "ロックンロール+",
+                "skillDesc": "会心ダメージを{p1}増加/\nさらに攻撃力を{p2}増加",
+                "parameters": [
+                    ["2000", "2100", "2200", "2600", "2700", "2800", "3200", "3300", "3400", "3800"],
+                    ["14%", "14.7%", "15.4%", "18.2%", "18.9%", "19.6%", "22.4%", "23.1%", "23.8%", "26.6%"]
+                ],
+                "relatedSkills": null
+            },
+            "subSkill": {
+                "skillName": "スイーツハーモニクス",
+                "skillDesc": "ノーマルスキルの発動3回毎に、ノーマルスキルで攻撃した時、攻撃力の{p1}分の追加ダメージ",
+                "parameters": [["63%", "66.2%", "69.3%", "81.9%", "85.1%", "88.2%", "100%", "104%", "107%", "119%"]],
+                "relatedSkills": null
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ミステリーストーンの欠片",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "壊れたミステリーストーン",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "ニムルドレンズの欠片",
+                    "quantity": 31
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "不完全なミステリーストーン",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "壊れたニムルドレンズ",
+                    "quantity": 25
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "完全なミステリーストーン",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "摩耗したニムルドレンズ",
+                    "quantity": 21
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "ミステリーストーンの欠片",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "壊れたミステリーストーン",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "ニムルドレンズの欠片",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "壊れたミステリーストーン",
+                    "quantity": 10
+                },
+                {
+                    "itemName": "ニムルドレンズの欠片",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "不完全なミステリーストーン",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れたニムルドレンズ",
+                    "quantity": 17
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なミステリーストーン",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "摩耗したニムルドレンズ",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "完全なミステリーストーン",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "摩耗したニムルドレンズ",
+                    "quantity": 14
                 }
             ],
             [
@@ -38784,6 +39316,259 @@
         ]
     },
     {
+        "name": "アイリ（バンド）",
+        "fullName": "栗村 アイリ（バンド）",
+        "ruby": "くりむら あいり",
+        "starGrade": "★1",
+        "role": "STRIKER",
+        "weapon": "SMG",
+        "position": "FRONT",
+        "class": "アタッカー",
+        "school": "トリニティ",
+        "atkAttr": "爆発",
+        "defAttr": "特殊",
+        "townApt": "B",
+        "outdoorApt": "A",
+        "indoorApt": "D",
+        "equip1": "帽子",
+        "equip2": "ヘアピン",
+        "equip3": "お守り",
+        "birthday": {
+            "month": 1,
+            "day": 30
+        },
+        "params": {
+            "minHitpoint": 2459,
+            "hitpointIncrease": 319.523,
+            "minAtk": 286,
+            "atkIncrease": 26.028,
+            "minDef": 22,
+            "defIncrease": 1.121,
+            "minHeal": 1422,
+            "healIncrease": 28.756,
+            "accuracy": 111,
+            "evasion": 1062,
+            "criticalPoint": 254,
+            "criticalDamageFactor": "200%",
+            "stability": 1376
+        },
+        "skills": {
+            "exSkill": {
+                "skillName": "幸せのメロディ",
+                "skillDesc": "爆発特効を{p1}加算、「シュガーラッシュ」を付与（30秒間）",
+                "parameters": [["95.8%", "110%", "138%", "153%", "182%"]],
+                "costs": [2, 2, 2, 2, 2],
+                "relatedSkills": null
+            },
+            "normalSkill": {
+                "skillName": "チョコミントな音の階段",
+                "skillDesc": "通常攻撃12回毎に、敵1人に対して攻撃力の{p1}分のダメージ",
+                "parameters": [["710%", "745%", "781%", "923%", "958%", "994%", "1136%", "1171%", "1207%", "1349%"]],
+                "relatedSkills": null
+            },
+            "normalSkillPlus": null,
+            "passiveSkill": {
+                "skillName": "もっと大きく、もっと遠く",
+                "skillDesc": "通常攻撃の射程を100、攻撃速度を{p1}増加",
+                "parameters": [["11.2%", "11.7%", "12.3%", "14.5%", "15.1%", "15.6%", "17.9%", "18.4%", "19%", "21.2%"]],
+                "relatedSkills": null
+            },
+            "passiveSkillPlus": {
+                "skillName": "もっと大きく、もっと遠く+",
+                "skillDesc": "攻撃力を{p1}増加/\nさらに通常攻撃の射程を100、攻撃速度を{p2}増加",
+                "parameters": [
+                    ["356", "373", "391", "462", "480", "498", "569", "587", "604", "675"],
+                    ["11.2%", "11.7%", "12.3%", "14.5%", "15.1%", "15.6%", "17.9%", "18.4%", "19%", "21.2%"]
+                ],
+                "relatedSkills": null
+            },
+            "subSkill": {
+                "skillName": "染み込む感情",
+                "skillDesc": "「シュガーラッシュ」を保有した状態での攻撃時、10%の確率で会心ダメージ抵抗率を{p1}減少（16秒間）（クールタイム5秒）",
+                "parameters": [["12.8%", "13.5%", "14.1%", "16.7%", "17.3%", "18%", "20.5%", "21.2%", "21.8%", "24.4%"]],
+                "relatedSkills": null
+            }
+        },
+        "exSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "初級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 13
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 31
+                }
+            ],
+            [
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "中級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 14
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 22
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級戦術教育BD（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級戦術教育BD（トリニティ）",
+                    "quantity": 18
+                },
+                {
+                    "itemName": "黄金の布",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 20
+                }
+            ]
+        ],
+        "commonSkillUpgradeRequirements": [
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 8
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "初級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "黄金の糸",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 14
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 5
+                },
+                {
+                    "itemName": "中級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "黄金の巻糸",
+                    "quantity": 9
+                },
+                {
+                    "itemName": "ファイストス円盤の欠片",
+                    "quantity": 19
+                }
+            ],
+            [
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "大きな黄金の巻糸",
+                    "quantity": 3
+                },
+                {
+                    "itemName": "壊れたファイストス円盤",
+                    "quantity": 18
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 8
+                },
+                {
+                    "itemName": "上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "黄金の布",
+                    "quantity": 4
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 11
+                }
+            ],
+            [
+                {
+                    "itemName": "最上級技術ノート（トリニティ）",
+                    "quantity": 12
+                },
+                {
+                    "itemName": "黄金の布",
+                    "quantity": 7
+                },
+                {
+                    "itemName": "摩耗したファイストス円盤",
+                    "quantity": 13
+                }
+            ],
+            [
+                {
+                    "itemName": "秘伝ノート",
+                    "quantity": 1
+                }
+            ]
+        ]
+    },
+    {
         "name": "アスナ",
         "fullName": "一之瀬 アスナ",
         "ruby": "いちのせ あすな",
@@ -45229,7 +46014,15 @@
                 "parameters": [["191%", "201%", "210%", "249%", "258%", "268%", "306%", "316%", "325%", "364%"]],
                 "relatedSkills": null
             },
-            "normalSkillPlus": null,
+            "normalSkillPlus": {
+                "skillName": "痛い目に遭ってみる？！+",
+                "skillDesc": "25秒毎に、円形範囲内の敵に対して攻撃力の{p1}分のダメージ/\nCC抵抗力を{p2}減少（20秒間）",
+                "parameters": [
+                    ["261%", "274%", "287%", "339%", "353%", "366%", "418%", "431%", "444%", "496%"],
+                    ["10.2%", "10.8%", "11.3%", "13.3%", "13.8%", "14.4%", "16.4%", "16.9%", "17.4%", "19.5%"]
+                ],
+                "relatedSkills": null
+            },
             "passiveSkill": {
                 "skillName": "な、舐めないで！",
                 "skillDesc": "会心値を{p1}増加",
